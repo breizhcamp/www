@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on BreizhCamp</title>
-    <link>http://www-staging.breizhcamp.org/blog/</link>
-    <description>Recent content in Blogs on BreizhCamp</description>
+    <title>Blogs on BreizhCamp - 7ème édition</title>
+    <link>http://www.breizhcamp.org/blog/</link>
+    <description>Recent content in Blogs on BreizhCamp - 7ème édition</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 24 Sep 2016 13:50:46 +0200</lastBuildDate>
-    <atom:link href="http://www-staging.breizhcamp.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Oct 2016 13:00:46 +0200</lastBuildDate>
+    <atom:link href="http://www.breizhcamp.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Essai de captation vidéo</title>
+      <link>http://www.breizhcamp.org/blog/2016/10/06/2016-10-06-videos/</link>
+      <pubDate>Thu, 06 Oct 2016 13:00:46 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2016/10/06/2016-10-06-videos/</guid>
+      <description>&lt;p&gt;Comme vous avez pu le constater, on est pas très fort en montage vidéo, donc pour la prochaine édition, on va essayer de mettre en place un système de capture en direct. Comme ça, plus de montage à postériori et dès la fin d&amp;rsquo;une conférence, on peut envoyer la vidéo sur YouTube.&lt;/p&gt;
+
+&lt;p&gt;Hier au JUG, nous avons essayé ce nouveau système et le résultat est plutôt convaiquant pour un premier essai. Pour vous faire une idée, voici la &lt;a href=&#34;https://www.youtube.com/watch?v=TmFP9R4AD-c&#34;&gt;video de la captation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez suivre le développement de notre malette &lt;a href=&#34;https://github.com/breizhcamp/camaaloth&#34;&gt;Camaaloth sur GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>On rempile pour 2017</title>
-      <link>http://www-staging.breizhcamp.org/blog/2016/09/24/2016-09-24-on-rempile/</link>
+      <link>http://www.breizhcamp.org/blog/2016/09/24/2016-09-24-on-rempile/</link>
       <pubDate>Sat, 24 Sep 2016 13:50:46 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2016/09/24/2016-09-24-on-rempile/</guid>
+      <guid>http://www.breizhcamp.org/blog/2016/09/24/2016-09-24-on-rempile/</guid>
       <description>&lt;p&gt;Voila, c&amp;rsquo;est décidé, on rempile en 2017. Pour l&amp;rsquo;instant, pas grand chose à montrer. Nous n&amp;rsquo;avons pas encore fixé les dates. Mais rassurez vous, le Kick-Off s&amp;rsquo;est bien passé. Le bilan calorique est à la mesure du BreizhCamp, 14 pizzas, 1 valise de Leffe et un Crumble géant.&lt;/p&gt;
 
 &lt;p&gt;Pour vous faire patienter, on a mis en ligne les archives des années précédentes sur ce nouveau site Web, que l&amp;rsquo;on espère pouvoir le finir d&amp;rsquo;ici le début de la conférence, n&amp;rsquo;hésitez pas à proposer des &lt;a href=&#34;https://github.com/breizhcamp/www&#34;&gt;Pull Request&lt;/a&gt;.&lt;/p&gt;
@@ -24,18 +38,35 @@
     </item>
     
     <item>
+      <title>Retour sur l&#39;édition 2016</title>
+      <link>http://www.breizhcamp.org/blog/2016/04/07/2016-04-07-retour/</link>
+      <pubDate>Thu, 07 Apr 2016 23:50:00 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2016/04/07/2016-04-07-retour/</guid>
+      <description>&lt;p&gt;Avant de vous faire un retour suite la petite enquête à laquelle, je n&amp;rsquo;en doute pas, vous avez accordé quelques minutes, voici les commentaires de quelques participants à cette édition 2017 :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.wescale.fr/2016/03/30/cracking-breizhcamp-enigma/&#34;&gt;Cracking BreizhCamp Enigma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.xebia.fr/2016/04/05/breizhcamp-2016-compte-rendu-de-la-journee-du-mercredi&#34;&gt;Compte-rendu de la journée du mercredi&lt;/a&gt; par Xebia&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.xebia.fr/2016/04/06/breizhcamp-2016-compte-rendu-de-la-journee-du-jeudi&#34;&gt;Compte-rendu de la journée du jeudi&lt;/a&gt; par Xebia&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.zenika.com/2016/04/06/retour-sur-le-breizhcamp-2016/&amp;quot;&amp;gt;Retour sur le Breizhcamp 2016&#34;&gt;Retour sur le Breizhcamp 2016&lt;/a&gt; par Zenika&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Contest</title>
-      <link>http://www-staging.breizhcamp.org/blog/2016/03/24/2016-03-24-contest/</link>
+      <link>http://www.breizhcamp.org/blog/2016/03/24/2016-03-24-contest/</link>
       <pubDate>Thu, 24 Mar 2016 23:50:00 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2016/03/24/2016-03-24-contest/</guid>
+      <guid>http://www.breizhcamp.org/blog/2016/03/24/2016-03-24-contest/</guid>
       <description>&lt;p&gt;Pour aider nos participants à trouver le (nouveau) lieu de la conférence, nous avions prévu une belle banderole.
 Bon, notre dictateur bénévole n&amp;rsquo;étant pas très doué, la banderole a été commandée tardivement - certains dirons &amp;ldquo;à l&amp;rsquo;arrache&amp;rdquo; -
 et sans prendre l&amp;rsquo;option &amp;ldquo;Bon A Tirer&amp;rdquo; qui permet en principe de valider le rendu avant impression.&lt;/p&gt;
 
 &lt;p&gt;Et donc &amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www-staging.breizhcamp.org/img/blog/2016-03-24/bache.jpg&#34; alt=&#34;Bâche&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2016-03-24/bache.jpg&#34; alt=&#34;Bâche&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Interrogé sur le sujet, le responsable de ce qui semble une belle boulette répond :
 &amp;ldquo;Pas du tout, il s&amp;rsquo;agit d&amp;rsquo;un challenge que nous proposons à nos participants&amp;rdquo;&lt;/p&gt;
@@ -56,21 +87,21 @@ La conférence à l&amp;rsquo; &amp;hellip;.
     
     <item>
       <title>Programmation</title>
-      <link>http://www-staging.breizhcamp.org/blog/2016/02/22/2016-02-22-programmation/</link>
+      <link>http://www.breizhcamp.org/blog/2016/02/22/2016-02-22-programmation/</link>
       <pubDate>Mon, 22 Feb 2016 09:00:00 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2016/02/22/2016-02-22-programmation/</guid>
+      <guid>http://www.breizhcamp.org/blog/2016/02/22/2016-02-22-programmation/</guid>
       <description>&lt;p&gt;Jeudi soir (le 18 février 2016), il y avait une étape très importante pour
 l&amp;rsquo;équipe de l&amp;rsquo;organisation du Breizhcamp. Nous devions vous préparer un
 programme qui déchire.&lt;/p&gt;
 
 &lt;p&gt;L&amp;rsquo;objectif de la soirée, transformer ça :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www-staging.breizhcamp.org/img/blog/2016-02-22/programme-talks-small.jpg&#34; alt=&#34;Fiches des propositions&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2016-02-22/programme-talks-small.jpg&#34; alt=&#34;Fiches des propositions&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;En ça :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www-staging.breizhcamp.org/img/blog/2016-02-22/programme-schedule.jpg&#34; alt=&#34;Programme&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2016-02-22/programme-schedule.jpg&#34; alt=&#34;Programme&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Oui, on ne voit rien. Mais c&amp;rsquo;est comme ça ! Je pourrais même dire que c&amp;rsquo;est fait
 exprès.&lt;/p&gt;
@@ -93,13 +124,13 @@ remplir tous les espaces.&lt;/p&gt;
 &lt;p&gt;Mais maintenant, le moment le plus important de la soirée arrive. Enfin c&amp;rsquo;est
 surtout les pizzas qui arrivent.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www-staging.breizhcamp.org/img/blog/2016-02-22/programme-pizzas.jpg&#34; alt=&#34;Pizzas&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2016-02-22/programme-pizzas.jpg&#34; alt=&#34;Pizzas&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Le but était de tacher de gras le programme. Et il ne faut pas oublier de
 parler des facilitateurs que nous avons utilisés dans la soirée. Oui nous avons
 des agilistes dans l&amp;rsquo;équipe :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www-staging.breizhcamp.org/img/blog/2016-02-22/programme-bieres.jpg&#34; alt=&#34;Bières&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2016-02-22/programme-bieres.jpg&#34; alt=&#34;Bières&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Il fallait bien compléter le stéréotype de la malbouffe de l&amp;rsquo;ingénieur
 informatique : couple pizzas/bières.&lt;/p&gt;
@@ -147,10 +178,10 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
     
     <item>
       <title>Premiers talks sélectionnés</title>
-      <link>http://www-staging.breizhcamp.org/blog/2016/02/12/2016-02-12-premierstalks/</link>
+      <link>http://www.breizhcamp.org/blog/2016/02/12/2016-02-12-premierstalks/</link>
       <pubDate>Fri, 12 Feb 2016 16:39:38 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2016/02/12/2016-02-12-premierstalks/</guid>
+      <guid>http://www.breizhcamp.org/blog/2016/02/12/2016-02-12-premierstalks/</guid>
       <description>
 
 &lt;p&gt;Le &lt;a href=&#34;https://cfp.breizhcamp.org&#34;&gt;CFP&lt;/a&gt; est fermé depuis le 2 février &amp;hellip; et l&amp;rsquo;équipe doit maintenant faire des choix pour établir un programme le plus équilibré possible. Pour cela, chaque membre de l&amp;rsquo;équipe passe en revue toutes les propositions et vote pour chacune d&amp;rsquo;elle. Les votes se terminent mercredi prochain (le &lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt;02&lt;/sub&gt;) ouvrant ainsi la voie à l&amp;rsquo;élaboration du programme.&lt;/p&gt;
@@ -444,10 +475,10 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
     
     <item>
       <title>Un peu de sécurité</title>
-      <link>http://www-staging.breizhcamp.org/blog/2015/12/21/2015-12-21-letsencrypt/</link>
+      <link>http://www.breizhcamp.org/blog/2015/12/21/2015-12-21-letsencrypt/</link>
       <pubDate>Mon, 21 Dec 2015 16:39:38 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2015/12/21/2015-12-21-letsencrypt/</guid>
+      <guid>http://www.breizhcamp.org/blog/2015/12/21/2015-12-21-letsencrypt/</guid>
       <description>
 
 &lt;p&gt;Depuis le 3 décembre, &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; est passée dans sa phase d&amp;rsquo;Open Beta.
@@ -464,7 +495,7 @@ La nouveauté réside principalement dans la combinaison de 3 éléments :&lt;/p
 &lt;li&gt;&lt;p&gt;Le service est automatisable, notamment grâce à l&amp;rsquo;utilisation du protocole &lt;a href=&#34;https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment&#34;&gt;ACME&lt;/a&gt; : Automated Certificate Management Environment.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www-staging.breizhcamp.org/img/blog/2016-12-21/acme.jpg&#34; alt=&#34;ACME&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2016-12-21/acme.jpg&#34; alt=&#34;ACME&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Le service est opéré par un groupement d&amp;rsquo;intérêt public, &lt;a href=&#34;https://letsencrypt.org/isrg/&#34;&gt;l&amp;rsquo;ISRP&lt;/a&gt; : Internet Security Research Group, ayant pour but une gouverance ouverte et transparente.&lt;/li&gt;
@@ -512,10 +543,10 @@ J&amp;rsquo;ai donc choisi d&amp;rsquo;exécuter le client dans un conteneur Doc
     
     <item>
       <title>Concours</title>
-      <link>http://www-staging.breizhcamp.org/blog/2015/11/22/2015-11-22-concours/</link>
+      <link>http://www.breizhcamp.org/blog/2015/11/22/2015-11-22-concours/</link>
       <pubDate>Sun, 22 Nov 2015 17:14:38 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2015/11/22/2015-11-22-concours/</guid>
+      <guid>http://www.breizhcamp.org/blog/2015/11/22/2015-11-22-concours/</guid>
       <description>&lt;p&gt;Gagnez votre place au BreizhCamp 2016!&lt;/p&gt;
 
 &lt;p&gt;Dans notre vidéo trailer, nous nous sommes bien marrés à mettre en scène &lt;a href=&#34;https://youtu.be/BDdH97iblG8?t=1m49s&#34;&gt;un combat&lt;/a&gt;
@@ -531,10 +562,10 @@ invité pour le BreizhCamp 2016.&lt;/p&gt;
     
     <item>
       <title>Trailer 2016</title>
-      <link>http://www-staging.breizhcamp.org/blog/2015/11/20/2015-11-20-youtube/</link>
+      <link>http://www.breizhcamp.org/blog/2015/11/20/2015-11-20-youtube/</link>
       <pubDate>Fri, 20 Nov 2015 14:24:38 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2015/11/20/2015-11-20-youtube/</guid>
+      <guid>http://www.breizhcamp.org/blog/2015/11/20/2015-11-20-youtube/</guid>
       <description>&lt;p&gt;Nous venons de publier le &lt;a href=&#34;https://www.youtube.com/watch?v=BDdH97iblG8&#34;&gt;trailer&lt;/a&gt; du BreizhCamp 2016, premier signe d&amp;rsquo;exsitence de cette édition 2016. Parce qu&amp;rsquo;il faut bien
 le reconnaître, à ce stade tout reste encore à faire&amp;hellip;&lt;/p&gt;
 
@@ -552,10 +583,10 @@ caméra - d&amp;rsquo;où la bande son assez dégeulasse, et la musique pour mas
     
     <item>
       <title>Go, Go, Go</title>
-      <link>http://www-staging.breizhcamp.org/blog/2015/10/01/2015-10-01-gogogo/</link>
+      <link>http://www.breizhcamp.org/blog/2015/10/01/2015-10-01-gogogo/</link>
       <pubDate>Thu, 01 Oct 2015 10:52:38 +0200</pubDate>
       
-      <guid>http://www-staging.breizhcamp.org/blog/2015/10/01/2015-10-01-gogogo/</guid>
+      <guid>http://www.breizhcamp.org/blog/2015/10/01/2015-10-01-gogogo/</guid>
       <description>&lt;p&gt;Toute l&amp;rsquo;équipe du BreizhCamp se mobilise en cette rentrée pour vous préparer une édition 2016 à la hauteur de nos engagements.&lt;/p&gt;
 
 &lt;p&gt;Tout d’abord, nous vous avions promis de doubler la capacité d’accueil, les places pours 2015 étant toute parties en à peine 6 jours. Challenge relevé, avec un changement de lieu : nous serons accueillis en 2016 dans les locaux de l’Université Rennes 1. Pour nous cela veut dire pas mal d’inconnues à résoudre, mais le jeu en vaut la chandelle.&lt;/p&gt;
