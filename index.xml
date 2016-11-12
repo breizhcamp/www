@@ -6,8 +6,31 @@
     <description>Recent content on BreizhCamp - 7ème édition</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 07 Nov 2016 10:52:38 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 12 Nov 2016 10:52:38 +0200</lastBuildDate>
     <atom:link href="http://www.breizhcamp.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ouverture de la billetterie</title>
+      <link>http://www.breizhcamp.org/blog/2016/11/12/2016-11-12-ouverture/</link>
+      <pubDate>Sat, 12 Nov 2016 10:52:38 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2016/11/12/2016-11-12-ouverture/</guid>
+      <description>&lt;p&gt;Nous avons ouvert la billetterie, vous pouvez donc prendre vos places sur &lt;a href=&#34;https://www.weezevent.com/bzhc4mp17&#34;&gt;https://www.weezevent.com/bzhc4mp17&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A propos des différentes types de places :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;le mercredi 19 avril regrouper les &lt;strong&gt;Universités&lt;/strong&gt;, des sessions de 2h et des ateliers, destinés à vous permettre de prendre pied sur une technologie et de vous l&amp;rsquo;approprier.&lt;/li&gt;
+&lt;li&gt;les journées du jeudi 20 et du vendredi 21 sont consacrées aux &lt;strong&gt;conférences&lt;/strong&gt;, des sessions de 55 minutes pour brosser en 48h toutes les nouveautés des divers écosystèmes présents au BreizhCamp.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nous avons donc trois billets qui vous sont proposés : des billets pour la journée université, pour les deux jours de conférences, ou bien le combo pour ne rien manquer.&lt;/p&gt;
+
+&lt;p&gt;Par ailleurs, nous proposons aussi un tarif libre pour ceux qui nous apprécient tellement qu&amp;rsquo;ils sont même prèts à faire un don pour un BreizhCamp encore plus à l&amp;rsquo;ouest. On sait jamais :P&lt;/p&gt;
+
+&lt;p&gt;Notez bien que ces billets sont nominatifs et non remboursables. Si vous avez un empêchement vous pourrez céder votre place à un tiers, dans ce cas il faudra penser à nous le faire savoir au plus tôt &lt;a href=&#34;mailto:contact@breizhcamp.org&#34;&gt;par email&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Concours</title>
@@ -703,15 +726,6 @@ caméra - d&amp;rsquo;où la bande son assez dégeulasse, et la musique pour mas
 &lt;p&gt;N&amp;rsquo;hesitez pas à nous contacter si vous avez un problème sur notre adresse mail contact@breizhcamp.org ou sur Twitter &lt;a href=&#34;https://twitter.com/breizhcamp&#34;&gt;@breizhcamp&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Sponsors &amp; Partenaires</title>
-      <link>http://www.breizhcamp.org/sponsors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.breizhcamp.org/sponsors/</guid>
-      <description></description>
     </item>
     
   </channel>
