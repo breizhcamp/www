@@ -32,3 +32,32 @@ section {
 div#post-content img {
   max-width: 100%;
 }
+
+.sponsor {
+  border: solid 1px #eee;
+  background: white;
+  padding-top: 5px;
+  text-align:center;
+}
+
+.sponsor img {
+  max-width:100%;
+  max-height:100%;
+  vertical-align:middle;
+}
+
+.platinum {
+  width: 500px;
+  height: 250px;
+  margin: 20px;
+}
+
+.gold {
+  width: 250px;
+  height: 150px;
+}
+
+.silver {
+  width: 150px;
+  height: 100px;
+}
