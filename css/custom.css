@@ -34,10 +34,11 @@ div#post-content img {
 }
 
 .sponsor {
-  border: solid 1px #eee;
   background: white;
-  padding-top: 5px;
   text-align:center;
+  box-shadow: 7px 7px 3px 0px #ddd;
+  padding: 7px;
+  margin-bottom: 20px;
 }
 
 .sponsor img {
@@ -50,18 +51,14 @@ div#post-content img {
 }
 
 .platinum {
-  width: 500px;
   height: 250px;
-  margin: 20px;
 }
 
 .gold {
-  width: 250px;
   height: 150px;
 }
 
 .silver {
-  width: 150px;
   height: 100px;
 }
 
