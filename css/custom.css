@@ -43,7 +43,10 @@ div#post-content img {
 .sponsor img {
   max-width:100%;
   max-height:100%;
-  vertical-align:middle;
+  display: inline;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
 }
 
 .platinum {
@@ -60,4 +63,8 @@ div#post-content img {
 .silver {
   width: 150px;
   height: 100px;
+}
+
+.carousel-img {
+  max-height: 350px;
 }
