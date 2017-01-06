@@ -1,3 +1,15 @@
+body {
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.box-simple {
+  margin-bottom: 20px;
+}
+
 .background-image-fixed-2 .container {
   height: 350px;
 }
@@ -7,7 +19,8 @@
 }
 
 .home-carousel {
-  background: url('../img/programming-ide.jpg') center center repeat;
+  background: url('../img/rennes-background.jpg') center center repeat;
+  text-shadow: 3px 2px 6px #222;
 }
 
 .home-carousel .dark-mask {
@@ -65,4 +78,14 @@ div#post-content img {
 
 .carousel-img {
   max-height: 350px;
+}
+
+#footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: #3f3f3f;
+}
+
+#footer .container {
+  padding: 0px;
 }
