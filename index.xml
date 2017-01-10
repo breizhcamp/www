@@ -6,8 +6,122 @@
     <description>Recent content on BreizhCamp - 7ème édition</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 28 Nov 2016 14:00:38 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jan 2017 12:00:38 +0200</lastBuildDate>
     <atom:link href="http://www.breizhcamp.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lettre d’Information #1</title>
+      <link>http://www.breizhcamp.org/blog/2017/01/10/2017-01-10-newsletter-1/</link>
+      <pubDate>Tue, 10 Jan 2017 12:00:38 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2017/01/10/2017-01-10-newsletter-1/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/logo_big.png&#34; alt=&#34;Logo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;19 au 21 avril 2017 - 3 jours sur Rennes pour faire le plein de technologies&lt;/p&gt;
+
+&lt;h1 id=&#34;lettre-d-information-1:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Lettre d’Information #1&lt;/h1&gt;
+
+&lt;p&gt;Une année de plus, encore une fois, l&amp;rsquo;équipe du BreizhCamp reprend du service pour organiser la 7ème édition du BreizhCamp. Et cette année encore, nous reprenons les lettres d&amp;rsquo;information qui, au rythme de deux par mois, vous tiendrons informé·e·s de tout ce qui entoure l&amp;rsquo;édition 2017.&lt;/p&gt;
+
+&lt;p&gt;Et pour commencer, la date et le lieu : cette édition 2017 se tiendra du 19 au 21 avril sur le campus de Beaulieu à la faculté des sciences Rennes 1, comme l’année passée.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez retrouver toutes les informations sur cette édition sur le site Web qui a eu le droit a un petit rafraichissement cette année : &lt;a href=&#34;http://www.breizhcamp.org&#34;&gt;http://www.breizhcamp.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-format-cela-ne-change-pas:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Le format, cela ne change pas&lt;/h2&gt;
+
+&lt;p&gt;Nous restons sur le même format que l&amp;rsquo;année dernière, un BreizhCamp sur trois jours:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;la journée du mercredi 19 avril est la journée Université, des sessions de 2h et des ateliers, destinée à vous permettre de prendre pied sur une technologie et de vous l’approprier.&lt;/li&gt;
+&lt;li&gt;les journées du jeudi 20 et du vendredi 21 sont consacrées aux Conférences, des sessions de 55 minutes pour brosser en 48h toutes les nouveautés des divers écosystèmes présents au BreizhCamp.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;la-billetterie-est-ouverte:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;La billetterie est ouverte !&lt;/h2&gt;
+
+&lt;p&gt;Suivant l&amp;rsquo;exemple des deux dernières années, nous avons déjà ouvert la billetterie, bien avant la clôture du CFP. Vous pouvez donc déjà prendre vos places pour le BreizhCamp sur : &lt;a href=&#34;https://www.weezevent.com/bzhc4mp17&#34;&gt;https://www.weezevent.com/bzhc4mp17&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous vous proposons trois types de billets : des billets pour la journée Université, pour les deux jours de Conférences, ou bien le combo pour ne rien manquer.&lt;/p&gt;
+
+&lt;p&gt;Par ailleurs, nous proposons aussi un tarif libre pour ceux qui nous apprécient tellement qu’ils sont même prêts à faire un don pour un BreizhCamp encore plus à l’ouest. On ne sait jamais…&lt;/p&gt;
+
+&lt;p&gt;Notez bien que ces billets sont nominatifs et non remboursables. Si vous avez un empêchement, vous pourrez céder votre place à un tiers, dans ce cas il faudra penser à nous le faire savoir au plus tôt par email.&lt;/p&gt;
+
+&lt;p&gt;Si vous achetez plusieurs billets d’un coup, il est très important de bien renseigner l’adresse email de chaque participant, celle-ci sera utilisée pour envoyer les codes d’accès au Wifi pour l’accès au réseau de l’université.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-call-for-papers-est-aussi-ouvert:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Le &lt;em&gt;Call for Papers&lt;/em&gt; est aussi ouvert&lt;/h2&gt;
+
+&lt;p&gt;Le &lt;em&gt;Call for Papers&lt;/em&gt; pour ce 7ème BreizhCamp est ouvert depuis la fin novembre, et il le restera jusqu&amp;rsquo;au 14 février. Allez vite proposez votre sujet sur &lt;a href=&#34;https://breizhcamp.cfp.io&#34;&gt;https://breizhcamp.cfp.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Comme pour les années passées, vous aurez le choix entre 4 types de format :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Conférence (55 min) : format classique d’un peu moins d’une heure en amphi.&lt;/li&gt;
+&lt;li&gt;Tool in Action (25 min) : format d’un peu moins d’une &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; h permettant de présenter un outil, un retour d’expérience, …&lt;/li&gt;
+&lt;li&gt;Université (120 min) : format long (2h) permettant de présenter un sujet en profondeur.&lt;/li&gt;
+&lt;li&gt;Quickie (15 min) : format court. Permet d’aller à l’essentiel pour présenter un outil ou un retour d’expérience.&lt;/li&gt;
+&lt;li&gt;Lab (120 min) : session les mains dans le cambouis ! Parfait pour s’initier sur un sujet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les thèmes de cette année seront :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Objets connectés, IoT, Robotique&lt;/li&gt;
+&lt;li&gt;Cloud, Devops, Outils&lt;/li&gt;
+&lt;li&gt;Agilité, Méthodologie et Tests&lt;/li&gt;
+&lt;li&gt;BigData, Analytics et Machine Learning&lt;/li&gt;
+&lt;li&gt;Architecture, Performance et Sécurité&lt;/li&gt;
+&lt;li&gt;Langages&lt;/li&gt;
+&lt;li&gt;Backend et Desktop&lt;/li&gt;
+&lt;li&gt;Web et mobile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si vous avez aimé nos éditions précédentes, transmettez ce message à vos collègues pour qu&amp;rsquo;ils puissent en profiter. Et si vous n&amp;rsquo;êtes jamais venu·e, inscrivez-vous à notre liste de diffusion pour être au courant de ce que l&amp;rsquo;on prépare et du pourquoi vous devez y assister cette année !&lt;/p&gt;
+
+&lt;h2 id=&#34;l-équipe:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;L’équipe&lt;/h2&gt;
+
+&lt;p&gt;Derrière le BreizhCamp il y a, bien entendu, &lt;a href=&#34;https://twitter.com/ndeloof&#34;&gt;Nicolas&lt;/a&gt;, notre dictateur bénévole préféré. Autour de lui, pour l&amp;rsquo;épauler, le soutenir et rendre sa vie plus *intéressante** *(sic), une équipe de choc avec des représentants des différentes communautés de développeurs de l&amp;rsquo;ouest, équipe que cette année se voit enrichie avec l&amp;rsquo;arrivée de plusieurs jeunes (et moins jeunes) &lt;em&gt;padawans&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Côté &lt;a href=&#34;http://www.breizhjug.org/&#34;&gt;BreizhJUG&lt;/a&gt; il y a &lt;a href=&#34;https://twitter.com/mimah35&#34;&gt;Michel&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/seb_brousse&#34;&gt;Sébastien&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/lhuet35&#34;&gt;Laurent&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/sguernion&#34;&gt;Sylvain&lt;/a&gt;,&lt;a href=&#34;https://twitter.com/sguernion&#34;&gt; &lt;/a&gt;&lt;a href=&#34;https://twitter.com/alexlg&#34;&gt;Alex&lt;/a&gt;&lt;a href=&#34;https://twitter.com/jljouannic&#34;&gt;, Jean-Louis&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/costejulien&#34;&gt;Julien&lt;/a&gt;,&lt;a href=&#34;https://twitter.com/costejulien&#34;&gt; &lt;/a&gt;&lt;a href=&#34;https://twitter.com/yoanndubreuil&#34;&gt;Yoann&lt;/a&gt; (qui anime aussi&lt;a href=&#34;https://twitter.com/marcaudefroy&#34;&gt; le&lt;/a&gt;&lt;a href=&#34;https://www.meetup.com/docker-rennes/&#34;&gt; Docker Meetup&lt;/a&gt; avec notre dictateur bénévole favori),&lt;a href=&#34;https://twitter.com/costejulien&#34;&gt; &lt;/a&gt;&lt;a href=&#34;https://twitter.com/nbulteau&#34;&gt;Nicolas&lt;/a&gt;&lt;a href=&#34;https://twitter.com/costejulien&#34;&gt; &lt;/a&gt;et Hung; &lt;a href=&#34;http://finistjug.fr/&#34;&gt;le FinistJUG&lt;/a&gt; avec &lt;a href=&#34;https://twitter.com/steffy_29&#34;&gt;Stéphanie&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/LostInBrittany&#34;&gt;Horacio&lt;/a&gt; ; la communauté Devops est représentée par &lt;a href=&#34;https://twitter.com/nledez&#34;&gt;Nicolas&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/alucardlevash&#34;&gt;Pierre&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/srevereault&#34;&gt;Sylvain&lt;/a&gt;; &lt;a href=&#34;https://twitter.com/gcollic&#34;&gt;Guillaume&lt;/a&gt; lui vient de  &lt;a href=&#34;http://at2012.agiletour.org/fr/rennes.html&#34;&gt;AgileRennes&lt;/a&gt;,&lt;a href=&#34;http://at2012.agiletour.org/fr/rennes.html&#34;&gt; ainsi que du &lt;/a&gt;&lt;a href=&#34;http://devcamp.fr/&#34;&gt;DevCamp&lt;/a&gt; et &lt;a href=&#34;http://www.meetup.com/fr/RennesJS/&#34;&gt;RennesJS&lt;/a&gt; qu’il fréquente comme &lt;a href=&#34;https://twitter.com/marcaudefroy&#34;&gt;Marc&lt;/a&gt;, qui anime en plus &lt;a href=&#34;https://www.meetup.com/fr-FR/Golang-Rennes/&#34;&gt;GolangRennes&lt;/a&gt;, sans oublier Annelore et Cérès… Bref, 20 paires de bras pour mettre en oeuvre les idées les plus folles, et faire du BreizhCamp &amp;ldquo;la conférence à l’Ouest&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;un-mot-de-nos-sponsors:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Un mot de nos sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/sponsors/logo_serli.png&#34; alt=&#34;Serli&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Serli est fière de soutenir cette année encore le BreizhCamp !&lt;/p&gt;
+
+&lt;p&gt;Cela fait maintenant plusieurs années que nous apportons notre contribution, comment expliquer une telle longévité ?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;on a chaque année un très joli trophée ^-^&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parce que nous sommes, comme vous, passionnés par notre métier et convaincu du bienfaits des conférences technologiques&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parce qu&amp;rsquo;on adore venir vous rencontrer et échanger avec vous autour d&amp;rsquo;un bon verre de cidre breton. On vous attendra sur notre stand :)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mais au fait, qui sommes-nous ?&lt;/p&gt;
+
+&lt;p&gt;Nous sommes une bande de 70 Serliens, passionnés de dev et prêts à relever les défis de nos clients. Implantée à Poitiers et Niort, Serli est spécialiste d&amp;rsquo;innovation, d&amp;rsquo;ingénierie et de formation, pour des entreprises de toutes tailles - des startups aux grands comptes - et partout dans le monde.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez nous retrouver sur Twitter, Facebook et Youtube : @SerliFr, ou tout simplement sur serli.com.&lt;/p&gt;
+
+&lt;p&gt;A très vite !&lt;/p&gt;
+
+&lt;p&gt;La Team Serli&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/sponsors/logo_saagie.png&#34; alt=&#34;SAAGIE&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SAAGIE est une start-up spécialisée dans le Big Data. Bon tout le monde parle de Big Data et c&amp;rsquo;est un peu le mot à la mode, mais chez SAAGIE nous faisons vraiment du BIG DATA! Nous faisons cela avec notre plateforme data prête à l&amp;rsquo;emploi. Vous pourrez y déployer vos données, vos traitements et vos applications en quelques minutes. En plus, le CTO est breton!&lt;/p&gt;
+
+&lt;p&gt;Pour construire cette plateforme, nous recrutons des développeurs, testeurs et devops. Pour accompagner nos clients nous recrutons des consultants en data science et en data engineering. &lt;a href=&#34;https://www.saagie.com/jobs&#34;&gt;https://www.saagie.com/jobs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1jis2L5gzg2yij2iGbOlfWMZKEOSOobDkw3TOtvn-Cuk/pub&#34;&gt;Lien vers la lettre originale&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ouverture du CFP</title>
@@ -713,20 +827,6 @@ caméra - d&amp;rsquo;où la bande son assez dégeulasse, et la musique pour mas
       <description>&lt;p&gt;Le BreizhCamp est une association loi 1901.&lt;/p&gt;
 
 &lt;p&gt;Pour nous rejoindre : contact@breizhcamp.org&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Conférence</title>
-      <link>http://www.breizhcamp.org/conference/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.breizhcamp.org/conference/</guid>
-      <description>
-
-&lt;h1 id=&#34;call-for-proposal:b5ada10c3d3f70226b97ae7a2cbdf975&#34;&gt;Call for Proposal&lt;/h1&gt;
-
-&lt;p&gt;Envie de proposer un talk pour l&amp;rsquo;édition 2017 ? Viens sur le CFP &lt;a href=&#34;https://breizhcamp.cfp.io&#34;&gt;https://breizhcamp.cfp.io&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
