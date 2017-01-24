@@ -7,8 +7,111 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>Copyright (c) 2017, BreizhCamp team</copyright>
-    <lastBuildDate>Tue, 10 Jan 2017 12:00:38 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2017 12:00:38 +0200</lastBuildDate>
     <atom:link href="http://www.breizhcamp.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lettre d’Information #2</title>
+      <link>http://www.breizhcamp.org/blog/2017/01/24/2017-01-24-newsletter-2/</link>
+      <pubDate>Tue, 24 Jan 2017 12:00:38 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2017/01/24/2017-01-24-newsletter-2/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/logo_big.png&#34; alt=&#34;BreizhCamp&#34; /&gt;
+Du 19 au 21 avril 2017 - 3 jours sur Rennes pour faire le plein de technologies&lt;/p&gt;
+
+&lt;h1 id=&#34;lettre-d-information-2&#34;&gt;Lettre d’Information #2&lt;/h1&gt;
+
+&lt;p&gt;Et oui, deux semaines après la première, voici la deuxième lettre d&amp;rsquo;information du BreizhCamp 2017. Cette année nous avons prévu un rythme plus soutenu pour nos lettres d&amp;rsquo;information, avec une nouvelle lettre tous les quinze jours.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;le-call-for-papers-ferme-dans-3-semaines&#34;&gt;Le Call for Papers ferme dans 3 semaines !&lt;/h2&gt;
+
+&lt;p&gt;Depuis l&amp;rsquo;ouverture du Call for Papers, nous avons reçu presque une centaine de propositions. Comme d&amp;rsquo;habitude les sujets sont encore très variés : du Java bien sûr mais aussi du Big Data, de l&amp;rsquo;IoT, de l&amp;rsquo;agilité…&lt;/p&gt;
+
+&lt;p&gt;Cela dit, il reste encore de la place pour votre proposition, celle qui vous trotte dans la tête et que vous n&amp;rsquo;avez pas encore soumise, sans doute par manque de temps… Alors n&amp;rsquo;hésitez plus et envoyez-nous vos propositions de talks ! Que vous soyez un speaker chevronné ou débutant, que votre sujet soit grand public ou qu’il s’adresse à une poignée de passionnés, nous voulons recevoir vos propositions.&lt;/p&gt;
+
+&lt;p&gt;N&amp;rsquo;hésitez donc pas à nous soumettre vos idées sur &lt;a href=&#34;https://breizhcamp.cfp.io&#34;&gt;https://breizhcamp.cfp.io&lt;/a&gt;. Pour vous donner une idée, aujourd&amp;rsquo;hui on a un tiers des talks sur le track Web et Mobile, un autre tiers sur Cloud, Devops, Outils  et le tiers restant assez partagé sur les autres tracks :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-newsletters/barchart.png&#34; alt=&#34;Répartition des propositions sur le CFP au 23/01&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Et au cas où vous vous demandez quel type de talk faire, voici un petit rappel des formats de présentation proposés.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;les-formats-de-présentations&#34;&gt;Les formats de présentations&lt;/h2&gt;
+
+&lt;p&gt;Comme les années précédentes, des nombreux formats de séance sont proposés :&lt;/p&gt;
+
+&lt;div style=&#34;float:left; width:70px; height: 60px; margin-right: 10px&#34;&gt;&lt;img style=&#34;width:60px; height: 60px;&#34; src=&#34;http://www.breizhcamp.org/img/blog/2017-newsletters/conferences.png&#34; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Les conférences, d’une durée de 55 minutes, ont lieu tout au long des journées de jeudi et vendredi. Elles permettent d’exposer un sujet et de fournir à l’auditoire les clés pour aller plus loin, en format amphithéâtre.&lt;/p&gt;
+
+&lt;div style=&#34;float:left; width:60px; height: 60px; margin-right: 10px; clear:both;&#34;&gt;&lt;img style=&#34;width:60px; height: 60px;&#34; src=&#34;http://www.breizhcamp.org/img/blog/2017-newsletters/universites.png&#34; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Les universités de 2 heures, le mercredi seulement, permettent d’aller plus en profondeur que les formats conférence, de prendre le temps d’expliquer chaque détail, et de les illustrer par des démonstrations.&lt;/p&gt;
+
+&lt;div style=&#34;float:left; width:70px; height: 60px; margin-right: 10px; clear:both;&#34;&gt;&lt;img style=&#34;width:60px; height: 60px;&#34; src=&#34;http://www.breizhcamp.org/img/blog/2017-newsletters/quickies.png&#34; /&gt;&lt;/div&gt;
+
+&lt;p&gt;A l’opposé, les quickies offrent un créneau de 15 minutes pour aborder un thème de manière percutante.&lt;/p&gt;
+
+&lt;div style=&#34;float:left; width:70px; height: 60px; margin-right: 10px; clear:both;&#34;&gt;&lt;img style=&#34;width:60px; height: 60px;&#34; src=&#34;http://www.breizhcamp.org/img/blog/2017-newsletters/tools-in-action.png&#34; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Quant aux tools in action, ils permettent, comme leur nom l’indique, de se focaliser sur une démonstration par la pratique, sur une demi-heure On y attend plus de la démo et du live-coding que des slides.&lt;/p&gt;
+
+&lt;div style=&#34;float:left; width:70px; height: 60px; margin-right: 10px; clear:both;&#34;&gt;&lt;img style=&#34;width:60px; height: 60px;&#34; src=&#34;http://www.breizhcamp.org/img/blog/2017-newsletters/labs.png&#34; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Enfin, les hand-on-labs sont des ateliers mains dans le cambouis avec un auditoire limité, visant à se former concrètement sur une technologie donnée, sur 2 heures.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;la-billetterie-tourne-à-plein-régime&#34;&gt;La billetterie tourne à plein régime !&lt;/h2&gt;
+
+&lt;p&gt;Après les statistiques du Call for Paper, quelques mots sur la billetterie. Cette année encore, les places partent très rapidement : la moitié des places est déjà vendue ou réservée, alors que nous n’avons encore rien annoncé sur le contenu du programme !&lt;/p&gt;
+
+&lt;p&gt;Si vous souhaitez venir, ne tardez pas à prendre votre place sur &lt;a href=&#34;https://www.weezevent.com/bzhc4mp17&#34;&gt;https://www.weezevent.com/bzhc4mp17&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;quelques-mots-de-nos-sponsors&#34;&gt;Quelques mots de nos sponsors&lt;/h2&gt;
+
+&lt;div style=&#34;max-width:500px; max-height=250px&#34;&gt;
+&lt;img alt=&#34;Zenika&#34; src=&#34;http://www.breizhcamp.org/img/sponsors/logo_zenika.png&#34;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Le temps passe si vite… Nous avons encore en tête la superbe keynote de clôture de l&amp;rsquo;édition 2016, avec l&amp;rsquo;impro magnifique de Quentin, et nous sommes déjà à la seconde newsletter de l&amp;rsquo;édition 2017 !&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;équipe d&amp;rsquo;organisation nous a démontré l&amp;rsquo;année dernière sa capacité à faire &amp;ldquo;scaler&amp;rdquo; la conférence, et ça a été encore une fois une fierté pour Zenika de pouvoir accompagner la &amp;ldquo;conférence à l&amp;rsquo;ouest&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est donc avec un grand plaisir que nous nous associons à l&amp;rsquo;édition 2017 en tant que sponsor platinum, mais bien sûr également en tant que participants et — si les dieux du CFP sont avec nous — en tant que speakers… parce que cette année encore on a envie de venir partager les technos et concepts qui nous ont passionnés depuis la dernière édition.&lt;/p&gt;
+
+&lt;p&gt;Rendez-vous dans un peu moins de 3 mois !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;max-width:500px; max-height=250px&#34;&gt;
+&lt;img alt=&#34;Softeam&#34; src=&#34;http://www.breizhcamp.org/img/sponsors/logo_softeam.png&#34;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;SOFTEAM Groupe est une Entreprise de Services Numériques (ESN) de plus de 1000 collaborateurs, réalisant près de 100 M€ de CA en 2015, en forte croissance, et parmi les 50 premières ESN en France.&lt;/p&gt;
+
+&lt;p&gt;Fortement reconnue sur la région Ouest pour son expertise Technique et Métier, SOFTEAM accompagne ses clients dans différents projets de refonte de leur Système d’informations, autour des plates-formes JavaEE, PHP et .Net, et des nouvelles technologies du Web et des mobiles (HTML5, JavaScript, dév. natif ou hybride, …).&lt;/p&gt;
+
+&lt;p&gt;Soutien et co-organisateur de nombreuses conférences et manifestations locales et nationales autour des nouvelles technologies logicielles (Jug, Devoxx Paris, Breizh Camp, Agile Tour, etc.), SOFTEAM se positionne et investit clairement sur l’innovation et les technologies de demain.&lt;/p&gt;
+
+&lt;p&gt;SOFTEAM Ouest recherche pour 2017 : 60 Ingénieurs !&lt;/p&gt;
+
+&lt;p&gt;Au programme ? Ingénierie, Consulting, Formations, &amp;hellip; (BubbleBump et Merguez Party à leurs heures perdues !). Des projets riches, variés et passionnants vous attendent!&lt;/p&gt;
+
+&lt;p&gt;Développeurs, Tech Leader, Architectes, Scrum Master, AMOA … qui que tu vous soyez, ils ont une place pour vous !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://us3.campaign-archive2.com/?u=c755301bcda62df78e338c60f&amp;amp;id=f13b6ba948&amp;amp;e=[UNIQID]&#34;&gt;Lien vers la lettre originale&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lettre d’Information #1</title>

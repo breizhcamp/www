@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.breizhcamp.org/blog/2017/01/24/2017-01-24-newsletter-2/</loc>
+    <lastmod>2017-01-24T12:00:38+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.breizhcamp.org/blog/2017/01/10/2017-01-10-newsletter-1/</loc>
     <lastmod>2017-01-10T12:00:38+02:00</lastmod>
   </url>
@@ -77,13 +82,13 @@
   
   <url>
     <loc>http://www.breizhcamp.org/blog/</loc>
-    <lastmod>2017-01-10T12:00:38+02:00</lastmod>
+    <lastmod>2017-01-24T12:00:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.breizhcamp.org/</loc>
-    <lastmod>2017-01-10T12:00:38+02:00</lastmod>
+    <lastmod>2017-01-24T12:00:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
