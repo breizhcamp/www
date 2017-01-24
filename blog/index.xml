@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on BreizhCamp - 7ème édition</title>
-    <link>http://www.breizhcamp.org/blog/</link>
+    <link>http://www.breizhcamp.org/blog/index.xml</link>
     <description>Recent content in Blogs on BreizhCamp - 7ème édition</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
+    <copyright>Copyright (c) 2017, BreizhCamp team</copyright>
     <lastBuildDate>Tue, 10 Jan 2017 12:00:38 +0200</lastBuildDate>
     <atom:link href="http://www.breizhcamp.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,7 +22,7 @@
 
 &lt;p&gt;19 au 21 avril 2017 - 3 jours sur Rennes pour faire le plein de technologies&lt;/p&gt;
 
-&lt;h1 id=&#34;lettre-d-information-1:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Lettre d’Information #1&lt;/h1&gt;
+&lt;h1 id=&#34;lettre-d-information-1&#34;&gt;Lettre d’Information #1&lt;/h1&gt;
 
 &lt;p&gt;Une année de plus, encore une fois, l&amp;rsquo;équipe du BreizhCamp reprend du service pour organiser la 7ème édition du BreizhCamp. Et cette année encore, nous reprenons les lettres d&amp;rsquo;information qui, au rythme de deux par mois, vous tiendrons informé·e·s de tout ce qui entoure l&amp;rsquo;édition 2017.&lt;/p&gt;
 
@@ -29,7 +30,7 @@
 
 &lt;p&gt;Vous pouvez retrouver toutes les informations sur cette édition sur le site Web qui a eu le droit a un petit rafraichissement cette année : &lt;a href=&#34;http://www.breizhcamp.org&#34;&gt;http://www.breizhcamp.org&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;le-format-cela-ne-change-pas:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Le format, cela ne change pas&lt;/h2&gt;
+&lt;h2 id=&#34;le-format-cela-ne-change-pas&#34;&gt;Le format, cela ne change pas&lt;/h2&gt;
 
 &lt;p&gt;Nous restons sur le même format que l&amp;rsquo;année dernière, un BreizhCamp sur trois jours:&lt;/p&gt;
 
@@ -38,7 +39,7 @@
 &lt;li&gt;les journées du jeudi 20 et du vendredi 21 sont consacrées aux Conférences, des sessions de 55 minutes pour brosser en 48h toutes les nouveautés des divers écosystèmes présents au BreizhCamp.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;la-billetterie-est-ouverte:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;La billetterie est ouverte !&lt;/h2&gt;
+&lt;h2 id=&#34;la-billetterie-est-ouverte&#34;&gt;La billetterie est ouverte !&lt;/h2&gt;
 
 &lt;p&gt;Suivant l&amp;rsquo;exemple des deux dernières années, nous avons déjà ouvert la billetterie, bien avant la clôture du CFP. Vous pouvez donc déjà prendre vos places pour le BreizhCamp sur : &lt;a href=&#34;https://www.weezevent.com/bzhc4mp17&#34;&gt;https://www.weezevent.com/bzhc4mp17&lt;/a&gt;&lt;/p&gt;
 
@@ -50,7 +51,7 @@
 
 &lt;p&gt;Si vous achetez plusieurs billets d’un coup, il est très important de bien renseigner l’adresse email de chaque participant, celle-ci sera utilisée pour envoyer les codes d’accès au Wifi pour l’accès au réseau de l’université.&lt;/p&gt;
 
-&lt;h2 id=&#34;le-call-for-papers-est-aussi-ouvert:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Le &lt;em&gt;Call for Papers&lt;/em&gt; est aussi ouvert&lt;/h2&gt;
+&lt;h2 id=&#34;le-call-for-papers-est-aussi-ouvert&#34;&gt;Le &lt;em&gt;Call for Papers&lt;/em&gt; est aussi ouvert&lt;/h2&gt;
 
 &lt;p&gt;Le &lt;em&gt;Call for Papers&lt;/em&gt; pour ce 7ème BreizhCamp est ouvert depuis la fin novembre, et il le restera jusqu&amp;rsquo;au 14 février. Allez vite proposez votre sujet sur &lt;a href=&#34;https://breizhcamp.cfp.io&#34;&gt;https://breizhcamp.cfp.io&lt;/a&gt;.&lt;/p&gt;
 
@@ -79,13 +80,13 @@
 
 &lt;p&gt;Si vous avez aimé nos éditions précédentes, transmettez ce message à vos collègues pour qu&amp;rsquo;ils puissent en profiter. Et si vous n&amp;rsquo;êtes jamais venu·e, inscrivez-vous à notre liste de diffusion pour être au courant de ce que l&amp;rsquo;on prépare et du pourquoi vous devez y assister cette année !&lt;/p&gt;
 
-&lt;h2 id=&#34;l-équipe:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;L’équipe&lt;/h2&gt;
+&lt;h2 id=&#34;l-équipe&#34;&gt;L’équipe&lt;/h2&gt;
 
 &lt;p&gt;Derrière le BreizhCamp il y a, bien entendu, &lt;a href=&#34;https://twitter.com/ndeloof&#34;&gt;Nicolas&lt;/a&gt;, notre dictateur bénévole préféré. Autour de lui, pour l&amp;rsquo;épauler, le soutenir et rendre sa vie plus *intéressante** *(sic), une équipe de choc avec des représentants des différentes communautés de développeurs de l&amp;rsquo;ouest, équipe que cette année se voit enrichie avec l&amp;rsquo;arrivée de plusieurs jeunes (et moins jeunes) &lt;em&gt;padawans&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Côté &lt;a href=&#34;http://www.breizhjug.org/&#34;&gt;BreizhJUG&lt;/a&gt; il y a &lt;a href=&#34;https://twitter.com/mimah35&#34;&gt;Michel&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/seb_brousse&#34;&gt;Sébastien&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/lhuet35&#34;&gt;Laurent&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/sguernion&#34;&gt;Sylvain&lt;/a&gt;,&lt;a href=&#34;https://twitter.com/sguernion&#34;&gt; &lt;/a&gt;&lt;a href=&#34;https://twitter.com/alexlg&#34;&gt;Alex&lt;/a&gt;&lt;a href=&#34;https://twitter.com/jljouannic&#34;&gt;, Jean-Louis&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/costejulien&#34;&gt;Julien&lt;/a&gt;,&lt;a href=&#34;https://twitter.com/costejulien&#34;&gt; &lt;/a&gt;&lt;a href=&#34;https://twitter.com/yoanndubreuil&#34;&gt;Yoann&lt;/a&gt; (qui anime aussi&lt;a href=&#34;https://twitter.com/marcaudefroy&#34;&gt; le&lt;/a&gt;&lt;a href=&#34;https://www.meetup.com/docker-rennes/&#34;&gt; Docker Meetup&lt;/a&gt; avec notre dictateur bénévole favori),&lt;a href=&#34;https://twitter.com/costejulien&#34;&gt; &lt;/a&gt;&lt;a href=&#34;https://twitter.com/nbulteau&#34;&gt;Nicolas&lt;/a&gt;&lt;a href=&#34;https://twitter.com/costejulien&#34;&gt; &lt;/a&gt;et Hung; &lt;a href=&#34;http://finistjug.fr/&#34;&gt;le FinistJUG&lt;/a&gt; avec &lt;a href=&#34;https://twitter.com/steffy_29&#34;&gt;Stéphanie&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/LostInBrittany&#34;&gt;Horacio&lt;/a&gt; ; la communauté Devops est représentée par &lt;a href=&#34;https://twitter.com/nledez&#34;&gt;Nicolas&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/alucardlevash&#34;&gt;Pierre&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/srevereault&#34;&gt;Sylvain&lt;/a&gt;; &lt;a href=&#34;https://twitter.com/gcollic&#34;&gt;Guillaume&lt;/a&gt; lui vient de  &lt;a href=&#34;http://at2012.agiletour.org/fr/rennes.html&#34;&gt;AgileRennes&lt;/a&gt;,&lt;a href=&#34;http://at2012.agiletour.org/fr/rennes.html&#34;&gt; ainsi que du &lt;/a&gt;&lt;a href=&#34;http://devcamp.fr/&#34;&gt;DevCamp&lt;/a&gt; et &lt;a href=&#34;http://www.meetup.com/fr/RennesJS/&#34;&gt;RennesJS&lt;/a&gt; qu’il fréquente comme &lt;a href=&#34;https://twitter.com/marcaudefroy&#34;&gt;Marc&lt;/a&gt;, qui anime en plus &lt;a href=&#34;https://www.meetup.com/fr-FR/Golang-Rennes/&#34;&gt;GolangRennes&lt;/a&gt;, sans oublier Annelore et Cérès… Bref, 20 paires de bras pour mettre en oeuvre les idées les plus folles, et faire du BreizhCamp &amp;ldquo;la conférence à l’Ouest&amp;rdquo;.&lt;/p&gt;
 
-&lt;h2 id=&#34;un-mot-de-nos-sponsors:ca98bfe302fc5804e1ec1c76f992f2b4&#34;&gt;Un mot de nos sponsors&lt;/h2&gt;
+&lt;h2 id=&#34;un-mot-de-nos-sponsors&#34;&gt;Un mot de nos sponsors&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/sponsors/logo_serli.png&#34; alt=&#34;Serli&#34; /&gt;&lt;/p&gt;
 
@@ -410,9 +411,9 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;La suite des sélections viendra d&amp;rsquo;ici une semaine. Stay tuned &amp;hellip;&lt;/p&gt;
 
-&lt;h2 id=&#34;en-résumé:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;En résumé&lt;/h2&gt;
+&lt;h2 id=&#34;en-résumé&#34;&gt;En résumé&lt;/h2&gt;
 
-&lt;h3 id=&#34;conférences:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Conférences :&lt;/h3&gt;
+&lt;h3 id=&#34;conférences&#34;&gt;Conférences :&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#conf-1&#34;&gt;L&amp;rsquo;Ere de la Plateforme&lt;/a&gt; par Aline Paponaud&lt;/li&gt;
@@ -423,7 +424,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 &lt;li&gt;&lt;a href=&#34;#conf-6&#34;&gt;Les nouveaux supers pouvoir du web&lt;/a&gt; par Jean-François Garreau&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;tools-in-action:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Tools In Action&lt;/h3&gt;
+&lt;h3 id=&#34;tools-in-action&#34;&gt;Tools In Action&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#tia-1&#34;&gt;Flexbox, et le CSS redevient fun !&lt;/a&gt; par Hubert Sablonnière&lt;/li&gt;
@@ -432,21 +433,21 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 &lt;li&gt;&lt;a href=&#34;#tia-4&#34;&gt;Introduction à la programmation Reactive avec RxJS&lt;/a&gt; par Grégory Houllier&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;universités:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Universités&lt;/h3&gt;
+&lt;h3 id=&#34;universités&#34;&gt;Universités&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#univ-1&#34;&gt;Docker Birthday #3 Celebration - Training&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#univ-2&#34;&gt;Challenge Mindstorms - Tester votre capacité à développer&lt;/a&gt; par Aurélien Morvant et Sylvain Révereault&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;labs:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Labs&lt;/h3&gt;
+&lt;h3 id=&#34;labs&#34;&gt;Labs&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#lab-1&#34;&gt;Angular 2 Getting Started&lt;/a&gt; par Wassim Chegham&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#lab-2&#34;&gt;Et si l&amp;rsquo;on codait l&amp;rsquo;IOT ?&lt;/a&gt; par Philippe Charrière&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;quickie:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Quickie&lt;/h3&gt;
+&lt;h3 id=&#34;quickie&#34;&gt;Quickie&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#quickie-1&#34;&gt;XSS is beautiful ou comment j&amp;rsquo;ai hacké le CFP du BreizhCamp&lt;/a&gt; par Michel David&lt;/li&gt;
@@ -454,11 +455,11 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;Vous trouverez les descriptions détaillées des talks retenus ci-dessous.&lt;/p&gt;
 
-&lt;h2 id=&#34;conférences-retenues:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;&lt;em&gt;Conférences&lt;/em&gt; retenues&lt;/h2&gt;
+&lt;h2 id=&#34;conférences-retenues&#34;&gt;&lt;em&gt;Conférences&lt;/em&gt; retenues&lt;/h2&gt;
 
 &lt;p&gt;&lt;a id=&#34;conf-1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;l-ere-de-la-plateforme:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;L&amp;rsquo;Ere de la Plateforme&lt;/h3&gt;
+&lt;h3 id=&#34;l-ere-de-la-plateforme&#34;&gt;L&amp;rsquo;Ere de la Plateforme&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Responsables de produit, équipes marketing, entrepreneurs, développeurs&amp;hellip; Pour nous tous de nos jours, &amp;ldquo;créer une plateforme&amp;rdquo; ou &amp;ldquo;avoir son API&amp;rdquo; est un enjeu crucial. Cette session a pour objectif d&amp;rsquo;expliquer au travers de 7 étapes indispensables tous les impacts de la transition d&amp;rsquo;un ensemble logiciel vers une plateforme à tous les niveaux : produit, marketing, technique, projet, humain.&lt;/p&gt;
@@ -474,7 +475,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;conf-2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;ionic-native-script-react-native-quel-framework-mobile-hybride-choisir:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Ionic, Native Script, React native&amp;hellip; Quel framework mobile hybride choisir ?&lt;/h3&gt;
+&lt;h3 id=&#34;ionic-native-script-react-native-quel-framework-mobile-hybride-choisir&#34;&gt;Ionic, Native Script, React native&amp;hellip; Quel framework mobile hybride choisir ?&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Vous avez envie de développer une application mobile, mais quel framework  choisir parmi les plus populaires? Et si nous faisions un comparatif entre ces framework pour savoir comment orienter notre choix&amp;hellip;&lt;/p&gt;
@@ -484,7 +485,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;conf-3&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;jenkins-2-0-on-jette-tout-et-on-recommence:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Jenkins 2.0 - On jette tout et on recommence ?&lt;/h3&gt;
+&lt;h3 id=&#34;jenkins-2-0-on-jette-tout-et-on-recommence&#34;&gt;Jenkins 2.0 - On jette tout et on recommence ?&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://kohsuke.org/2011/01/11/bye-bye-hudson-hello-jenkins/&#34;&gt;Né Hudson en 2004&lt;/a&gt; le projet Jenkins est aujourd&amp;rsquo;hui omniprésent dans toutes les DSI.&lt;/p&gt;
@@ -508,7 +509,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;conf-4&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;applications-cloud-native-avec-spring-cloud:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Applications &amp;ldquo;cloud-native&amp;rdquo; avec Spring Cloud&lt;/h3&gt;
+&lt;h3 id=&#34;applications-cloud-native-avec-spring-cloud&#34;&gt;Applications &amp;ldquo;cloud-native&amp;rdquo; avec Spring Cloud&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Cette présentation commence par démonter le buzz &amp;ldquo;Microservices&amp;rdquo; et explique les avantages et les défis de ce type d&amp;rsquo;architecture. On parlera &amp;ldquo;Distributed/versioned configuration&amp;rdquo;, &amp;ldquo;Service registration and discovery&amp;rdquo;, &amp;ldquo;client-side load-balancing&amp;rdquo; ou encore &amp;ldquo;circuit breakers&amp;rdquo;. On expliquera tous ces concepts avec une application exemple réalisée avec Spring Cloud et Netflix OSS.&lt;/p&gt;
@@ -518,7 +519,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;conf-5&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;docker-en-production-et-quid-de-la-sécurité:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Docker en Production ? Et quid de la sécurité ?&lt;/h3&gt;
+&lt;h3 id=&#34;docker-en-production-et-quid-de-la-sécurité&#34;&gt;Docker en Production ? Et quid de la sécurité ?&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Envie de pousser votre application dockerisée jusqu&amp;rsquo;en Production ? Mais est-ce suffisamment mature pour protéger correctement les donnés et les systèmes qui nous sont confiés ?&lt;/p&gt;
@@ -532,7 +533,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;conf-6&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;les-nouveaux-supers-pouvoir-du-web:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Les nouveaux supers pouvoir du web&lt;/h3&gt;
+&lt;h3 id=&#34;les-nouveaux-supers-pouvoir-du-web&#34;&gt;Les nouveaux supers pouvoir du web&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Et si je vous disais que votre navigateur est doté de pouvoirs dont vous n’avez pas conscience ?  Et si l’installation d’une application n’était plus nécessaire pour interagir de façon riche avec les objets qui nous entourent ?&lt;/p&gt;
@@ -544,11 +545,11 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;Speaker : &lt;strong&gt;Jean-François Garreau&lt;/strong&gt; - &lt;a href=&#34;https://twitter.com/jefbinomed&#34;&gt;@jefbinomed&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;tools-in-action-retenus:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;&lt;em&gt;Tools In Action&lt;/em&gt; retenus&lt;/h2&gt;
+&lt;h2 id=&#34;tools-in-action-retenus&#34;&gt;&lt;em&gt;Tools In Action&lt;/em&gt; retenus&lt;/h2&gt;
 
 &lt;p&gt;&lt;a id=&#34;tia-1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;flexbox-et-le-css-redevient-fun:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Flexbox, et le CSS redevient fun !&lt;/h3&gt;
+&lt;h3 id=&#34;flexbox-et-le-css-redevient-fun&#34;&gt;Flexbox, et le CSS redevient fun !&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Tu penses que CSS c’est trop compliqué et que centrer verticalement un bloc relève de l’exploit, cette session est faite pour toi.&lt;/p&gt;
@@ -562,7 +563,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;tia-2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;déploiement-elk-en-conditions-réelles:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Déploiement ELK en conditions réelles&lt;/h3&gt;
+&lt;h3 id=&#34;déploiement-elk-en-conditions-réelles&#34;&gt;Déploiement ELK en conditions réelles&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Le trio Elasticsearch-Logstash-Kibana est très populaire dans le monde de la supervision applicative. Cependant, pour déployer un unique cluster à l&amp;rsquo;échelle d&amp;rsquo;une entreprise, même en mettant de côté la volumétrie des données, il reste certains écueils à éviter :
@@ -582,7 +583,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;tia-3&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;feedback-loop-pour-le-développeur:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Feedback Loop pour le développeur&lt;/h3&gt;
+&lt;h3 id=&#34;feedback-loop-pour-le-développeur&#34;&gt;Feedback Loop pour le développeur&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;On nous parle Time To Market et boucle de feedback dans les projets agiles, mais qu’en est-il pour vous dans votre travail de tous les jours?&lt;/p&gt;
@@ -601,7 +602,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;tia-4&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;introduction-à-la-programmation-reactive-avec-rxjs:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Introduction à la programmation Reactive avec RxJS&lt;/h3&gt;
+&lt;h3 id=&#34;introduction-à-la-programmation-reactive-avec-rxjs&#34;&gt;Introduction à la programmation Reactive avec RxJS&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;La programmation reactive est un pattern dont la popularité ne cesse de grandir. Angular2 et Cycle.js se basent sur RxJS pour la gestion des flux d&amp;rsquo;évènements. Durant ce tools in action nous verrons les concepts et les possibilités offertes par RxJS notamment dans la simplification des traitements asynchrones dans une application JavaScript.&lt;/p&gt;
@@ -609,11 +610,11 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;Speaker : &lt;strong&gt;Grégory Houllier&lt;/strong&gt; - &lt;a href=&#34;https://twitter.com/ghoullier&#34;&gt;@ghoullier&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;universités-retenues:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;&lt;em&gt;Universités&lt;/em&gt; retenues&lt;/h2&gt;
+&lt;h2 id=&#34;universités-retenues&#34;&gt;&lt;em&gt;Universités&lt;/em&gt; retenues&lt;/h2&gt;
 
 &lt;p&gt;&lt;a id=&#34;univ-1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;docker-birthday-3-celebration-training:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Docker Birthday #3 Celebration - Training&lt;/h3&gt;
+&lt;h3 id=&#34;docker-birthday-3-celebration-training&#34;&gt;Docker Birthday #3 Celebration - Training&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Docker a 3 ans, et pour fêter l&amp;rsquo;événement Docker Inc. organise à travers le monde des &lt;em&gt;training&lt;/em&gt; pour initier les débutants. Profites du BreizhCamp pour découvrir cette techno les mains dans le cambouis.&lt;/p&gt;
@@ -623,7 +624,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;univ-2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;challenge-mindstorms-tester-votre-capacité-à-développer:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Challenge Mindstorms - Tester votre capacité à développer&lt;/h3&gt;
+&lt;h3 id=&#34;challenge-mindstorms-tester-votre-capacité-à-développer&#34;&gt;Challenge Mindstorms - Tester votre capacité à développer&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Nous vous proposons lors de ces quelques heures de relever un défi:
@@ -647,11 +648,11 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 &lt;li&gt;&lt;strong&gt;Sylvain Révereault&lt;/strong&gt; - &lt;a href=&#34;https://twitter.com/srevereault&#34;&gt;@srevereault&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;labs-retenus:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;&lt;em&gt;Labs&lt;/em&gt; retenus&lt;/h2&gt;
+&lt;h2 id=&#34;labs-retenus&#34;&gt;&lt;em&gt;Labs&lt;/em&gt; retenus&lt;/h2&gt;
 
 &lt;p&gt;&lt;a id=&#34;lab-1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;angular-2-getting-started:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Angular 2 Getting Started&lt;/h3&gt;
+&lt;h3 id=&#34;angular-2-getting-started&#34;&gt;Angular 2 Getting Started&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Tu as entendu tout le monde parler d&amp;rsquo;Angular 2 mais tu n&amp;rsquo;as pas eu le temps de mettre les mains dans le code. Alors, retrousse tes manches et rejoins-nous dans ce hands on consacré à la découverte du monde merveilleux d&amp;rsquo;Angular 2.&lt;/p&gt;
@@ -661,7 +662,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;&lt;a id=&#34;lab-2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;et-si-on-codait-l-iot:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;Et si on codait l&amp;rsquo;IOT ?&lt;/h3&gt;
+&lt;h3 id=&#34;et-si-on-codait-l-iot&#34;&gt;Et si on codait l&amp;rsquo;IOT ?&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;L&amp;rsquo;IOT est le buzzword du moment (même si ça existe finalement depuis longtemps). Plutôt qu&amp;rsquo;uniquement en parler,  je vous propose un atelier où vous apprendrez à &amp;ldquo;faire&amp;rdquo; du MQTT,  ce qu&amp;rsquo;est CoAP, &amp;hellip; J&amp;rsquo;aurais un/des objet(s) connecté(s) avec différents capteurs. Vous devrez vous connectez et interagir avec eux à partir de ce que je vous montrerai. Il y aura beaucoup JavaScript, du Java et même un peu de Python. A la sortie de l&amp;rsquo;atelier, vous aurez les idées plus claires sur ce que peut être l&amp;rsquo;IOT et comment en devenir un acteur.&lt;/p&gt;
@@ -675,11 +676,11 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 
 &lt;p&gt;Speaker : &lt;strong&gt;Philippe Charrière&lt;/strong&gt; - &lt;a href=&#34;https://twitter.com/k33g_org&#34;&gt;@k33g_org&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;quickie-retenu:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;&lt;em&gt;Quickie&lt;/em&gt; retenu&lt;/h2&gt;
+&lt;h2 id=&#34;quickie-retenu&#34;&gt;&lt;em&gt;Quickie&lt;/em&gt; retenu&lt;/h2&gt;
 
 &lt;p&gt;&lt;a id=&#34;quickie-1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;xss-is-beautiful-ou-comment-j-ai-hacké-le-cfp-du-breizhcamp:7f0846a71101e90c2ec8b91ce3784478&#34;&gt;XSS is beautiful ou comment j&amp;rsquo;ai hacké le CFP du BreizhCamp&lt;/h3&gt;
+&lt;h3 id=&#34;xss-is-beautiful-ou-comment-j-ai-hacké-le-cfp-du-breizhcamp&#34;&gt;XSS is beautiful ou comment j&amp;rsquo;ai hacké le CFP du BreizhCamp&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Qu&amp;rsquo;est qu&amp;rsquo;une XSS ?&lt;/p&gt;
@@ -704,7 +705,7 @@ d&amp;rsquo;en faire l&amp;rsquo;association pour préparer le fameux fichier JS
 &lt;p&gt;Depuis le 3 décembre, &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; est passée dans sa phase d&amp;rsquo;Open Beta.
 Nous avons donc décidé d&amp;rsquo;en profiter pour exposer le &lt;a href=&#34;https://cfp.breizhcamp.org&#34;&gt;CFP&lt;/a&gt; en HTTPS.&lt;/p&gt;
 
-&lt;h2 id=&#34;préambule:90c0977ed74cfb71d9fbf102004f9838&#34;&gt;Préambule&lt;/h2&gt;
+&lt;h2 id=&#34;préambule&#34;&gt;Préambule&lt;/h2&gt;
 
 &lt;p&gt;Avant d&amp;rsquo;expliquer les étapes techniques de mise en œuvre, arrêtons nous un instant sur Let&amp;rsquo;s Encrypt : il s&amp;rsquo;agit d&amp;rsquo;une autorité de certification libre qui apporte la possibilité d&amp;rsquo;obtenir des certificats X.509 pour le chiffrement TLS.
 La nouveauté réside principalement dans la combinaison de 3 éléments :&lt;/p&gt;
@@ -723,7 +724,7 @@ La nouveauté réside principalement dans la combinaison de 3 éléments :&lt;/p
 
 &lt;p&gt;Il devient donc possible d&amp;rsquo;obtenir automatiquement et gratuitement des certificats émis par une autorité de certification en laquelle on peut &lt;em&gt;a priori&lt;/em&gt; avoir confiance, ce qui représente une belle avancée pour la sécurité sur Internet.&lt;/p&gt;
 
-&lt;h2 id=&#34;mise-en-œuvre:90c0977ed74cfb71d9fbf102004f9838&#34;&gt;Mise en œuvre&lt;/h2&gt;
+&lt;h2 id=&#34;mise-en-œuvre&#34;&gt;Mise en œuvre&lt;/h2&gt;
 
 &lt;p&gt;Passons maintenant au déploiement du certificat sur le CFP du Breizhcamp. Ce déploiement va se dérouler en deux étapes : la génération du certificat (et des éléments nécessaires à son utilisation), et la mise en place de ce certificat dans l&amp;rsquo;application.
 Je ne vais pour le moment vous parler que de la première partie, la génération du certificat.&lt;/p&gt;

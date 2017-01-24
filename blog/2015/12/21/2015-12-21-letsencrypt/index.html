@@ -14,7 +14,7 @@
 
   
 
-  <meta name="generator" content="Hugo 0.15" />
+  <meta name="generator" content="Hugo 0.18.1" />
 
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
@@ -48,7 +48,7 @@
   
   <meta property="og:title" content="Un peu de sécurité" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/" />
+  <meta property="og:url" content="/blog/2015/12/21/2015-12-21-letsencrypt//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -170,7 +170,7 @@
 <p>Depuis le 3 décembre, <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a> est passée dans sa phase d&rsquo;Open Beta.
 Nous avons donc décidé d&rsquo;en profiter pour exposer le <a href="https://cfp.breizhcamp.org">CFP</a> en HTTPS.</p>
 
-<h2 id="préambule:90c0977ed74cfb71d9fbf102004f9838">Préambule</h2>
+<h2 id="préambule">Préambule</h2>
 
 <p>Avant d&rsquo;expliquer les étapes techniques de mise en œuvre, arrêtons nous un instant sur Let&rsquo;s Encrypt : il s&rsquo;agit d&rsquo;une autorité de certification libre qui apporte la possibilité d&rsquo;obtenir des certificats X.509 pour le chiffrement TLS.
 La nouveauté réside principalement dans la combinaison de 3 éléments :</p>
@@ -189,7 +189,7 @@ La nouveauté réside principalement dans la combinaison de 3 éléments :</p>
 
 <p>Il devient donc possible d&rsquo;obtenir automatiquement et gratuitement des certificats émis par une autorité de certification en laquelle on peut <em>a priori</em> avoir confiance, ce qui représente une belle avancée pour la sécurité sur Internet.</p>
 
-<h2 id="mise-en-œuvre:90c0977ed74cfb71d9fbf102004f9838">Mise en œuvre</h2>
+<h2 id="mise-en-œuvre">Mise en œuvre</h2>
 
 <p>Passons maintenant au déploiement du certificat sur le CFP du Breizhcamp. Ce déploiement va se dérouler en deux étapes : la génération du certificat (et des éléments nécessaires à son utilisation), et la mise en place de ce certificat dans l&rsquo;application.
 Je ne vais pour le moment vous parler que de la première partie, la génération du certificat.</p>
@@ -245,13 +245,13 @@ J&rsquo;ai donc choisi d&rsquo;exécuter le client dans un conteneur Docker sur 
 <div class="panel panel-default sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Search</h3>
+        <h3 class="panel-title">Rechercher</h3>
     </div>
 
     <div class="panel-body">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
             <div class="input-group">
-                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
+                <input type="search" name="q" results="0" class="form-control" placeholder="Mot-clés">
                 <input type="hidden" name="q" value="site:http://www.breizhcamp.org/">
                 <span class="input-group-btn">
                     <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
@@ -304,7 +304,7 @@ J&rsquo;ai donc choisi d&rsquo;exécuter le client dans un conteneur Docker sur 
     <div class="row">
       <div class="col-md-4">
         <p><b>BreizhCamp 2017</b></p>
-        <p>17 au 19 Avril à Rennes</p>
+        <p>19 au 21 Avril à Rennes</p>
       </div>
       <div class="col-md-4">
         <p>

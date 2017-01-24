@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conférence on BreizhCamp - 7ème édition</title>
+    <link>http://www.breizhcamp.org/conference/index.xml</link>
+    <description>Recent content in Conférence on BreizhCamp - 7ème édition</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>Copyright (c) 2017, BreizhCamp team</copyright>
+    <atom:link href="http://www.breizhcamp.org/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Meet &amp; Greet</title>
+      <link>http://www.breizhcamp.org/conference/meet-and-greet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.breizhcamp.org/conference/meet-and-greet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plan</title>
+      <link>http://www.breizhcamp.org/conference/plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.breizhcamp.org/conference/plan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programme</title>
+      <link>http://www.breizhcamp.org/conference/programme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.breizhcamp.org/conference/programme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speakers</title>
+      <link>http://www.breizhcamp.org/conference/speakers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.breizhcamp.org/conference/speakers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
