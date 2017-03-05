@@ -7,8 +7,176 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>Copyright (c) 2017, BreizhCamp team</copyright>
-    <lastBuildDate>Fri, 10 Feb 2017 09:00:38 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 21 Feb 2017 12:00:00 +0200</lastBuildDate>
     <atom:link href="http://www.breizhcamp.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lettre d’Information #4</title>
+      <link>http://www.breizhcamp.org/blog/2017/02/21/2017-02-21-newsletter-4/</link>
+      <pubDate>Tue, 21 Feb 2017 12:00:00 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2017/02/21/2017-02-21-newsletter-4/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/logo_big.png&#34; alt=&#34;BreizhCamp&#34; /&gt;
+Du 19 au 21 avril 2017 - 3 jours sur Rennes pour faire le plein de technologies&lt;/p&gt;
+
+&lt;h1 id=&#34;lettre-d-information-4&#34;&gt;Lettre d’Information #4&lt;/h1&gt;
+
+&lt;p&gt;Le CFP a fermé ses portes la semaine dernière, et nous allons rapidement nous attaquer à la lourde tâche d&amp;rsquo;établir le programme. En attendant, la billetterie continue sa progression, et l&amp;rsquo;équipe du BreizhCamp s&amp;rsquo;attaque aux différents sujets logistiques qui font de ces derniers mois avant la conf une période particulièrement &lt;em&gt;intéressante&lt;/em&gt; à vivre&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;le-call-for-papers-est-fermé&#34;&gt;Le &lt;em&gt;Call for Papers&lt;/em&gt; est fermé&lt;/h2&gt;
+
+&lt;p&gt;Ca y est, le &lt;em&gt;Call for Papers&lt;/em&gt; a fermé ses portes mercredi dernier, avec plus de 320 propositions, c&amp;rsquo;est à dire ¼ de plus que l&amp;rsquo;année dernière !&lt;/p&gt;
+
+&lt;p&gt;Selon le type de talk, le format &lt;em&gt;Conférence&lt;/em&gt; a été le plus plébiscité par les participants au CFP, suivi des &lt;em&gt;Tools in Action&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-21/image_1.png&#34; alt=&#34;Répartition des propositions par type de talk&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Répartition des propositions par type de talk
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Et si on regarde par sujet, on voit que les tracks &lt;em&gt;Web et Mobile&lt;/em&gt; et &lt;em&gt;Cloud, DevOps, Outils&lt;/em&gt; se démarquent carrément, tandis que le track &lt;em&gt;Backend et Desktop&lt;/em&gt; est presque oublié par les participants au CFP :&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-21/image_2.png&#34; alt=&#34;Répartition des propositions par track&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Répartition des propositions par track
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;un-point-sur-la-billetterie&#34;&gt;Un point sur la billetterie&lt;/h2&gt;
+
+&lt;p&gt;Après les statistiques du Call for Paper, quelques mots sur la billetterie. Cette année encore, les places partent très rapidement : deux tiers des places disponibles ont déjà trouvé preneur, alors que le programme reste encore inconnu !&lt;/p&gt;
+
+&lt;p&gt;Alors ne risquez pas de vous retrouver sans place, allez vite prendre la votre sur &lt;a href=&#34;https://www.weezevent.com/bzhc4mp17&#34;&gt;https://www.weezevent.com/bzhc4mp17&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dévoilons-une-partie-du-programme&#34;&gt;Dévoilons une partie du programme&amp;hellip;&lt;/h2&gt;
+
+&lt;h3 id=&#34;skynet-vs-planète-des-singes-fight&#34;&gt;Skynet vs Planète des Singes, fight !&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/adrienblind&#34;&gt;Adrien Blind&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h4&gt;
+
+&lt;p&gt;2 clusters Docker auto-managés et portés par des clouds publics s&amp;rsquo;affrontent dans une bataille sans merci. L&amp;rsquo;un conçu pour résister à toute forme d&amp;rsquo;attaque. L&amp;rsquo;autre ayant pour seul objectif de détruire le premier. Qui l&amp;rsquo;emportera ?&lt;/p&gt;
+
+&lt;h4 id=&#34;version-longue&#34;&gt;Version longue&lt;/h4&gt;
+
+&lt;p&gt;La singularité a eu lieu, l&amp;rsquo;ère des&lt;/p&gt;
+
+&lt;p&gt;machines a éclos. Bientôt, l&amp;rsquo;emprise de &lt;strong&gt;Skynet&lt;/strong&gt;, l&amp;rsquo;IA massivement distribuée et son armée de robots s&amp;rsquo;étendront à travers toute la planète. Heureusement, une armée de grands singes se dresse pour mettre fin à l’hégémonie de métal.&lt;/p&gt;
+
+&lt;p&gt;La bataille s&amp;rsquo;annonce épique !&lt;/p&gt;
+
+&lt;p&gt;Dans le rôle de &lt;strong&gt;Skynet&lt;/strong&gt;, une plateforme Docker totalement automatisée et devenue indestructible, son application cerveau ultra-résilient, et son armée de robots prêts à nous éradiquer. Dans le rôle de l&amp;rsquo;armée des singes, la Simian Army de &lt;strong&gt;Netflix&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skynet&lt;/strong&gt; résistera-t-elle aux assauts incessants de l&amp;rsquo;armée des grands singes ?&lt;/p&gt;
+
+&lt;p&gt;Cette session décalée revient en détail sur les aspects d’ingénierie IT mis en œuvre pour arriver à un tel résultat. Résilience, scalabilité, architecture micro-services, plateforme multi-clouds, conteneurs, orchestration, et stockage distribué n&amp;rsquo;auront plus de secret pour vous !&lt;/p&gt;
+
+&lt;h3 id=&#34;comment-hacker-la-webcam-de-ton-voisin-e&#34;&gt;Comment hacker la webcam de ton voisin(e) ?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/charlesbochet&#34;&gt;Charles Bochet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce talk est une démonstration de l&amp;rsquo;attaque de l&amp;rsquo;Homme du milieu (Man-In-The-Middle).&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;objectif est de démystifier le hacking par la pratique (éthique!) et de sensibiliser aux risques que l&amp;rsquo;on court en permanence (au bureau, à la maison ou dans un café public).&lt;/p&gt;
+
+&lt;p&gt;Au programme, le déroulement complet d&amp;rsquo;une attaque :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;écoute réseau&lt;/li&gt;
+&lt;li&gt;vol de mot de passes&lt;/li&gt;
+&lt;li&gt;création de trojan&lt;/li&gt;
+&lt;li&gt;évasion antivirus&lt;/li&gt;
+&lt;li&gt;infection&lt;/li&gt;
+&lt;li&gt;prise de contrôle totale de la cible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;un-mot-de-nos-sponsors&#34;&gt;Un mot de nos sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-21/image_3.png&#34; alt=&#34;OVH&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Présentes à Rennes et Brest, le Breizhcamp représente pour les équipes OVH LE rendez-vous breton de l&amp;rsquo;innovation.&lt;/p&gt;
+
+&lt;p&gt;Experts comme curieux de passage pourront échanger autour des thématiques liées aux objets connectés, Iot, Cloud, Big Data ou encore Machine learning ; soit autant de thèmes de plus en plus présents dans notre quotidien.&lt;/p&gt;
+
+&lt;p&gt;En tant que leader européen du Cloud, OVH renouvelle donc naturellement cette année son soutien au Breizhcamp !&lt;/p&gt;
+
+&lt;p&gt;N&amp;rsquo;hésitez pas à venir rencontrer nos équipes du 19 au 21 avril, durant les conférences ou directement sur notre stand !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-21/image_4.png&#34; alt=&#34;NeoSoft&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C’est avec grand plaisir que nous sponsorisons pour la première année le BreizhCamp, évènement incontournable pour la communauté informatique du Grand Ouest ! Pour quelles raisons ?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Notre équipe est passionnée et débordante d’idées pour vous accompagner dans tous vos projets !&lt;/li&gt;
+&lt;li&gt;Nous avons un super Robot Wall-e qui meurt d’envie de vous défier&lt;/li&gt;
+&lt;li&gt;Des supers lots à gagner à la clé (Robot Droid BB-8, Drone, Nerfs,  ….)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Breton d’origine, notre groupe NEO SOFT a su s’affirmer comme acteur majeur du bassin rennais avec un modèle social qui fait notre identité: sans mobilité et sans période d’essai ! Alors intrigués ? En attendant de nous rencontrer, vous pouvez vous renseigner sur &lt;a href=&#34;http://www.neo-soft.fr&#34;&gt;www.neo-soft.fr&lt;/a&gt;. A très bientôt !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-21/image_5.png&#34; alt=&#34;Groupe CREATIVE&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fort d’une croissance à deux chiffres depuis sa création en 2008, le Groupe CREATIVE poursuit son développement en conservant ses valeurs d’origine : l’expertise technique et l’épanouissement des collaborateurs.&lt;/p&gt;
+
+&lt;p&gt;Notre Groupe est une entreprise de services du numérique, portée par ses 200 collaborateurs et répartie sur 4 agences : Rennes, Nantes, Paris et Bordeaux.&lt;/p&gt;
+
+&lt;p&gt;Aujourd’hui acteur incontournable du Grand Ouest, nous adressons des projets autour de 3 domaines d’expertise :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;L’informatique Scientifique, Technique et Industrielle ;&lt;/li&gt;
+&lt;li&gt;L’ingénierie applicative (applications métiers, mobilité, outils collaboratifs) ;&lt;/li&gt;
+&lt;li&gt;Les infrastructures de services et infrastructures télécoms.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;40% de notre activité est réalisée en centre de services et au forfait !&lt;/p&gt;
+
+&lt;p&gt;L’expertise technique étant notre ADN, vous aurez l’opportunité de travailler au sein de notre filiale entièrement dédiée à la recherche et au développement : CREATIVE Innovation.&lt;/p&gt;
+
+&lt;p&gt;Vous aurez aussi la possibilité de participer aux évènements numériques locaux en tant qu’ambassadeur du Groupe, CREATIVE étant partenaire d’associations locale comme le Devfest, le Breizhcamp, Nantes Java User Group…&lt;/p&gt;
+
+&lt;p&gt;Enfin, nous privilégions les moments de partage et de détente autour d’activités variées et de soirées entre collègues.&lt;/p&gt;
+
+&lt;p&gt;Pour tout cela (et bien d’autres choses…) 87% de nos collaborateurs recommanderaient le Groupe Créative à leur entourage !&lt;/p&gt;
+
+&lt;p&gt;Alors si vous souhaitez travailler dans une équipe inventive et passionnée, rejoignez sans tarder la Team CREATIVE !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://us3.campaign-archive2.com/?u=c755301bcda62df78e338c60f&amp;amp;id=b791cbaf66&#34;&gt;Lien vers la lettre originale&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CFP: last chance</title>
@@ -21,6 +189,174 @@ alors ne perdez plus un instant. Surtout que Mardi, vous risquez d&amp;rsquo;avo
 de dire à votre moitié le soir de la saint-valentin &amp;ldquo;&lt;em&gt;un instant mon amour, je pousse une proposition au CFP du BreizhCamp&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Bref, on vous attend sur &lt;a href=&#34;https://breizhcamp.cfp.io&#34;&gt;https://breizhcamp.cfp.io&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lettre d’Information #3</title>
+      <link>http://www.breizhcamp.org/blog/2017/02/06/2017-02-06-newsletter-3/</link>
+      <pubDate>Mon, 06 Feb 2017 12:00:00 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2017/02/06/2017-02-06-newsletter-3/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/logo_big.png&#34; alt=&#34;BreizhCamp&#34; /&gt;
+Du 19 au 21 avril 2017 - 3 jours sur Rennes pour faire le plein de technologies&lt;/p&gt;
+
+&lt;h1 id=&#34;lettre-d-information-3&#34;&gt;Lettre d’Information #3&lt;/h1&gt;
+
+&lt;p&gt;Le mois de février est déjà arrivé, le BreizhCamp 2017 &amp;lsquo;approche à toute vitesse !&lt;/p&gt;
+
+&lt;p&gt;De notre côté nous avançons sur la préparation, la logistique, le choix du traiteur et même des sujets moins glamours, comme la location de poubelles. Et sur le CFP, bien entendu, car il reste à peine une semaine avant la clôture, et nous avons déjà de nombreuses propositions à parcourir.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-call-for-papers-ferme-la-semaine-prochaine&#34;&gt;Le &lt;em&gt;Call for Papers&lt;/em&gt; ferme la semaine prochaine !&lt;/h2&gt;
+
+&lt;p&gt;Comme notre ami Yoann disait l&amp;rsquo;autre jour :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Votre talk n&#39;a pas été retenu à @Devoxxfr, profitez du week-end
+pour nous le soumettre sur http://breizhcamp.cfp.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ou plutôt cette version :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Que votre talk soit retenu à @Devoxx ou pas, ou même si vous ne
+l&#39;avez même pas soumis, profitez de cette dernière semaine d&#39;ouverture
+du CFP pour nous le soumettre sur http://breizhcamp.cfp.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;D&amp;rsquo;ailleurs, effet Devoxx ou pas, ce qu&amp;rsquo;on peut vous dire c&amp;rsquo;est qu&amp;rsquo;on a fait + 15% de propositions (du total !) sur les 3 derniers jours&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;En tout cas, le CFP BreizhCamp fermera ses portes le 14 février prochain. Si vous n&amp;rsquo;avez pas encore soumis de talk, c&amp;rsquo;est le moment de le faire !&lt;/p&gt;
+
+&lt;p&gt;Pour vous donner une idée, la répartition des propositions n&amp;rsquo;a pas grandement changé depuis la dernière lettre d&amp;rsquo;information : on a un tiers des talks sur le track &lt;em&gt;Web et Mobile&lt;/em&gt;, un autre tiers sur &lt;em&gt;Cloud, Devops, Outils&lt;/em&gt;  et le tiers restant assez partagé sur les autres tracks :&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-06/image_1.png&#34; alt=&#34;Répartition des propositions sur le CFP au 05/02&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Répartition des propositions sur le CFP au 05/02
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;dévoilons-une-partie-du-programme&#34;&gt;Dévoilons une partie du programme&amp;hellip;&lt;/h2&gt;
+
+&lt;h3 id=&#34;introduction-à-jhipster-4&#34;&gt;Introduction à JHipster 4&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/juliendubois&#34;&gt;Julien Dubois&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jhipster.github.io/&#34;&gt;JHipster&lt;/a&gt; est un générateur d&amp;rsquo;applications Spring Boot + AngularJS, entièrement Open Source, qui vous permet de démarrer, développer et mettre en production votre projet en un temps record.&lt;/p&gt;
+
+&lt;p&gt;Largement utilisé, il possède une importante communauté de développeurs (plus de 260 contributeurs!), et de nombreuses entreprises l&amp;rsquo;ont choisi comme framework de référence (plus de 120 sociétés sont officiellement listées!).&lt;/p&gt;
+
+&lt;p&gt;Dans cette introduction, &lt;a href=&#34;https://twitter.com/juliendubois&#34;&gt;Julien Dubois&lt;/a&gt; (le créateur et principal développeur de JHipster) présentera les principales fonctionnalités de l&amp;rsquo;outil, ces cas d&amp;rsquo;utilisation classiques, et fera un focus particulier sur les nouveautés de JHipster 4.&lt;/p&gt;
+
+&lt;h3 id=&#34;lao-tseu-software-craftsman&#34;&gt;Lao-Tseu, Software Craftsman&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/Nilhcem&#34;&gt;Gautier Mechling&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;S&amp;rsquo;il avait vécu à notre époque, Lao-Tseu serait un pur développeur, un vrai de vrai.&lt;/p&gt;
+
+&lt;p&gt;Le genre de mec smart, qui connaît les bons principes de la programmation et réfléchit avant d&amp;rsquo;agir, celui que les entreprises cherchent tant à recruter, et qui, OKLM, transmet ses conseils à tous.&lt;/p&gt;
+
+&lt;p&gt;Tiens d&amp;rsquo;ailleurs, tu savais que dans son bouquin : &amp;ldquo;le livre de la voie et de la vertu&amp;rdquo;, il parlait du partage de connaissance, des architectures, du testing, des cérémoniaux SCRUM, de backlog, de SOLID, de la programmation réactive fonctionnelle etc. Hein ? Tu savais pas ? Que c&amp;rsquo;était quoi ? Un truc de hippies ? Mais non, mon petit lapin ! Pas du tout ! Allez viens, assis-toi, on va lire des extraits de son livre, et faire l&amp;rsquo;analogie avec le développement logiciel.&lt;/p&gt;
+
+&lt;h2 id=&#34;un-mot-de-nos-sponsors&#34;&gt;Un mot de nos sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-06/image_2.png&#34; alt=&#34;SII&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;J - 72 … SII Ouest toujours aussi sur-motivée pour suivre les équipes du BreizhCamp !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Venez nous rencontrer et échanger sur les thématiques fortes telles que DevOps, Agilité, Angular 2, Cyber-sécurité&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Nos équipes de passionné(e)s pourront aussi te parler de leurs projets pour lesquels ton expertise pourrait intervenir&amp;hellip; On te dira tout !&lt;/p&gt;
+
+&lt;p&gt;Rejoins-nous pour participer à la transformation numérique d’aujourd’hui et de demain !&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Breaking Good News :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Envie de nous rejoindre…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;tu connais certainement quelqu’un qui travaille chez SII Ouest&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;tu devrais lui en parler, une bonne nouvelle t&amp;rsquo;attend !&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SAVE THE DATE :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette année encore, SII Ouest s’associe au BreizhCamp pour vous proposer la soirée d’ouverture le mercredi 19 avril à Rennes à partir de 18h30.&lt;/p&gt;
+
+&lt;p&gt;Nous vous réservons une soirée à la hauteur du BreizhCamp … Inscription à venir sur EventBrite.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-06/image_3.png&#34; alt=&#34;Infotel&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Infotel est très heureux de soutenir le BreizhCamp pour cette édition 2017.&lt;/p&gt;
+
+&lt;p&gt;Cet événement doit nous permettre de partager, de rencontrer, d’échanger avec des intervenants de tous horizons sur des sujets techniques innovants.&lt;/p&gt;
+
+&lt;p&gt;En quelques mots, Infotel est une entreprise de services numériques de plus de 2000 collaborateurs dont environ 480 sur l’ouest de la France via nos agences de Rennes, Brest, Nantes, Le Mans, Bordeaux, Niort et Orléans.&lt;/p&gt;
+
+&lt;p&gt;Notre agence de Rennes travaille à la fois en engagements de résultats et en assistance technique sur des projets de développement applicatif : Pilotage, MOA, MOE, décisionnel, Big Data, …&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez nous retrouver sur &lt;a href=&#34;http://infotel.com&#34;&gt;infotel.com&lt;/a&gt; et sur les réseaux sociaux.&lt;/p&gt;
+
+&lt;p&gt;Passez nous voir sur le stand pour discuter des projets en cours et à venir ! A bientôt !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-06/image_4.png&#34; alt=&#34;AriadNEXT&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En tant que passionnés des nouvelles technos, c’est avec grand plaisir que nous faisons figure de petit nouveau dans la liste des sponsors du Breizh Camp cette année !&lt;/p&gt;
+
+&lt;p&gt;Mais au fait, AriadNEXT c’est qui ?&lt;/p&gt;
+
+&lt;p&gt;Leader de l&amp;rsquo;analyse de documents d&amp;rsquo;identité reconnu au niveau international, notre équipe rennaise d’une trentaine d’experts passionnés, sécurise les workflows d&amp;rsquo;acquisition clients d&amp;rsquo;acteurs majeurs des secteurs Télécom, Banques, Assurances et Financement.&lt;/p&gt;
+
+&lt;p&gt;Pour rendre nos outils toujours plus performants et nos clients toujours plus satisfaits, nous recrutons des développeurs, des devops, des administrateurs, des chefs de projets,…&lt;/p&gt;
+
+&lt;p&gt;N’hésitez pas à&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ariadnext.com/categorie/recrutement/&#34;&gt;consulter nos offres&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;nous suivre sur twitter : @AriadNEXT&lt;/li&gt;
+&lt;li&gt;venir nous rencontrer du 19 au &lt;sup&gt;21&lt;/sup&gt;&amp;frasl;&lt;sub&gt;04&lt;/sub&gt; entre 2 conférences sur notre stand !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-02-06/image_5.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SILICOM, sponsor du BreizhCamp 2017, c’est une 1 ère dont nous sommes très fiers !&lt;/p&gt;
+
+&lt;p&gt;SILICOM c’est :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;60 ingénieurs en Bretagne (Rennes et Brest)&lt;/li&gt;
+&lt;li&gt;70% d’activité au forfait&lt;/li&gt;
+&lt;li&gt;des passionnés de Java, de JavaScript, de baby-foot, de Big Data, de C++/Qt, de palets bretons, de Linux (Embarqué ou pas…), de télécom ; qui apportent leurs expertises et leurs savoir-faire sur des projets variés (défense, santé, télécom, domotique, transport…&lt;/li&gt;
+&lt;li&gt;une entreprise certifié ISO 9001 depuis 1999&lt;/li&gt;
+&lt;li&gt;un partenariat avec l’association « Les enfants du Mékong » pour soutenir l’éducation d’enfants en Asie du Sud Est&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Big Data, Machine Learning, Internet des Objets, communication sans fil (Bluetooth, Wifi, 3G, 4G, NFC….), Cybersécurité… vous en rêvez ? Rejoignez-nous !&lt;/p&gt;
+
+&lt;p&gt;Des projets qui allient les technologies embarquées (RT OS, Linux embarqué, ARM9X etc…) et les technologies web (JEE, AngularJS, Angular2 etc…), qui commencent au niveau des capteurs et qui vont jusqu’aux applications web, vous en rêvez ? Rejoignez-nous !&lt;/p&gt;
+
+&lt;p&gt;Rendez-vous le 19 avril au BreizhCamp !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://us3.campaign-archive1.com/?u=c755301bcda62df78e338c60f&amp;amp;id=1e477fe43c&#34;&gt;Lien vers la lettre originale&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -876,46 +1212,6 @@ J&amp;rsquo;ai donc choisi d&amp;rsquo;exécuter le client dans un conteneur Doc
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Et voilà, le dossier &lt;code&gt;/etc/letsencrypt/&lt;/code&gt; contient maintenant votre certificat, la clé privée associée, et la chaîne de certification complète. Il ne reste plus qu&amp;rsquo;à l&amp;rsquo;utiliser dans votre serveur Web préféré (ou, comme nous l&amp;rsquo;expliquerons dans un autre article, dans votre application Spring Boot).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Concours</title>
-      <link>http://www.breizhcamp.org/blog/2015/11/22/2015-11-22-concours/</link>
-      <pubDate>Sun, 22 Nov 2015 17:14:38 +0200</pubDate>
-      
-      <guid>http://www.breizhcamp.org/blog/2015/11/22/2015-11-22-concours/</guid>
-      <description>&lt;p&gt;Gagnez votre place au BreizhCamp 2016!&lt;/p&gt;
-
-&lt;p&gt;Dans notre vidéo trailer, nous nous sommes bien marrés à mettre en scène &lt;a href=&#34;https://youtu.be/BDdH97iblG8?t=1m49s&#34;&gt;un combat&lt;/a&gt;
-à la Final Fantasy à grand coup d&amp;rsquo;épée/clavier. Du coup, nous vous proposons de nous envoyer la vidéo de vos propres
-combats avec cette même arme, dans votre openspace.&lt;/p&gt;
-
-&lt;p&gt;Le plus original/amusant/délirant (d&amp;rsquo;après un juri totalement impartial et parfaitement sobre durant le visionnage) se verra
-invité pour le BreizhCamp 2016.&lt;/p&gt;
-
-&lt;p&gt;A vos caméras !&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trailer 2016</title>
-      <link>http://www.breizhcamp.org/blog/2015/11/20/2015-11-20-youtube/</link>
-      <pubDate>Fri, 20 Nov 2015 14:24:38 +0200</pubDate>
-      
-      <guid>http://www.breizhcamp.org/blog/2015/11/20/2015-11-20-youtube/</guid>
-      <description>&lt;p&gt;Nous venons de publier le &lt;a href=&#34;https://www.youtube.com/watch?v=BDdH97iblG8&#34;&gt;trailer&lt;/a&gt; du BreizhCamp 2016, premier signe d&amp;rsquo;exsitence de cette édition 2016. Parce qu&amp;rsquo;il faut bien
-le reconnaître, à ce stade tout reste encore à faire&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Pour la petite histoire, &lt;a href=&#34;http://rennes.groupe-sii.com/fr&#34;&gt;Sii&lt;/a&gt; a accepté de nous préter les locaux pour notre tournage, sans savoir qu&amp;rsquo;on allait défoncer leur porte,
-mais en étant bien conscient de ce dont on était capable. C&amp;rsquo;est aussi ça de &amp;ldquo;préparer&amp;rdquo; un BreizhCamp : trouver des partenaires aussi fous
-que nous !&lt;/p&gt;
-
-&lt;p&gt;A titre d&amp;rsquo;anecdote, nos avions embauché &lt;a href=&#34;https://twitter.com/marcaudefroy&#34;&gt;Marc&lt;/a&gt; comme perchiste afin d&amp;rsquo;avoir un son propre,
-sauf que suite à une erreur de réglage de gain (sic), l&amp;rsquo;enregistreur n&amp;rsquo;a rien &amp;hellip; enregistré, et il a fallu se rabattre sur le son de la
-caméra - d&amp;rsquo;où la bande son assez dégeulasse, et la musique pour masquer le souffle et limiter les dégats.&lt;/p&gt;
-
-&lt;p&gt;Bref, on s&amp;rsquo;est bien marrés. J&amp;rsquo;espère que ça vous a plu, et que ça vous donne envie d&amp;rsquo;être des notres fin mars !&lt;/p&gt;
 </description>
     </item>
     
