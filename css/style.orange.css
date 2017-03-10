@@ -55,10 +55,7 @@ button {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-a i.fa,
-button i.fa {
-  margin: 0 5px;
-}
+
 .clickable {
   cursor: pointer !important;
 }

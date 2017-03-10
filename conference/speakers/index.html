@@ -20,13 +20,16 @@
 
   
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   
   <link href="http://www.breizhcamp.org/css/animate.css" rel="stylesheet">
 
   
   <link href="http://www.breizhcamp.org/css/style.orange.css" rel="stylesheet" id="theme-stylesheet">
+
+  
+  <link href="http://www.breizhcamp.org/css/dependencies/fullcalendar.css" rel="stylesheet">
 
   
   <link href="http://www.breizhcamp.org/css/custom.css" rel="stylesheet">
@@ -142,7 +145,7 @@
 
         </header>
 
-        <div id="heading-breadcrumbs">
+        <div id="heading-breadcrumbs" style="margin-bottom: 20px;padding-bottom: 0px;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -150,86 +153,2054 @@
             </div>
         </div>
     </div>
+    
 </div>
 
 
-        <div id="content">
+        
+         <div id="content">
             <div class="container">
-
-                <div class="row">
-
-                    
-
-                    <div class="col-md-9" id="blog-post">
-
-                        <p class="text-muted text-uppercase mb-small text-right">January 1, 0001</p>
-
-                        <div id="post-content">
-                          
-                        </div>
-                        
-                        
-
-                    </div>
-                    
-
-                    
-
-                    
-
-                    <div class="col-md-3">
-
-                        
-
-                        
-
-<div class="panel panel-default sidebar-menu">
-
-    <div class="panel-heading">
-        <h3 class="panel-title">Rechercher</h3>
+                <div class="row" style="flex-wrap:wrap;display:flex">
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt=" " src="" width="100" height="100">
     </div>
-
-    <div class="panel-body">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
-            <div class="input-group">
-                <input type="search" name="q" results="0" class="form-control" placeholder="Mot-clés">
-                <input type="hidden" name="q" value="site:http://www.breizhcamp.org/">
-                <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
+    <div class="media-body media-middle">
+      <h3 class="media-heading"> </h3>
     </div>
+  </div>
+  <div>
+    
+  </div>
 </div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Shirley ALMOSNI CHICHE" src="https://secure.gravatar.com/avatar/df576cc890c166965ebe9aeb90b645aa?s=320" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Shirley ALMOSNI CHICHE</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Il est difficile de me présenter en me mettant dans une seule case. Je me considère assez souvent comme un OVNI dans le monde du recrutement. J’ai fait une Prépa HEC puis un Master en Marketing/ Management de Projet au sein de Skema Business School. Puis, arrivant sur le marché du travail dans un contexte de crise, je me suis lancée en tant que Commerciale dans le monde de la téléphonie. J’ai ensuite été Ingénieur d’Affaires au sein d’un cabinet de recrutement. Le recrutement est venu à moi vraiment par hasard. J’ai endossé la casquette de Consultante en recrutement IT et maintenant je suis Responsable Recrutement et Communication RH au sein de Carbon IT, soit un joli dosage entre du coaching, du marketing, du recrutement, de la communication, de l’animation de communauté et une bonne dose d&rsquo;énergie et de bonne humeur.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Mathieu ANCELIN" src="http://www.gravatar.com/avatar/79dc5d13bab6d382ae346ecbb0b9876a" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Mathieu ANCELIN</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Mathieu ANCELIN est développeur chez SERLI et MacGyver chez SoUse, spécialisé dans la programmation web avec Scala, Java, JavaScript, des streams, de la data et cloud. Et s&rsquo;il y du React, c&rsquo;est encore mieux ;-) Vous pouvez régulièrement le croiser au Poitou-Charentes JUG.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Jeff Abrahamson" src="https://avatars0.githubusercontent.com/u/1220683?v=3&amp;s=400" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Jeff Abrahamson</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Jeff Abrahamson (ré)invente l&rsquo;analyse de livres électroniques chez Jellybooks.
+Derrière chaque livre se cache une histoire dans les données de lecture : à trouver, à éclairer, à visualiser.
+Jeff anime le Nantes Machine Learning Meetup et co-organise des formations professionnelles en DataScience à travers l&rsquo;initiative ML Week.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Katia Aresti" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/0b3/152/3098b92.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Katia Aresti</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Katia Aresti est développeuse java/scala. Elle co-organise Duchess France depuis 2010 et le MongoDB User Group à Paris depuis 2012. Elle intervient sur les sujets autour de Java, Scala, Testing, MongoDB &hellip; sous la forme de présentations formelles, open-spaces ou workshops. Elle est passionnée par l’open-source, la contribution communautaire et le théâtre.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt=" " src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading"> </h3>
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Quentin ADAM" src="http://i.imgur.com/YdzlEj0.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Quentin ADAM</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Quentin ADAM is the CEO of Clever Cloud: an IT automation company, running a Platform as a Service allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Matthieu BRECHET" src="https://pbs.twimg.com/profile_images/554555557320085506/RESH2yqu.jpeg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Matthieu BRECHET</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Architecte logiciel expérimenté et polyvalent, je me suis spécialisé dans la conception d’application Web.</p>
 
+<p>J&rsquo;affectionne particulièrement le développement frontEnd autour des langages comme javascript, typescript et des API HTML5. Passionné par les différentes problématiques du web (performance, RWD, mobile, référencement, accessibilité…), j&rsquo;aime croire que tout est réalisable dans un navigateur.
+Toujours très curieux d’apprendre de nouvelles choses, je participe régulièrement aux conférences nationales en tant que spectateur et parfois en tant que speaker</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt=" " src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading"> </h3>
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt=" " src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading"> </h3>
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Benoit AVERTY" src="https://avatars3.githubusercontent.com/u/17006335?v=3&amp;s=466" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Benoit AVERTY</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Consultant / Formateur chez Zenika, Je suis passionné de programmation et des nouvelles tendances, patterns et paradigmes. J&rsquo;aime comprendre comment fonctionnent les outils que j&rsquo;utilise, à quels besoins ils répondent et quelle est leur raison d&rsquo;être. Mes derniers centres d&rsquo;intérêts : Programmation Réactive, Programmation fonctionnelle, Moteurs de recherche&hellip;</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Charles BOCHET" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAeMAAAAJGI0NTE2Y2NiLTk2ZTAtNDBlMS1iNDljLWVlMjgxMDg0OWU4MA.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Charles BOCHET</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p><ul>
+<li>23 ans, de Lyon, diplômé des Ponts &amp; Chaussées (Génie civil &amp; Architecture)</li>
+<li>Développeur web agile chez <a href="https://www.theodo.fr/en/">Theodo</a></li>
+<li>Apprenti hacker à mes heures perdues</li>
+</ul>
+</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Giulia Bianchi" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Giulia Bianchi</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Giulia est Data Scientist à Xebia depuis un an. Après deux ans d&rsquo;experience professionnelle en bioinformatique, elle travaille actuellement sur des volumes de données plus importants en mettant en place des algorithmes de machine learning et en participant aux discussions avec les data ingénieurs pour la mise en production des modèles. Elle travaille surtout avec Python, Spark et R.
+Elle est passionnée par l&rsquo;IoT et elle suit les nouvelles tendances du monde de la data en participant aux différents Meetups et en suivant des blogs.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Adrien Blind" src="https://pbs.twimg.com/profile_images/618386388002701312/U8C1qDpi.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Adrien Blind</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>J&rsquo;ai d&rsquo;abord travaillé pendant huit ans comme consultant, principalement dans le domaine de l&rsquo;infra et du cloud avant de m&rsquo;intéresser plus largement aux problématiques DevOps. J&rsquo;ai depuis rejoint Société Générale pour contribuer à leur transformation vers le Continuous Delivery ; mon job consiste à évangéliser et intégrer ces pratiques et outils au sein de la DSI.</p>
 
+<p>Grand fan de Docker, je suis également <a href="https://www.docker.com/community/docker-captains">Docker Captain</a>, et co-organisateur de la communauté <a href="https://www.meetup.com/fr-FR/Docker-Paris/">Meetup Docker de Paris</a>.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Bruno Bonnin" src="http://www.gravatar.com/avatar/bc34f46fdfa199da05a78f26584ecec3" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Bruno Bonnin</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur polymorphique/protéiforme/full stack (rayez les mentions ridicules!) avec une prédilection pour les langages de vieux (Java), de jeunes déjà vieux (JavaScript) et de jamais jeunes (Python), pour le NoSQL (MongoDB, Elasticsearch, ArangoDB) et pour le web sous toutes ses formes (API, UI).</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Cécilia Bossard" src="https://pbs.twimg.com/profile_images/2212897799/cecilia_400x400.png" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Cécilia Bossard</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeuse, agiliste, boîte à outils, &hellip; Je fais partie de l&rsquo;équipe du laboratoire hôpital numérique du CHU Nantes. Notre but : améliorer la prise en charge des patients pour le futur hôpital.</p>
+    
+  </div>
+</div>
 
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Frédéric Bouchery" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Frédéric Bouchery</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur PHP depuis 18 ans, je suis aujourd&rsquo;hui team leader et architecte pour le groupe Figaro-CCMBenchmark (Le Figaro, commentcamarche.net, journaldunet.com, linternaute.com, journaldesfemmes.com, etc.). Je participe activement à d&rsquo;optimisation des performances d&rsquo;applications Web PHP qui rassemblent plus de 65 millions de visiteurs uniques par mois.</p>
+    
+  </div>
+</div>
 
-                        
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Olivier Bourgain" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Olivier Bourgain</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur, formateur, freelance, conférencier et troll. Je m&rsquo;intéresse beaucoup aux problématiques bas niveau, de performance et d&rsquo;optimisation ainsi qu&rsquo;aux systèmes distribués, que ce soit au niveau de la JVM, du système et des bases de données.</p>
+    
+  </div>
+</div>
 
-                    </div>
-                    
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Pauline Bourjot" src="https://lh3.googleusercontent.com/-rtWVdP5-DBI/Vec2UZVCnYI/AAAAAAAAACk/3hLfMCy2f3ckUe-_Q_NX-rQ-0GW0tBImACEw/w140-h139-p/9558f6c7-0ce1-4c39-b4ff-934cf59d12ca" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Pauline Bourjot</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Ingénieure issue d&rsquo;une formation Télécom et Réseaux, j&rsquo;ai souhaité m&rsquo;orienter vers des problématiques d&rsquo;automatisation et de déploiement dans le Cloud Public.</p>
 
-                    
+<p>Une première expérience aux USA dans le domaine du Software Defined Networking au sein de la société Nuage Networks en tant qu&rsquo;ingénieur Qualité m&rsquo;a permis de découvrir les problématiques de l&rsquo;automatisation.</p>
 
+<p>J&rsquo;ai ensuite rejoint la société D2SI où j&rsquo;ai commencé par la mise en place ainsi qu&rsquo;à l&rsquo;automatisation d&rsquo;une solution de supervision réseau au CA-CIB.  J&rsquo;ai maintenant intégré une équipe d&rsquo;opérationnels au sein de Tarkett où j&rsquo;ai pu développer mes compétences sur la plateforme AWS, ainsi que les problématiques liées aux interactions entre les équipes de Dev et d&rsquo;Ops.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Eric Briand" src="http://www.gravatar.com/avatar/d8475326bb94197fab3f6962d110bac3?size=400" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Eric Briand</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur touche à tout depuis plus de 10 ans, il travaille actuellement à Zenika Nantes. Ses sujets du moments sont le Cloud, Golang, l’industrialisation du JS, Electron et Docker. Il est formateur officiel Docker et co-organisateur du Docker Meetup Nantes.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Cédric Champeau" src="https://lh3.googleusercontent.com/-G_v8HTWswjo/V6g0d2DAjKI/AAAAAAAAAIg/Bk4Al3torrEC1laV5BJgO82uHgdQ-AkPgCEw/w280-h278-p/IMG_4341.JPG" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Cédric Champeau</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Cédric Champeau travaille chez Gradle Inc. sur l’outil de build open source éponyme. Il est en particulier intéressé par l’amélioration des performances et la modélisation.
+Cédric est aussi committer sur le langage Apache Groovy, qu’il a développé pendant plus de 3 ans au sein de Pivotal: créateur du compilateur statique, les traits, le support Android et autres fonctionnalités liées aux DSLs. Passionné par le métier, en particulier tout ce qui touche à l’outillage, Cédric aime avant tout développer des outils qui simplifient la vie des autres développeurs : langages, frameworks, build system, …</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Philippe Charrière" src="https://pbs.twimg.com/profile_images/780741273942626306/T5ky8w3k.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Philippe Charrière</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p><ul>
+<li>Eleveur de bots</li>
+<li>Golo tech-evangelist-dev-relation-advocate :p @TypeUnsafe</li>
+<li>Geek officiel d&rsquo;entreprise</li>
+<li>@ScalaIO_FR member</li>
+<li>@MixIT_Lyon member</li>
+<li>Solutions engineer @GitHub</li>
+</ul>
+</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Wassim Chegham" src="https://pbs.twimg.com/profile_images/734861801431674883/S93LQYOa.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Wassim Chegham</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Wassim (aka manekinekko on Twitter/Github) is a Developer Advocate that spends most of his time working on large scale entreprise apps, helping developers write better code and provide training on mastering Web technologies (Angular 2, Polymer, PWA, Web Components&hellip;). He enjoys writing technical articles, meeting developers at events, speaking at conferences and contributing to open source projects.</p>
+
+<p>Wassim loves the Web Platform and works hard to move the Web forward</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Jean-Baptiste Claramonte" src="https://lh6.googleusercontent.com/-SkhFTSbbbfM/AAAAAAAAAAI/AAAAAAAAABY/OrqYF9I4LA0/photo.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Jean-Baptiste Claramonte</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Jean-Baptiste est développeur back depuis plus de 15 ans. Depuis 2 ans il s&rsquo;intéresse plus particulièrement à l&rsquo;actualité des containers et de leurs impacts pour les développeurs.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Emmanuel DEMEY" src="https://pbs.twimg.com/profile_images/799175687097688064/Y2TWhwYL.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Emmanuel DEMEY</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l&rsquo;Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c&rsquo;est normal&hellip;), le Jazz et la Domotique. Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, Bdx.io, DevFest Nantes, Codeurs en Seine</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Nicolas De Loof" src="https://lh5.googleusercontent.com/-Z9ZMAVrEX2U/AAAAAAAAAAI/AAAAAAAAIyI/4cOiiXrmDzQ/photo.jpg?sz=360" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Nicolas De Loof</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Hacker &amp; DockerCaptain</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Nicolas Diez" src="https://media.licdn.com/media/AAEAAQAAAAAAAAlPAAAAJGZiMDI4YTM1LThkNzUtNDZlZi05YTU4LTFmOThiYjA2MzBhMA.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Nicolas Diez</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Nicolas a acquis une forte expérience dans l&rsquo;administration de systèmes hautement disponibles. Fervent adepte de la philosophie DevOps, ses différentes missions en assurance qualité ont permis à Nicolas de démontrer ses compétences dans l&rsquo;automatisation des SI et des tests ainsi que ses capacités de médiation entre les équipes Dev et Ops.
+Son credo : &ldquo;Automatiser, tester, déployer&rdquo;</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Alexandre Dubreuil" src="https://pbs.twimg.com/profile_images/433889987814105089/wKuACKaO.jpeg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Alexandre Dubreuil</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Alexandre DuBreuil est un développeur québécois vivant en France et travaillant comme architecte Java chez LesFurets.com. Il aime écrire du code, et parler de code lors de meetups, BBL et conférences.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Yvonnick Esnault" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Yvonnick Esnault</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Dev</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Cécile Especel" src="https://pbs.twimg.com/profile_images/689031412180103168/bq1EQbiy.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Cécile Especel</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>J’ai découvert les méthodes agiles en 2009 alors que j’étais développeuse. 7 ans plus tard, je suis toujours convaincue par ses vertus et j’ai évolué vers le coaching agile et la facilitation.</p>
+
+<p>Chez Knp Labs, j&rsquo;accompagne, je soutiens, je motive nos Happy Awesome Developers et nos Supers Clients.
+Pour cela j&rsquo;applique les principes du manifeste agile le plus possible et j&rsquo;utilise les outils de l&rsquo;intelligence collaborative.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Yvonnick FRIN" src="https://lh3.googleusercontent.com/-8MdKrB23rMw/WAyFJYGOSPI/AAAAAAAAASA/5J_pyB2M06EiOLTuATb4dxtgjUUHvejpQCEw/w278-h280-p/face.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Yvonnick FRIN</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Yvonnick développeur javascript chez Zenika Nantes. Curieux et passionné, il aime découvrir les dernières technologies du Web. Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React. Social, il écume les meetups nantais en quête de nouveautés.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Thomas Fournaise" src="https://pbs.twimg.com/profile_images/537329173891522560/Zx9F5Lyu_400x400.jpeg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Thomas Fournaise</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Après avoir commencé à développer sur CPC 6128. J&rsquo;ai choisi de bosser dans l&rsquo;informatique.</p>
+
+<p>J&rsquo;ai fait 10 ans d&rsquo;architecture technique SAP avant de devenir chef de projet innovation au sein du groupe La Poste. Je m&rsquo;occupe entre autre de l&rsquo;opendata et de certaines applis bigdata. J&rsquo;ai également réalisé des dataviz utilisées en interne du groupe : <a href="https://datanova.laposte.io/DatavizRSE/index.html">https://datanova.laposte.io/DatavizRSE/index.html</a></p>
+
+<p>A mes heures &ldquo;perdues&rdquo; je fais un peu de développement sur différentes technos.
+www.evhunt.com
+macarto.evhunt.com</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Christophe Furmaniak" src="http://plouf.nodevops.io/assets/cfk-pre-movember-CQPyzdLWwAAK9Aa.307x410.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Christophe Furmaniak</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Consultant Architecture et Culture DevOps chez <a href="http://www.zenika.com">Zenika</a>.
+Je suis avant tout un programmeur passionné avec une sensibilité particulière pour le cycle de build des projets, du poste de travail du développeur jusqu&rsquo;au déploiement sur les environnements de production.
+Les sujets qui me tiennent particulièrement à cœur sont la gestion de la configuration des plateformes et des applications, le développement d&rsquo;applications distribuées dans un environnement hybride (IaaS/PaaS/Legacy), et l&rsquo;hypervision (génération, centralisation, alertes et rapports concernant les logs et les métriques générées par les applications et les plateformes).</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Maxime GREAU" src="https://pbs.twimg.com/profile_images/588747726910857216/b0nJW3an_400x400.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Maxime GREAU</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Technology enthusiast: Java (EE), Docker, Git, Asciidoctor and Web</p>
+
+<p>I&rsquo;m actually Software Factory Manager at eXo.
+I&rsquo;m a Software Developer with 13+ years of experience.</p>
+
+<p>Passionate about IT, I contribute to Open Source projects in different ways (coding, speaking&hellip;) I wrote a French book about Apache Maven 3 in 2011.
+I&rsquo;m speaker at conferences on Java, Web and Cloud technologies like DevNation, DevFest or Devoxx
+I blog about all those technologies on my personal website : <a href="http://mgreau.com/posts">http://mgreau.com/posts</a></p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt=" " src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading"> </h3>
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Mathieu Gandin" src="6%20Avenue%20de%20Verdun" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Mathieu Gandin</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Je m&rsquo;appelle Mathieu Gandin et je suis tech-lead chez lesfurets.com.  Depuis 16 ans, je développe des applications, travaille sur le Design de code, la transmission de pratiques de développement logiciel, l’implication de l’équipe sur le produit, et le refactoring de code existant.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Guillaume Gendre" src="https://kristal.io/img/cms/kristal/photo-guillaume.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Guillaume Gendre</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur web mobile et co-gérant chez Kristal.io, je suis le Guru web à l&rsquo;origine de Cobalt. J&rsquo;ai un cerveau hybride dopé aux particules de natif. Sinon ça va, tout baigne.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Antonio Gomes Rodrigues" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Antonio Gomes Rodrigues</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Antonio possède plus de 15 ans d’expérience dans des grands groupes, SSII, éditeurs de logiciel, structures de petite taille et startup.
+Ses missions l’ont amené à travailler sur :
+La définition et la mise en place d’architectures
+Des audits d’architecture
+Des transformations des méthodes de travail
+Les performances des sites web à fort trafic /applications pour courtiers/applications Cloud</p>
+
+<p>Afin de rester près du développement, il est commiter du projet Apache JMeter.
+Il réalise régulièrement des publications, participe à des  conférences et est relecteur technique pour divers livres. Il a notamment été co-auteur de l’ouvrage « Maîtriser JMeter : Du test de charge à Devops » en 2015.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Horacio Gonzalez" src="https://pbs.twimg.com/profile_images/780449624540708865/6V-wTMf7.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Horacio Gonzalez</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d&rsquo;années déjà. Passionné d&rsquo;informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n&rsquo;a pas arrêté de bosser autour.</p>
+
+<p>Après quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, éditeurs de Warp10, plateforme open source pour les données de capteurs. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley.</p>
+
+<p>Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Jean-Philippe Gouigoux" src="http://gouigoux.com/download/Bouba.png" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Jean-Philippe Gouigoux</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Architecte logicielle et CTO d&rsquo;un éditeur de logiciels de gestion, auteur de plusieurs livres sur la BI, la performance en .NET et Docker. Intéressé par les architectures SOA / microservices, je les mets actuellement en production pour mon entreprise avec Docker et une approche d&rsquo;urbanisation de SI stricte (cartographie 4 strates). En dehors de l&rsquo;informatique, je bricole (manoir breton, roulotte, gites &amp; chambres d&rsquo;hôtes)</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Laurent Grangeau" src="https://pbs.twimg.com/profile_images/593533853383299072/172hHzea.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Laurent Grangeau</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Laurent Grangeau is a devops coach at Finaxys. He coaches applications to move to continuous delivery in a French bank. Docker enthusiast from the beginning, he participates actively at co-organizing meetups. Occasional speaker, he speaks about continuous delivery and deploying apps at scale.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Tristan Groléat" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Tristan Groléat</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Suite à un doctorat sur l&rsquo;accélération matérielle pour la surveillance de trafic, Tristan a rejoint OVH pour contribuer au développement de la nouvelle génération d&rsquo;anti-DDoS. Il s&rsquo;occupe maintenant des besoins d&rsquo;OVH et ses clients en accélérateurs matériels sur FPGA.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Steven Guiheux" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Steven Guiheux</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>CDS maintener</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Scheibel Guillaume" src="http://www.gravatar.com/avatar/0d82c7c12dbc0a5f96e098d3e13b16c3.png" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Scheibel Guillaume</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Guillaume est développeur chez Expedia à Londres et a travaillé durant quelques années en France pour une grosse société de services. Il a également co-créé le JUG pour la région de Strasbourg (ElsassJUG) et contribue à 2 projets open-sources (Hibernate OGM et Infinispan). De temps en temps, il parle à différentes conférences (Soft-Shake, Devoxx FR et BE) ou JUGs.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Yufeng Guo" src="https://storage.googleapis.com/yufengg-slides/headshot2.png" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Yufeng Guo</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Yufeng is a Developer Advocate for the Google Cloud Platform, where he bridges the gap between the developer community and engineering teams.
+He is interested in finding new and interesting applications of machine learning. You can find him on Twitter @YufengG</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Anthony Guélé" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Anthony Guélé</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur depuis plus de 10 ans, je me suis spécialisé dans les technos du web avec un coup de coeur pour NodeJs et AngularJS</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Serge HARDY" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/5/000/221/164/3791c34.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Serge HARDY</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Je suis consultant en développement PHP/Symfony au sein de Zenika Rennes.</p>
+
+<p>Agiliste passionné, je m&rsquo;intéresse également à la qualité logicielle et aux pratiques d&rsquo;industrialisation.</p>
+
+<p>Je fais partie de l&rsquo;organisation d&rsquo;Agile Tour Rennes depuis 4 ans.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Grégory Houllier" src="https://pbs.twimg.com/profile_images/789458717112672256/4UEXLXBL.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Grégory Houllier</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Web Enthusiast, @RennesJS Co-Founder, JavaScript Addict</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Nathalie IKEDJIAN" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkLAAAAJDNmOGYzYTAwLTdhNTYtNGQ0Yy05YWNiLTc4MTM5OWZlOTcxMQ.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Nathalie IKEDJIAN</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>8 ans d&rsquo;expérience RH et &ldquo;pair-recruiting&rdquo; en environnement IT (ESN, cabinet de conseil, intégrateur). Milite avec Shirley Almosini CHICHE pour une relation IT/RH pleine de respect, de compréhension et d&rsquo;amour durable !</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Fabien JUIF" src="https://avatars0.githubusercontent.com/u/17828231?v=3&amp;u=00cbd55c16ea7e7f6e7aedaa25e3045a9e601a30&amp;s=400" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Fabien JUIF</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Fabien JUIF a baigné dans l’informatique depuis son adolescence. Il installait sa première Gentoo stage 1 en 1ère pour migrer vers Archlinux quelques années après.
+Pour lui pacman n’est pas un jeu, on ne rigole pas avec ça.</p>
+
+<p>Passioné par la création de jeux vidéos, il s’intéressa très rapidement au développement logiciel. Avec 6 années dans le métier et une veille technologique personnelle depuis son plus jeune âge, il est devenu un peu touche à tout <em>GNU+Linux, Docker, développement backend, développement frontend, etc</em></p>
+
+<p>Chez Zenika, son attrait du moment c&rsquo;est le Web, et plus précisément le développement ReactJS.</p>
+
+<p>Il espère pouvoir partager un peu de sa passion avec vous !</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="David Jegat" src="https://avatars2.githubusercontent.com/u/1638230?v=3&amp;s=460" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">David Jegat</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Happy Developer @KnpLabs enjoying music, KISS, programming, discovering, learning, agility &hellip;</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Sébastien LECACHEUR" src="https://pbs.twimg.com/profile_images/722358213836992512/nfBoZl5a_400x400.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Sébastien LECACHEUR</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Très attaché au logiciel libre pour découvrir comment les autres développeurs programment et comment ces projets fonctionnent, j’aime le code !</p>
+
+<p>Développeur C, puis web, puis Java EE, puis PHP, puis Android, puis… Le langage de programmation n’est qu’un moyen pour moi.</p>
+
+<p>En tant qu’architecte je suis continuellement partagé entre “aller vite” et “s’attarder sur les détails”.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Damien LECAN" src="https://en.gravatar.com/userimage/896246/a63bea6c4ef8860fb382c9234400b97f.jpg?size=350" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Damien LECAN</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Passionné pour le code et l&rsquo;open-source, je suis un peu touche-à-tout : Linux, Java, Rust ou Node et surtout le Web et l&rsquo;immensité des possibilités qu&rsquo;il offre !</p>
+
+<p>Par ailleurs directeur Technique à SQLI Nantes, j&rsquo;anime des équipes de passionnés qui développent des projets autour des architectures microservices, Docker et la Blockchain.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Arnaud LEMAIRE" src="https://scontent-fra3-1.xx.fbcdn.net/v/t31.0-8/15723446_10154866679837264_8526737397678099706_o.jpg?oh=900b7d3a43e4f78657afc549c7ef02bb&amp;oe=5934DBCC" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Arnaud LEMAIRE</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>J’ai été tour à tour (et pas dans le bon ordre) : CTO d’une startup, directeur de la production chez un éditeur logiciel, architecte logiciel, consultant et développeur.</p>
+
+<p>Après avoir travaillé pour des Startups, des PME, des grands groupes et le secteur public, je suis maintenant membre d’un bureau d’étude pour aider des clients de toute taille à réussir leurs projets logiciels depuis la conception jusqu’au déploiement en production.</p>
+
+<p>Au quotidien je pratique du JS, PHP, le Python, Java et Ruby et tout les outils qui me permettent de répondre au mieux à la problématique métier du moment.</p>
+
+<p>C’est ce mélange d’expérience que je souhaite partager et transmettre lors des évènements auxquelles je participe (PyConFr, Breizhcamp, Agile France, nCraft, RivieraDev, Bdx.io, FPDays, Socrates …). En parlant de bonnes pratiques, de programmation fonctionnelle, d’agilité et de software craftsmanship.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Guillaume LOURS" src="https://pbs.twimg.com/profile_images/717040748072448000/9wh_tuPy.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Guillaume LOURS</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Developpeur Senior à Saagie, touchant aussi bien au backend qu&rsquo;au front<br />
+Co-fondateur des conferences Lean Kanban France et Codeurs en Seine<br />
+Red Coat à Devoxx France</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Guillaume Laforge" src="https://pbs.twimg.com/profile_images/515401943384989697/ajOdQVI9.jpeg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Guillaume Laforge</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Le jour, Guillaume Laforge est Developer Advocate chez Google, sur les solutions cloud, et de nuit, il reprends sa casquette de contributeur au projet Apache Groovy. Guillaume est également un des membres du podcast Les Cast Codeurs</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Olivier Leplus" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Olivier Leplus</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>My day to day my mission is to help developers to create successful and quality apps.
+As a passionate web developer, I am always discovering and playing with new web technologies !</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Clément MICHEL" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkvAAAAJGI5MjgxOTJiLTU2NTEtNGY2My1iYTQ2LTIzMDMzZjZjMTA0Mw.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Clément MICHEL</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Clément MICHEL est l’un des co-fondateurs de la société SYNHACK, cabinet de consultants spécialisé en cybersécurité.
+Véritable passionné de l’informatique, Clément traite essentiellement des problématiques de sécurité dans les entreprises. Il considère que les nouveaux challenges de sécurité pour les entreprises sont avant tout stratégiques, humains et surtout organisationnels (sans en oublier la technique bien entendu).
+De formation « Manager IT », Clément a déjà eu l’occasion de travailler dans le milieu industriel, dans le monde des sociétés de services ainsi que celui des télécommunications.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Romeu MOURA" src="https://pbs.twimg.com/profile_images/826439961314484224/j_9ozzLj_400x400.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Romeu MOURA</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Endless conversation — with friends &amp; compilers — on art, crafts, dialectic, paradigm jump, serendipity.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Gabriel Magniez" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAjwAAAAJGM1NTYyYzFiLTE5YmMtNGE4OS05NmU4LWJjNTY0NzFkOWJhOA.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Gabriel Magniez</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Architecte pluridisciplinaire, il travaille principalement sur des problématiques d&rsquo;architectures à forte charge et haute disponibilité. Son quotidien: optimiser les performances de JVM, d&rsquo;applications Java mais aussi concevoir des architectures résiliantes et performantes pour le compte d&rsquo;un grand groupe numérique français.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Jérôme Mainaud" src="https://secure.gravatar.com/avatar/4f9deaec42efccd26cb9af839b3afde2?s=500" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Jérôme Mainaud</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Architecte Java chez Ippon Technologies, Jérôme intervient en mode JAAS (Jérôme As A Service) sur des missions de conseil, de conception, de développement ou de formation. Ses domaines de prédilection sont les applications Java et les bases de données NoSQL comme Cassandra et les moteurs de recherche comme Elasticsearch et les systèmes de calcul distribués comme Spark.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Aurore Malherbes" src="https://secure.gravatar.com/avatar/91fc6c1aebddad406ccb2b818a262e88" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Aurore Malherbes</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Après des études d&rsquo;ingénieur généraliste, j&rsquo;ai choisi de faire du développement pour pouvoir créer des applications ayant un impact rapide et fort sur notre environnement. C&rsquo;est pourquoi j&rsquo;ai rejoint Theodo, grâce aux dernières technologies web et aux méthodes agiles nous développons rapidement des applications résolvant les problèmes business de nos clients.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Yan Matagne" src="https://pbs.twimg.com/profile_images/670598827561328640/1gZ374Aq.png" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Yan Matagne</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Yan est développeur depuis une petite dizaine d&rsquo;années et navigue de projets en projets pour aider et animer les équipes. Passionné par l&rsquo;automatisation des projets, il rend accessible le projet à l&rsquo;ensemble des équipiers.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Gautier Mechling" src="https://droidcon.at/img/people/GautierMechling.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Gautier Mechling</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Il y a fort longtemps, Gautier rencontra Jeff Sutherland, un vieux monsieur, qui lui apprit à faire des avions en papier. Depuis, il est Scrum master certifié (enfin c&rsquo;est ce qu&rsquo;il croit)</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Frédéric Menou" src="https://secure.gravatar.com/avatar/252ef00042fda3ab4cf67a36b956fa33?size=360" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Frédéric Menou</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>CTO Fretlink, lazy developer, Haskell advocate</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Antoine Michaud" src="https://www.gravatar.com/avatar/e6b31f424660d683ad26673ee6ecebe9" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Antoine Michaud</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur web, ingénieur data et craftsman enthousiaste</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Guillaume NICOLAS" src="https://avatars0.githubusercontent.com/u/6088236?v=3&amp;s=460" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Guillaume NICOLAS</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Depuis longtemps adepte des nouvelles technologies, j&rsquo;ai découvert récemment le concept de blockchain. Depuis ce jour, je travail au quotidien sur la formalisation des concepts associés, en développant des cas d&rsquo;usages destinés au grand public.
+Je suis également lead developer des projets open-source Ethereum-[java/android] et diffuse régulièrement mes compétences à travers différents médias (vidéo et articles).
+La mobilité, l&rsquo;IoT et les nouveaux modes d&rsquo;intéraction, sont égalements des sujets qui me passionnent. Mon souhait est de fusionner tout ces sujets pour faire émerger de nouveaux usages.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Maxime Odye" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Maxime Odye</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Maxime, consultant back-end chez Zenika Rennes.  Passionné techniquement, j&rsquo;aime découvrir et re-découvrir les différentes technologies gravitant autour de l&rsquo;écosystème Java.
+Amateur des différentes communautés (Jug, BreizhCamp, AgileTour), j&rsquo;estime que le partage technique, et non technique, dans le secteur de l&rsquo;Informatique est quelque chose d&rsquo;extraordinaire. Découverte, progression et approfondissement, l&rsquo;enrichissement personnel est grand et essentiel pour nous faire tous progresser.
+Je suis formateur ElasticSearch et ELK (ElasticSearch, Logstash, Kibana).</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Vincent Ogloblinsky" src="https://pbs.twimg.com/profile_images/1847781003/Rothko3_copy_400x400.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Vincent Ogloblinsky</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Architecte logiciel frontend au sein d&rsquo;une ESN rennaise, j&rsquo;évolue entre architecture de projets web, formations, animations techniques, support client et expertise technique.
+Passionné par le &ldquo;grand&rdquo; domaine du développement web frontend, j&rsquo;affectionne particulièrement coder en (Type||Java)script, débugger HTML5, découvrir la capacité grandissante du navigateur à se rapprocher des capteurs (GPS, bluetooth, etc&hellip;), et participer à des projets open-source.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Yoann Ono Dit Biot" src="https://avatars1.githubusercontent.com/u/2242427?v=3&amp;s=460" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Yoann Ono Dit Biot</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Co-fondateur et CTO de la société SYNHACK implantée à Rouen. Je suis consultant en sécurité informatique et pentester. Mon métier consiste pour résumer à trouver des failles dans les systèmes d&rsquo;informations en utilisant les techniques d&rsquo;attaques des hackers.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Fabien PAITRY" src="https://pbs.twimg.com/profile_images/663477469987659776/Nh5KSiQP.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Fabien PAITRY</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Lead dev PHP / Symfony et Devops enthusiast</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Mathieu POUSSE" src="https://avatars0.githubusercontent.com/u/2642023?v=3&amp;s=400" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Mathieu POUSSE</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur / Formateur backend autour de Java et son ecosytème, de la conception à l&rsquo;industrialisation, du déploiement au monitoring, j&rsquo;aime le code bien fait et comprendre les paradigmes des outils pour en tirer le meilleur</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Jean Paliès" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Jean Paliès</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur Java depuis 12 ans, indépendant. Ça, c&rsquo;est en temps normal. Le reste c&rsquo;est scratch, blockly, robots, devoxx4kids, coding goûters, Cap sur le code, et diversité.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Nicolas Pennec" src="https://avatars2.githubusercontent.com/u/493223?v=3&amp;u=c2ed22aedc21d4b43fdd99f8c9003e3461dac9a7" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Nicolas Pennec</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Mercenaire codeur, passionné par le dév web front-end, co-fondateur du RennesJS et collectionneur de side-projects inachevés&hellip;</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Olivier Philippot" src="https://pbs.twimg.com/profile_images/675219125782847488/2OYzmpoy_400x400.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Olivier Philippot</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Olivier est CTO chez Greenspector. Il aime les technologies mais surtout les optimiser. Il est fortement engagé dans les actions de sensibilisation à l&rsquo;efficience et l&rsquo;éco-conception logicielle comme le Geen Code Lab Challenge.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Sandra Pietrowska" src="http://en.gravatar.com/userimage/115167570/c596ccd3b87229b6e2f09e500ce38581.jpg?size=200" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Sandra Pietrowska</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>data scientist, passionnée par le machine learning et le text mining</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="David Pilato" src="https://dl.dropboxusercontent.com/u/41530933/elastic/PhotoSlack.jpeg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">David Pilato</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Guillaume Polaert" src="" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Guillaume Polaert</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Swiss army knife @logmatic</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Sylvain REVEREAULT" src="http://0.gravatar.com/avatar/6bb659f89ed416dd611a28521557e1dc?s=200" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Sylvain REVEREAULT</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Travaillant depuis une quinzaine d’années dans l’informatique, je me suis progressivement spécialisé dans les technologies systèmes et réseaux, en particulier autour des systèmes GNU/Linux, avant de m&rsquo;orienter vers les problématiques d&rsquo;industrialisation des environnements Web, puis vers les thématiques DevOps et agilité dans le monde &ldquo;Ops&rdquo;. Je suis actuellement consultant DevOps et Infrastructure as Code chez Zenika, tout en portant la casquette de CTO de l&rsquo;agence de Rennes.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Guillaume Renaudin" src="https://s.gravatar.com/avatar/c76ba02252a339b1e70bc56e4e3650b2?s=80" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Guillaume Renaudin</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>11 ans d&rsquo;expérience dans le service IT : stagiaire dev, dev, lead dev puis architecte Web&amp;Cloud, le parcours tech classique !
+Je reste développeur par passion, de Java à Rust en essayant  C/C++, Groovy, Scala, Go, JS, Python &hellip;
+Geek assumé, je vis la technologie en tant que dev mais aussi end user &hellip;</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Francois-Guillaume Ribreau" src="https://avatars.io/twitter/fgribreau?size=medium" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Francois-Guillaume Ribreau</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Architect &amp; lead-dev @iAdvize ? CTO @image-charts @Redsmin founder ? @RedisWeekly editor ? #FullStackHacker</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Tomas Rodriguez" src="https://lh6.googleusercontent.com/-Cw39mtCiZew/AAAAAAAAAAI/AAAAAAAAAtE/8FPRENFTNVg/photo.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Tomas Rodriguez</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Issu du monde Java, Tomas a découvert la beauté et la simplicité de la programmation fonctionnelle à travers Scala, langage qu&rsquo;il pratique depuis plus d&rsquo;un an. Depuis il s&rsquo;intéresse aux Systèmes Distribuées, Architectures Réactives, Microservices et Big Data.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Jonathan Roquelaure" src="https://avatars0.githubusercontent.com/u/12458722?v=3&amp;s=460" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Jonathan Roquelaure</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Jonathan Roquelaure est ingénieur solutions chez JFrog, éditeur de produits récompensés - JFrog Artifactory, JFrog Bintray, JFrog Mission Control et JFrog Xray.
+Basé en France, développeur touche à tout, co-fondateur de TableOnline, agiliste et spécialisé dans l’industrialisation logicielle et le déploiement continu. Son credo est la facilitation du quotidien des projets informatiques et la fluidification des processus de distribution.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="michel Rousseau" src="https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/75760_432384940140658_1772947508_n.jpg?oh=e06d59aff5d75fd9c1e0ea03914868be&amp;oe=585FEC0D" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">michel Rousseau</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Passionné par le design et l&rsquo;UX, je travaille chez Microsoft à propager les messages inhérents à ce domaine auprès des développeurs, des décideurs, des startupeurs. Je suis avant tout un créateur de pixels le jour, en 2D, en 3D, en temps réel, en statique ou en dynamique, et destructeur de pixel la nuit, surtout sur les jeux vidéo à la première personne.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Nicolas Roussel" src="https://lh6.googleusercontent.com/xVeU748ToNr2KgxxRUbG6MGD34KB4qUm_j_JYshRY3mOtBPwSJZaxAR_II92iA0sm_U22jK6eStZ8aU=w1920-h939" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Nicolas Roussel</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Architecte logiciel à forte tendance back-end et brasseur invétéré</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="François SAMIN" src="https://pbs.twimg.com/profile_images/751723778988732416/Z50KXtxa.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">François SAMIN</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur et chef de projet dans une grande SSII européenne pendant 10 ans, j&rsquo;ai rejoint OVH en 2016 pour travailler sur les problématiques de Continuous Delivery <em>At Scale</em>.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Eric SIBER" src="https://eric.siber.fr/content/images/2016/10/RetraitDossardOCC2016Zoom.png" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Eric SIBER</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Dans le monde du développement depuis plus de 12 ans, actuellement :
+- Agile Java Craftsman &amp; Creative Ecosystem Organizer en tant qu&rsquo;indépendant
+- Formateur Java pour le réseau de fabriques Simplon, grande école du numérique, sur un dispositif de reconversion professionnelle
+- Runner et Papa 2.0</p>
+
+<p>Précédemment pour Novedia (en plus de ma casquette de développeur) : Consultant Manager, responsable Expertise IT, Creative Ecosytem Architect.</p>
+
+<p>Ancien membre actif, modérateur, rédacteur et responsable bénévole Java sur Developpez.com pendant 4 ans.</p>
+
+<p>Membre de l&rsquo;équipe d&rsquo;organisation conférence Agile France 2013.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Nastasia Saby" src="https://pbs.twimg.com/profile_images/771753987410432000/4UFljf1u.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Nastasia Saby</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur, membre de l&rsquo;Association Française des Utilisateurs du PHP, passionnée de programmation en général et toujours en quête de perfectionnement, après avoir fait des études un peu partout (Toulon, Argentine, &hellip;) j&rsquo;ai commencé mes premières années chez CGI Lyon avant d&rsquo;arriver chez Zenika toujours à Lyon en tant que consultante.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Quentin Sallat" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/080/391/1bba6d9.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Quentin Sallat</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Quentin Sallat is an Android tech lead at iD.apps. He has been passionate about mobile development for several years. He loves to create smart and user-centric applications, focusing on user experience and little design details.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Maxime Sanglan-Charlier" src="http://www.brownbaglunch.fr/img/baggers/photo_maxime_s.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Maxime Sanglan-Charlier</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Plus de 15 ans dans l&rsquo;informatique et pas une ride (ou presque). Curieux de nature, je suis toujours à la recherche de tout ce qui peut nous rendre plus efficients en tant qu&rsquo;individu, en équipe ou au sein d&rsquo;une organisation.  Je co-organise la conférence <a href="http://ncrafts.io">nCrafts</a> à Paris et suis co-fondateur du groupe <a href="http://www.meetup.com/fr-FR/nantes-software-crafts-wo-manship/">Software Crafts(wo)manship Nantes</a>.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Julien Sebrien" src="https://cloudinary-a.akamaihd.net/hopwork/image/upload/w_360,h_340,c_thumb,g_auto/nmsr9gkp89ch0dz7cyzt.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Julien Sebrien</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Passionné de technologies orientées NoSQL, je travaille depuis plus de 12 ans sur des projets s&rsquo;articulant autour des technologies Java.</p>
+
+<p>Travaillant sur Cassandra depuis la periode thrift avec hector, sur ElasticSearch depuis les facettes, je m&rsquo;intéresse aux problématiques liées à l&rsquo;intelligence artificielle, et plus particulièrement les algorithmes génétiques.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Stève Sfartz" src="https://cdn-images-1.medium.com/max/1000/1*Iel5Q6qAxgBdl_IHUx3scA.jpeg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Stève Sfartz</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur NeXT à ses premières heures, Stève a vu naître Java, évangélisé les architectures .Net, lancé le Cloud Microsoft Azure, créé le SaaS Kosmos &ldquo;Education Numérique&rdquo; et monté les équipes R&amp;D et la plateforme PaaS APISpark de Restlet. En 2016, Stève rejoint les équipes Cisco DevNet - le programme Développeurs de Cisco. Ses dadas : les architectures distribuées, l&rsquo;interopérabilité, scalabilité et résilience. wwitter://@SteveSfartz, github://ObjectIsAdvantag</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Benoit Simard" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAjeAAAAJGJmZDFkYzc1LWRmMmItNDBmYS05YjE5LWM2YTVhYmQzN2VjYg.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Benoit Simard</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Benoît est un développeur, spécialisé en logiciel libre, Java &amp; data. En dehors de son goût pour le café et la data (et en particulier l&rsquo;open), Benoît est consultant chez Neo4j, le spécialiste de la bases de données orientées graphes.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Antoine Stalin" src="https://pbs.twimg.com/profile_images/763705359878000640/5qBP4XAD_200x200.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Antoine Stalin</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Développeur assumé et attaché aux développements orientés par les tests et le comportement, je porte un fort intérêt à la qualité logicielle. Toutefois, je considère que le premier facteur de qualité d&rsquo;un produit reste la communication, sous toutes ses formes, et recherche constamment des methodes innovantes pour venir dynamiser et motiver les équipes qui entourent ce produit.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Pierrick Turelier" src="https://pbs.twimg.com/profile_images/744939440414539776/FryLxbJS.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Pierrick Turelier</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Formé aux métiers de l’audiovisuel, du motion design et du web, j’ai décidé d’allier ma créativité et mes compétences en développement afin de proposer des interfaces visuellement attractives et dynamiques.
+À travers le développement d’applications, je souhaite partager mes idées et interagir avec les utilisateurs afin d’améliorer leur quotidien.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Aurélien Vandel" src="https://www.saagie.com/user/pages/team/Aurelien.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Aurélien Vandel</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Nosql, data processing, scala and spark fanboy. Certified as developer and admin on MongoDB.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Yann Vanderstockt" src="https://goo.gl/IObRZL" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Yann Vanderstockt</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Après plus de 11 ans en Irlande a travailler pour des start-ups notamment sur du e-Learning, et pas mal d&rsquo;intelligence artificielle, Yann est rentré en France fin 2008 dans une SSII de Rennes. Il travaille chez Solocal / PagesJaunes depuis Février 2011 d&rsquo;abord comme Architecte Java puis comme Technical Leader Big Data. Yann est passionné par les systèmes distribués, et tout ce qui touche au BigData.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Manuel Verriez" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlqAAAAJGM3ZGZiZmY1LWQ5NjgtNDg3My04ZTdjLWVkMWUwMjhmMTcwMw.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Manuel Verriez</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Software engineer @ Zenika Lille, machine learning enthusiast.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Sébastien Vitard" src="https://kristal.io/img/cms/kristal/photo-sebastien2.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Sébastien Vitard</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Couteau-suisse du développement mobile natif (iOS, Android, feu BB10 et &ldquo;mort dans l&rsquo;oeuf&rdquo; Tizen) et co-gérant chez Kristal.io, je rends accessible l&rsquo;interface native de chaque plateforme aux développeurs Web qui utilisent <a href="https://cobaltians.org/">Cobalt</a>.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="Chéné Youen" src="https://pbs.twimg.com/profile_images/710193564974784512/GQ6o6uSP.jpg" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">Chéné Youen</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>CTO chez <a href="http://www.saagie.com">Saagie</a>.
+Passionné d&rsquo;informatique et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG, Devoxx4Kids et de <a href="http://www.codeursenseine.com">Codeurs en Seine</a>.
+J&rsquo;ai fait 7 ans de prestation et de consulting en région parisienne, je suis passé développeur-manager chez Masternaut et je suis maintenant CTO chez Saagie, une plateforme big data prête à l&rsquo;emploi.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="cyril balit" src="http://www.gravatar.com/avatar/2bacdce483ae07e586c9593312c8dad4.png" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">cyril balit</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert sur les technologies Web. Développeur passionné, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d’Angular en 2013. Il est un membre actif de la communauté web français sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conférences et de meetups , speaker et formateur , Cyril aime partager avec les communautés.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-6 speaker-box">
+                    <div class="speaker">
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" alt="safa mabrouk" src="#ZgotmplZ" width="100" height="100">
+    </div>
+    <div class="media-body media-middle">
+      <h3 class="media-heading">safa mabrouk</h3>
+    </div>
+  </div>
+  <div>
+    
+    <p>J&rsquo;ai toujours fait de la soa et de l’intégration du SI: les services, les messages, le mode synchrone, le mode asynchrone, les applications à communiquer, les protocoles, la gouvernance des données,les différents produits ESB, les multiples outils de messaging en particulier les moms et leurs différentes architecture et implémentations.</p>
+    
+  </div>
+</div>
+
+                  </div>
+                  
                 </div>
-                
-
             </div>
             
         </div>
@@ -303,7 +2274,20 @@
     
 
     
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+<script src="http://www.breizhcamp.org/js/dependencies/jquery.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-animate.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-sanitize.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/marked.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-marked.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-locale_fr.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/ui-bootstrap-tpls.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/moment.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/fullcalendar.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/calendar.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/lodash.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <script src="http://www.breizhcamp.org/js/jquery.cookie.js"></script>
@@ -315,6 +2299,9 @@
 
 <script src="http://www.breizhcamp.org/js/owl.carousel.min.js"></script>
 <script src="http://www.breizhcamp.org/js/main.js"></script>
+
+
+<script src="http://www.breizhcamp.org/js/programme.js"></script>
 
 
   </body>

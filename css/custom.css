@@ -105,3 +105,28 @@ div#post-content img {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.calendar-filter-button {
+  margin-bottom: 5px;
+}
+
+.speaker-box {
+  display: flex;
+  padding: 7px;
+}
+
+.speaker {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 2px 0px #ddd;
+  padding: 15px 15px 15px;
+}
+
+.fc-time-grid-event {
+  cursor: pointer;
+}

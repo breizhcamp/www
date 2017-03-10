@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -20,13 +20,16 @@
 
   
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   
   <link href="http://www.breizhcamp.org/css/animate.css" rel="stylesheet">
 
   
   <link href="http://www.breizhcamp.org/css/style.orange.css" rel="stylesheet" id="theme-stylesheet">
+
+  
+  <link href="http://www.breizhcamp.org/css/dependencies/fullcalendar.css" rel="stylesheet">
 
   
   <link href="http://www.breizhcamp.org/css/custom.css" rel="stylesheet">
@@ -54,13 +57,13 @@
 </head>
 
 
-  <body>
+<body>
 
-    <div id="all">
+<div id="all">
 
-        <header>
+    <header>
 
-          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+        <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
@@ -140,9 +143,9 @@
 
 
 
-        </header>
+    </header>
 
-        <div id="heading-breadcrumbs">
+    <div id="heading-breadcrumbs" style="margin-bottom: 20px;padding-bottom: 0px;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -150,93 +153,67 @@
             </div>
         </div>
     </div>
+    
 </div>
 
 
-        <div id="content">
-            <div class="container">
+    
 
-                <div class="row">
-
-                    
-
-                    <div class="col-md-9" id="blog-post">
-
-                        <p class="text-muted text-uppercase mb-small text-right">January 1, 0001</p>
-
-                        <div id="post-content">
-                          <p>Le programme sera publié début Mars après la délibération du comité &ldquo;Call for Papers&rdquo;.</p>
-
-                        </div>
-                        
-                        
-
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12" ng-app="programme" ng-controller="ProgrammeCtrl as progCtrl">
+                    <div>
+                        <h4>Track</h4>
+                        <ul class="list-inline">
+                            <li ng-repeat="(category, color) in progCtrl.categoryColors track by category">
+                                <label class="btn btn-default calendar-filter-button"
+                                       ng-model="progCtrl.filters.category[category]"
+                                       uib-btn-checkbox>
+                                    <i class="fa fa-square fa-fw" ng-style="{color: color}"></i>
+                                    <span ng-bind="::category"></span>
+                                </label>
+                            </li>
+                        </ul>
                     </div>
-                    
 
-                    
-
-                    
-
-                    <div class="col-md-3">
-
-                        
-
-                        
-
-<div class="panel panel-default sidebar-menu">
-
-    <div class="panel-heading">
-        <h3 class="panel-title">Rechercher</h3>
-    </div>
-
-    <div class="panel-body">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
-            <div class="input-group">
-                <input type="search" name="q" results="0" class="form-control" placeholder="Mot-clés">
-                <input type="hidden" name="q" value="site:http://www.breizhcamp.org/">
-                <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        
-
+                    <div>
+                        <h4>Format</h4>
+                        <ul class="list-inline">
+                            <li ng-repeat="formatDef in progCtrl.formatDefinitions track by $index">
+                                <label class="btn btn-default calendar-filter-button" ng-model="progCtrl.filters.format[formatDef.format]"
+                                       uib-btn-checkbox>
+                                    <span class="fa-stack">
+                                        <i class="fa fa-square fa-stack-2x"></i>
+                                        <i class="fa fa-stack-1x fa-inverse" ng-class="::formatDef.icon"></i>
+                                    </span>
+                                    <span ng-bind="::formatDef.label"></span>
+                                </label>
+                            </li>
+                        </ul>
                     </div>
-                    
 
-                    
+                    <div>
+                        <h4>Salle</h4>
+                        <ul class="list-inline">
+                            <li ng-repeat="(venue, room) in progCtrl.rooms track by room">
+                                <label class="btn btn-default calendar-filter-button" ng-model="progCtrl.filters.room[room]" uib-btn-checkbox>
+                                    <em ng-bind="::room"></em>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div ui-calendar="progCtrl.calendarConfig" ng-model="progCtrl.agenda" ng-if="progCtrl.agenda"
+                         calendar="calendar"></div>
                 </div>
-                
-
             </div>
-            
         </div>
         
+    </div>
+    
 
-        
+    
 
 
 
@@ -300,11 +277,24 @@
 
 
 
-    </div>
-    
+</div>
 
-    
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+
+
+<script src="http://www.breizhcamp.org/js/dependencies/jquery.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-animate.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-sanitize.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/marked.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-marked.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/angular-locale_fr.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/ui-bootstrap-tpls.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/moment.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/fullcalendar.min.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/calendar.js"></script>
+<script src="http://www.breizhcamp.org/js/dependencies/lodash.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <script src="http://www.breizhcamp.org/js/jquery.cookie.js"></script>
@@ -318,5 +308,8 @@
 <script src="http://www.breizhcamp.org/js/main.js"></script>
 
 
-  </body>
+<script src="http://www.breizhcamp.org/js/programme.js"></script>
+
+
+</body>
 </html>
