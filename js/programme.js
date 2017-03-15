@@ -74,8 +74,8 @@
                 minTime: '08:30:00',
                 maxTime: '21:00:00',
                 axisFormat: 'HH:mm',
-                contentHeight: 1125,
-                height: 1125,
+                contentHeight: 1275,
+                height: 1275,
                 timeFormat: {
                     agenda: 'HH:mm'
                 },
