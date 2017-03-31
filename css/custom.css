@@ -130,3 +130,9 @@ div#post-content img {
 .fc-time-grid-event {
   cursor: pointer;
 }
+
+.figure-center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
