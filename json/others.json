@@ -7,7 +7,7 @@
         "event_type": "Keynote",
         "format": "Keynote",
         "name": "Keynote",
-        "venue": "Track1"
+        "venue": "Amphi A"
 	},
     {
         "description": "Closing Keynote",
@@ -17,7 +17,7 @@
         "event_type": "Keynote",
         "format": "Keynote",
         "name": "Keynote",
-        "venue": "Track1"
+        "venue": "Amphi A"
     },
     {
         "description": "Meet'n Greet",
@@ -27,7 +27,7 @@
         "event_type": "Autre",
         "format": "Party",
         "name": "Meet'n Greet",
-        "venue": "Track6"
+        "venue": "Hall"
     },    
     {
         "description": "Keynote",
@@ -37,7 +37,7 @@
         "event_type": "Keynote",
         "format": "Keynote",
         "name": "Keynote",
-        "venue": "Track1"
+        "venue": "Amphi A"
     },
         {
         "description": "Closing Keynote",
@@ -47,7 +47,7 @@
         "event_type": "Keynote",
         "format": "Keynote",
         "name": "Keynote",
-        "venue": "Track1"
+        "venue": "Amphi A"
     }
 
 ]
