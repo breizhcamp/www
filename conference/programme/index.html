@@ -178,49 +178,61 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12" ng-app="programme" ng-controller="ProgrammeCtrl as progCtrl">
-                    <div>
-                        <h4>Track</h4>
-                        <ul class="list-inline">
-                            <li ng-repeat="(category, color) in progCtrl.categoryColors track by category">
-                                <label class="btn btn-default calendar-filter-button"
-                                       ng-model="progCtrl.filters.category[category]"
-                                       uib-btn-checkbox>
-                                    <i class="fa fa-square fa-fw" ng-style="{color: color}"></i>
-                                    <span ng-bind="::category"></span>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
+                    <form novalidate>
+                        <div class="form-group">
+                            <label class="control-label"><strong>Track</strong></label>
+                            <ul class="list-inline">
+                                <li ng-repeat="(category, color) in progCtrl.categoryColors track by category">
+                                    <label class="btn btn-default calendar-filter-button"
+                                           ng-model="progCtrl.filters.category[category]"
+                                           uib-btn-checkbox>
+                                        <i class="fa fa-square fa-fw" ng-style="{color: color}"></i>
+                                        <span ng-bind="::category"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
 
-                    <div>
-                        <h4>Format</h4>
-                        <ul class="list-inline">
-                            <li ng-repeat="formatDef in progCtrl.formatDefinitions track by $index">
-                                <label class="btn btn-default calendar-filter-button" ng-model="progCtrl.filters.format[formatDef.format]"
-                                       uib-btn-checkbox>
-                                    <span class="fa-stack">
-                                        <i class="fa fa-square fa-stack-2x"></i>
-                                        <i class="fa fa-stack-1x fa-inverse" ng-class="::formatDef.icon"></i>
-                                    </span>
-                                    <span ng-bind="::formatDef.label"></span>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
+                        <div class="form-group">
+                            <label class="control-label"><strong>Format</strong></label>
+                            <ul class="list-inline">
+                                <li ng-repeat="formatDef in progCtrl.formatDefinitions track by $index">
+                                    <label class="btn btn-default calendar-filter-button" ng-model="progCtrl.filters.format[formatDef.format]"
+                                           uib-btn-checkbox>
+                                        <span class="fa-stack">
+                                            <i class="fa fa-square fa-stack-2x"></i>
+                                            <i class="fa fa-stack-1x fa-inverse" ng-class="::formatDef.icon"></i>
+                                        </span>
+                                        <span ng-bind="::formatDef.label"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
 
-                    <div>
-                        <h4>Salle</h4>
-                        <ul class="list-inline">
-                            <li ng-repeat="(venue, room) in progCtrl.rooms track by room">
-                                <label class="btn btn-default calendar-filter-button" ng-model="progCtrl.filters.room[room]" uib-btn-checkbox>
-                                    <em ng-bind="::room"></em>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
+                        <div class="form-group">
+                            <label class="control-label"><strong>Salle</strong></label>
+                            <ul class="list-inline">
+                                <li ng-repeat="(venue, room) in progCtrl.rooms track by room">
+                                    <label class="btn btn-default calendar-filter-button" ng-model="progCtrl.filters.room[room]" uib-btn-checkbox>
+                                        <em ng-bind="::room"></em>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="searchInput"><strong>Filtre</strong></label>
+                            <input autofocus id="searchInput" class="form-control" ng-model="progCtrl.search"
+                                   ng-change="progCtrl.refresh()">
+                            <a class="form-control-feedback" href ng-click="progCtrl.clearSearch()"
+                               ng-show="progCtrl.search" style="pointer-events: initial">
+                                <i class="fa fa-close fa-lg"></i>
+                            </a>
+                        </div>
+                    </form>
 
                     <div ui-calendar="progCtrl.calendarConfig" ng-model="progCtrl.agenda" ng-if="progCtrl.agenda"
-                         calendar="calendar"></div>
+                                 calendar="calendar"></div>
                 </div>
             </div>
         </div>

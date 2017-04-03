@@ -2,7 +2,9 @@
     'use strict';
 
     angular.module('programme', ['ngSanitize', 'hc.marked', 'ngLocale', 'ngAnimate', 'ui.bootstrap', 'ui.calendar'])
-        .controller('ProgrammeCtrl', ['$scope', '$http', '$q', 'marked', 'dateFilter', '$uibModal', 'uiCalendarConfig', function($scope, $http, $q, marked, dateFilter, $uibModal, uiCalendarConfig) {
+        .controller('ProgrammeCtrl', ['$scope', '$http', '$q', 'marked', 'dateFilter', '$uibModal', 'uiCalendarConfig', '$window', '$filter', function($scope, $http, $q, marked, dateFilter, $uibModal, uiCalendarConfig, $window, $filter) {
+
+            var moment = $window.moment;
 
             var formatDefinitions = this.formatDefinitions = [
                 {format: 'Conférence', label: 'Conférence', icon: 'fa-slideshare'},
@@ -38,6 +40,14 @@
 
             var formats = _.indexBy(formatDefinitions, 'format');
 
+            var startDate = '2017-04-19',
+                endDate = '2017-04-21';
+            var startMoment = moment(startDate),
+                endMoment = moment(endDate).add(1, 'd'),
+                now = moment();
+
+            var defaultDate = (now.isBefore(startMoment) || now.isAfter(endMoment)) ? startDate : now.format('YYYY-MM-DD');
+
             function renderTitle(event) {
                 var format = formats[event.format];
                 return '<span class="fa-stack" title="' + format.label + '">' +
@@ -47,14 +57,14 @@
                     (event.room ? ' <em>(' + event.room + ')</em>' : '');
             }
 
-            function refresh(calendar) {
+            function refreshCalendar(calendar) {
                 if (uiCalendarConfig.calendars[calendar]) {
                     uiCalendarConfig.calendars[calendar].fullCalendar('refetchEvents');
                 }
             }
 
             this.calendarConfig = {
-                defaultDate: '2017-04-19',
+                defaultDate: defaultDate,
                 defaultView: 'agendaDay',
                 slotEventOverlap: false,
                 slotDuration: '00:15:00',
@@ -99,30 +109,35 @@
             filters.format = _.mapValues(formats, false);
             filters.room = _.mapValues(rooms, false);
 
+            var refresh = this.refresh = function() {
+                refreshCalendar('calendar');
+            };
+
+            this.clearSearch = function() {
+                delete this.search;
+                refresh();
+            }.bind(this);
+
             // watch filters
             _.each(filters, function(filterObject) {
                 $scope.$watchCollection(function() {
                     return filterObject;
-                }, function() {
-                    refresh('calendar');
-                });
+                }, refresh);
             });
 
             $q.all([
                 $http.get('/json/others.json'),
                 $http(
-                { 
-                    method: 'GET',
-                    url: 'https://api.cfp.io/api/schedule',
-                    headers: {
-                        'X-Tenant-Id':'breizhcamp'
-                    } 
-                })
+                    {
+                        method: 'GET',
+                        url: 'https://api.cfp.io/api/schedule',
+                        headers: {
+                            'X-Tenant-Id': 'breizhcamp'
+                        }
+                    })
             ]).then(function(responses) {
                 return [].concat(responses[0].data, responses[1].data);
             }).then(function(talks) {
-
-                console.log(talks);
 
                 function activeFilters() {
                     return _.pick(filters, function(filterObject) {
@@ -133,7 +148,7 @@
                 this.agenda = {
                     events: function(start, end, timezone, callback) {
                         var filters = activeFilters();
-                        callback(_.filter(_.map(talks, function(talk) {
+                        callback($filter('filter')(_.filter(_.map(talks, function(talk) {
                             return {
                                 title: talk.name,
                                 format: talk.format,
@@ -149,8 +164,8 @@
                             return _.all(filters, function(filter, name) {
                                 return filter[talk[name]];
                             });
-                        }));
-                    }
+                        }), this.search));
+                    }.bind(this)
                 };
             }.bind(this));
 
