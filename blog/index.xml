@@ -44,6 +44,125 @@ ni intelligent, ni même d&amp;rsquo;être une fille, vous avez toutes vos chanc
     </item>
     
     <item>
+      <title>Lettre d’Information #6</title>
+      <link>http://www.breizhcamp.org/blog/2017/03/21/2017-03-21-newsletter-6/</link>
+      <pubDate>Tue, 21 Mar 2017 12:00:00 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2017/03/21/2017-03-21-newsletter-6/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/logo_big.png&#34; alt=&#34;BreizhCamp&#34; /&gt;
+Du 19 au 21 avril 2017 - 3 jours sur Rennes pour faire le plein de technologies&lt;/p&gt;
+
+&lt;h1 id=&#34;lettre-d-information-6&#34;&gt;Lettre d’Information #6&lt;/h1&gt;
+
+&lt;p&gt;Vous aimez le BreizhCamp, la conférence la plus extravagante de l’ouest ? Et bien vous allez adorer nos affiches. Oui &amp;ldquo;&lt;em&gt;nos&lt;/em&gt;&amp;rdquo;, parce qu’on ne s’est pas contenté d’en faire une, on en a fait deux ! Ce qui pourrait expliquer qu’elles arrivent si tard, mais non, en fait on est à la bourre, c’est tout.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-03-21/image_1.jpg&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-03-21/image_2.jpg&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Participez à un de nos meetups du moi de mars / avril pour en obtenir une belle version papier qui décorera à ravir votre open-space ou donnera un cachet inattendu à votre cafétéria.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-programme-est-publié&#34;&gt;Le programme est publié&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;agenda par jour est disponible sur le site du &lt;a href=&#34;http://www.breizhcamp.org/conference/programme/&#34;&gt;programme de BreizhCamp 2017&lt;/a&gt;, ainsi que la &lt;a href=&#34;http://www.breizhcamp.org/conference/speakers/&#34;&gt;liste des orateurs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;appel-à-bénévoles&#34;&gt;Appel à bénévoles&lt;/h2&gt;
+
+&lt;p&gt;Plus de place, et vous arrivez trop tard. Pas de BreizhCamp pour vous en 2017 :‘( Bien sûr il reste la possibilité de tenter le tirage au sort des dernières places libérées (?), mais ça reste assez incertain. Il reste cependant une autre possibilité : participer au BreizhCamp en tant que bénévole.&lt;/p&gt;
+
+&lt;p&gt;Voici donc notre proposition :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;vous acceptez de vous mettre à notre disposition, du mardi 18 en fin d’après-midi au vendredi soir jusqu’à un bon 20h.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;vous acceptez de sacrifier une journée et demi pour la bonne cause (demi journée mercredi + jeudi &lt;em&gt;ou&lt;/em&gt; vendredi).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;vous aurez un pass 3 jours pour profiter des autres journées à votre guise.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;vous aurez un joli T-Shirt ridicule pour qu’on vous repère facilement&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ca vous tente ? Contactez-nous sur contact@breizhcamp.org&lt;/p&gt;
+
+&lt;h2 id=&#34;dévoilons-une-partie-du-programme&#34;&gt;Dévoilons une partie du programme&amp;hellip;&lt;/h2&gt;
+
+&lt;h3 id=&#34;les-problèmes-que-l-on-rencontre-en-microservice-configuration-authentification-et-autre-joyeusetés&#34;&gt;Les problèmes que l’on rencontre en microservice : configuration, authentification et autre joyeusetés&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/waxzce&#34;&gt;Quentin Adam&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, tout le monde est persuadé, les microservices, c’est cool. Moi aussi je le crois, ça fait 5 ans que l&amp;rsquo;architecture de Clever Cloud est basé là dessus. Mais comme tout les nouveau machin trendy, en fait, c’est pas la panacé, et ça apporte son lot de problèmes. Au rang desquels la gestion de l’authentification en mode distribué, je vais donc lister les quelques possibilités de gestion à ce point là.&lt;/p&gt;
+
+&lt;p&gt;La gestion de la configuration est également un problème quand on déploie des applications distribué.&lt;/p&gt;
+
+&lt;p&gt;Le talk sera donc fait pour expliquer le moyen de mettre en place une démarche de microservice dans la vie réelle et de soulever les problèmes qui vont être rencontré, et comment les régler..&lt;/p&gt;
+
+&lt;h3 id=&#34;les-stars-du-x-vertx-rx-hystrix-la-seule-conférence-pegi-18&#34;&gt;Les stars du X : VertX, RX, HystriX : La seule conférence PEGI 18&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/gmagniez&#34;&gt;Gabriel Magniez&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Près de la moitié des français passent sans le savoir par la solution que nous allons vous présenter; mais je vous rassure ça sera finalement assez soft. Nous verrons comment nous avons avec VertX, RxJava et une goutte d&amp;rsquo;Hystrix nous avons implémenté un reverse proxy écrit en Java. Quelles ont été les difficultés et quels sont les avantages d&amp;rsquo;une telle solution. Destinée à générer des clés de cache pour Varnish dans un contexte de Feature Flipping, comment grâce à VertX/Netty et à son Event Loop notre proxy réussi à effectuer ses traitements en moins d&amp;rsquo;une milliseconde tout en supportant plusieurs milliers de requêtes par seconde.&lt;/p&gt;
+
+&lt;h3 id=&#34;retour-sur-les-panama-papers-et-les-bases-de-donnés-graphe&#34;&gt;Retour sur les Panama Papers et les bases de donnés graphe&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/logisima&#34;&gt;Benoit Simard&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Au printemps 2016, le premier article de presse sur les &amp;ldquo;Panama papers&amp;rdquo; a été publié. Il s&amp;rsquo;agit de la plus grande &amp;lsquo;fuites&amp;rsquo; de l&amp;rsquo;histoire avec plus de 3T de données brutes. Cette conférence vous détaillera les technologies que l&amp;rsquo;ICIJ (International Consortium Of Investigate Journalists) a utilisé pour fournir aux journalistes une interface simple pour leur recherche.&lt;/p&gt;
+
+&lt;p&gt;Via une démonstration sur les données des panama papers, je vous présenterai notamment le coeur du système, à savoir la base de données graph Neo4j avec son moteur de requête Cypher.&lt;/p&gt;
+
+&lt;h2 id=&#34;un-mot-de-nos-sponsors&#34;&gt;Un mot de nos sponsors&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-03-21/image_3.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Boostez votre carrière!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Rejoignez les grenouilles dans leur mission et bouleversez le monde des DevOps. &lt;/p&gt;
+
+&lt;p&gt;JFrog recherche des talents reconnus &lt;a href=&#34;https://join.jfrog.com/?utm_source=JFRog.com&amp;amp;utm_medium=JFRog.com&amp;amp;utm_term=Open%20positions&amp;amp;utm_content=Open%20positions&amp;amp;utm_campaign=JFRog%20webiste&#34;&gt;sur plusieurs postes différents&lt;/a&gt; pour rejoindre leur mare joyeuse à Toulouse. &lt;/p&gt;
+
+&lt;p&gt;Crée en 2008 JFrog a le bonheur de servir plus de 3000 clients et alimente la communauté open-source avec plus de 1,3 milliard de téléchargements de binaires par mois. &lt;/p&gt;
+
+&lt;p&gt;Deloitte a récemment nommé JFrog parmi les 50 entreprises technologiques les plus dynamiques pour la deuxième année consécutive, et JFrog a été classée parmi les entreprises privées ayant la plus robuste croissance de la Silicon Valley. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-03-21/image_4.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chez Cozy Cloud nous permettons à chacun d’avoir son cloud personnel, respectueux de la vie privée. Les nombreuses applications disponibles simplifient la gestion du quotidien : synchroniser et stocker ses photos, automatiser le téléchargement de ses factures, gérer ses dépenses, etc. Flexible et simple à utiliser, notre plateforme Open Source offre aussi la possibilité de créer et développer ses propres applications.&lt;/p&gt;
+
+&lt;p&gt;Et pourquoi est-ce que l&amp;rsquo;on sponsorise le BreizhCamp alors ?&lt;/p&gt;
+
+&lt;p&gt;Il se trouve que Nicolas qui travaille chez Cozy depuis plus de 2 ans et demi participe au BreizhCamp depuis ses débuts. Il est rentré dans l&amp;rsquo;organisation pour la deuxième édition. Et comme on adore les conférences, on s&amp;rsquo;est dit que l&amp;rsquo;occasion était trop belle pour ne pas la prendre :)&lt;/p&gt;
+
+&lt;p&gt;Ah et nous avons failli oublier ! Nous allons sortir une nouvelle version de Cozy début Avril, vous serez parmi les premiers à la découvrir sur notre stand !&lt;/p&gt;
+
+&lt;p&gt;En attendant retrouvez-nous sur &lt;a href=&#34;https://twitter.com/MyCozyCloud&#34;&gt;Twitter&lt;/a&gt; ou sur &lt;a href=&#34;https://cozy.io&#34;&gt;https://cozy.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;À bientôt !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-03-21/image_5.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Clever Cloud sera, cette année encore, avec toujours plus de plaisir (attention à l&amp;rsquo;orgasme), au Breizhcamp !&lt;/p&gt;
+
+&lt;p&gt;Venez nous rencontrer sur notre stand pour poser toutes vos questions, discuter avec la core team et les nouvelles recrues, essayer notre produit, découvrir nos nouveautés (Support de Haskell et Rust, les mises à jour&amp;hellip;) et apercevoir un sneakpeak de ce que l&amp;rsquo;on a dans les cartons. ^^&lt;/p&gt;
+
+&lt;p&gt;Comme toujours, seront au rendez-vous, les stickers qui font plaisir, les selfies avec la team et des surprises. Si vous avez un projet Open Source, venez nous en parler, on se fera TOUJOURS un plaisir d&amp;rsquo;en discuter avec vous et de vous aider autant que l&amp;rsquo;on puisse.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-03-21/image_6.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Adventiel développe une expertise unique dans la conception et la production de projets numériques innovants pour le milieu exigeant de l’élevage. Son leitmotiv : accélérer l’innovation numérique pour faire avancer l’agriculture.&lt;/p&gt;
+
+&lt;p&gt;Depuis ses deux sites, à Pacé (près de Rennes) et à Hérouville Saint-Clair (près de Caen), elle accompagne la mutation digitale de ses clients en proposant des solutions numériques sur-mesure, basées sur la collecte, l’hébergement et l’exploitation intelligente de leurs données. En disposant sur le terrain d’outils parfaitement adaptés à leurs besoins, Adventiel les aide ainsi à gagner en compétitivité.&lt;/p&gt;
+
+&lt;p&gt;Pour cette entreprise dynamique de plus de 160 salariés, la curiosité est une qualité à cultiver ! Elle encourage ses équipes à expérimenter des solutions originales autour de technologies numériques émergentes pour anticiper les besoins de ses clients et accélérer leur compétitivité.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://us7.campaign-archive2.com/?u=e4309e9c9c151e88d960d5c1e&amp;amp;id=433a15949c&#34;&gt;Lien vers la lettre originale&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Appel à bénévoles</title>
       <link>http://www.breizhcamp.org/blog/2017/03/10/2017-03-10-benevoles/</link>
       <pubDate>Fri, 10 Mar 2017 12:00:00 +0200</pubDate>
@@ -997,37 +1116,6 @@ que les autres. Le dépouillement a été délicat, et nous arrivons à deux ex 
 &lt;li&gt;&lt;a href=&#34;http://blog.xebia.fr/2016/04/06/breizhcamp-2016-compte-rendu-de-la-journee-du-jeudi&#34;&gt;Compte-rendu de la journée du jeudi&lt;/a&gt; par Xebia&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.zenika.com/2016/04/06/retour-sur-le-breizhcamp-2016/&amp;quot;&amp;gt;Retour sur le Breizhcamp 2016&#34;&gt;Retour sur le Breizhcamp 2016&lt;/a&gt; par Zenika&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contest</title>
-      <link>http://www.breizhcamp.org/blog/2016/03/24/2016-03-24-contest/</link>
-      <pubDate>Thu, 24 Mar 2016 23:50:00 +0200</pubDate>
-      
-      <guid>http://www.breizhcamp.org/blog/2016/03/24/2016-03-24-contest/</guid>
-      <description>&lt;p&gt;Pour aider nos participants à trouver le (nouveau) lieu de la conférence, nous avions prévu une belle banderole.
-Bon, notre dictateur bénévole n&amp;rsquo;étant pas très doué, la banderole a été commandée tardivement - certains dirons &amp;ldquo;à l&amp;rsquo;arrache&amp;rdquo; -
-et sans prendre l&amp;rsquo;option &amp;ldquo;Bon A Tirer&amp;rdquo; qui permet en principe de valider le rendu avant impression.&lt;/p&gt;
-
-&lt;p&gt;Et donc &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2016-03-24/bache.jpg&#34; alt=&#34;Bâche&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Interrogé sur le sujet, le responsable de ce qui semble une belle boulette répond :
-&amp;ldquo;Pas du tout, il s&amp;rsquo;agit d&amp;rsquo;un challenge que nous proposons à nos participants&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;A vous donc de compléter le nom et le slogan de la conférence. Envoyez nous vos propositions sur twitter @breizhcamp, celle qui nous fera
-le plus rire gagnera &amp;hellip; un Pass BreizhCamp &lt;em&gt;A VIE&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Attention, il y a du niveau, mais même si des propositions comme celles de &lt;a href=&#34;http://blog.blaisot.org/breizhcmp-2016.html&#34;&gt;Sebastien&lt;/a&gt; nous
-font bien rire, elles ne sont as conforme au cahier des charges : il faut respecter le patter:
-&amp;ldquo;
-BreizhCa&amp;hellip;.
-La conférence à l&amp;rsquo; &amp;hellip;.
-&amp;ldquo;&lt;/p&gt;
-
-&lt;p&gt;A vous de jouer, soyez créatifs !&lt;/p&gt;
 </description>
     </item>
     
