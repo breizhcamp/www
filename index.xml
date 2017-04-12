@@ -7,8 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>Copyright (c) 2017, BreizhCamp team</copyright>
-    <lastBuildDate>Mon, 27 Mar 2017 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 09 Apr 2017 12:00:00 +0200</lastBuildDate>
     <atom:link href="http://www.breizhcamp.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lettre d’Information #7</title>
+      <link>http://www.breizhcamp.org/blog/2017/04/09/2017-04-09-newsletter-7/</link>
+      <pubDate>Sun, 09 Apr 2017 12:00:00 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2017/04/09/2017-04-09-newsletter-7/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/logo_big.png&#34; alt=&#34;BreizhCamp&#34; /&gt;
+Du 19 au 21 avril 2017 - 3 jours sur Rennes pour faire le plein de technologies&lt;/p&gt;
+
+&lt;h1 id=&#34;lettre-d-information-7&#34;&gt;Lettre d’Information #7&lt;/h1&gt;
+
+&lt;p&gt;Et voilà, d’ici une dizaine de jours l’équipe du BreizhCamp sera dans les starting blocks pour mettre en place cette conférence tant attendue à l’Ouest (et même ailleurs) !&lt;/p&gt;
+
+&lt;h2 id=&#34;wi-fi&#34;&gt;Wi-Fi&lt;/h2&gt;
+
+&lt;p&gt;Pour rappel, l’université Rennes 1, qui accueille l’édition 2017 du BreizhCamp, met à notre disposition son réseau Wi-Fi.&lt;/p&gt;
+
+&lt;p&gt;En raison des contraintes légales du réseau &lt;a href=&#34;https://fr.wikipedia.org/wiki/R%C3%A9seau_national_de_t%C3%A9l%C3%A9communications_pour_la_technologie,_l%27enseignement_et_la_recherche&#34;&gt;Renater&lt;/a&gt;, auquel nous serons reliés, cet accès ne peut être que nominatif. C’est pour cela que vous avez dû recevoir un mail de &lt;strong&gt;gestion-conference@univ-rennes1.fr&lt;/strong&gt; vous demandant de répondre à leur courrier (mail) afin de confirmer votre adresse mail.&lt;/p&gt;
+
+&lt;p&gt;Si vous avez bien répondu à ce mail, vous devriez recevoir votre compte et votre mot de passe &lt;strong&gt;quelques jours&lt;/strong&gt; avant le début du BreizhCamp.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Attention : l’équipe du BreizhCamp ne gère pas cet accès Wi-Fi, donc pas la peine de nous demander vos comptes et mots de passe, nous ne les aurons pas.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;soirée-meet-greet&#34;&gt;Soirée Meet &amp;amp; Greet&lt;/h2&gt;
+
+&lt;p&gt;Le BreizhCamp ce n’est pas que des conférences, des universités ou encore des labs avec des speakers au top, c’est aussi un moment privilégié d’échanges, de discussions, de rencontres et de bonne humeur et c’est pour ça que nous essayons tous les ans de faire du BreizhCamp une conférence toujours plus conviviale. Et c’est aussi pour ça, après les bons retours des éditions précédentes, que nous réitérons notre Soirée* Meet &amp;amp; Greet* qui aura lieu le jeudi 20 avril.&lt;/p&gt;
+
+&lt;p&gt;Si vous n&amp;rsquo;étiez pas là les années précédentes, la formule est simple : jeudi, après la journée de conférences et labs techniques, on fait un &lt;em&gt;after&lt;/em&gt; sur place, avec nourriture et boissons à foison, pour vous permettre de discuter (de la technique et/ou du sens de la vie, chacun choisit…), de revoir tous ces amis que vous ne croisez que dans des conférences, de bâtir des nouveaux projets ou simplement de passer un moment agréable avec plein d&amp;rsquo;autres geeks.&lt;/p&gt;
+
+&lt;p&gt;Lors de cette soirée, vous pourrez aussi découvrir que David Pilato n’est pas seulement un &lt;em&gt;champion de la Recherche Elastique&lt;/em&gt; mais qu’il a aussi des talents de DJ dans une ambiance &amp;ldquo;lounge&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-04-09/image_2.png&#34; alt=&#34;image alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Afin de prévoir au mieux le nombre de participants et que tout le monde puisse avoir à manger lors de la soirée, merci de répondre au sondage suivant (si ce n’est pas déjà fait) :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://framaforms.org/breizhcamp-2017-participation-au-meet-greet-1491219358&#34;&gt;https://framaforms.org/breizhcamp-2017-participation-au-meet-greet-1491219358&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pourrez noter que nous n’oublions pas ceux qui ne mangent pas de viande 😊 !&lt;/p&gt;
+
+&lt;p&gt;Et tout ça ne serait pas possible sans nos sponsors Meet &amp;amp; Greet qui subventionnent la soirée :  &lt;a href=&#34;http://www.claranet.fr/&#34;&gt;Claranet&lt;/a&gt;, &lt;a href=&#34;https://www.clever-cloud.com&#34;&gt;Clever Cloud&lt;/a&gt;, &lt;a href=&#34;http://www.docker.com/&#34;&gt;Docker&lt;/a&gt; et &lt;a href=&#34;https://www.elastic.co/&#34;&gt;Elastic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;dévoilons-une-partie-du-programme&#34;&gt;Dévoilons une partie du programme&amp;hellip;&lt;/h2&gt;
+
+&lt;h3 id=&#34;des-legos-des-bonnes-pratiques-et-du-fun&#34;&gt;Des legos, des bonnes pratiques et du fun&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/Cecile_Especel&#34;&gt;Cécile Especel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Expliquer les bonnes pratiques de code est compliqué. La compréhension étant une des clés pour changer l&amp;rsquo;état d&amp;rsquo;esprit, et les bonnes pratiques techniques un pré-requis pour créer du code de qualité, il est important de les expliquer.&lt;/p&gt;
+
+&lt;p&gt;Je vous propose d&amp;rsquo;utiliser les Lego pour comprendre les mécanismes et les intérêts :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;de la simplicité,&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;du TDD,&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;de la refactorisation,&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;de l&amp;rsquo;intégration continue,&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;du code &amp;ldquo;propre&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(d&amp;rsquo;après un atelier original de Mike Bowler et Bryan Beecham)&lt;/p&gt;
+
+&lt;p&gt;Chaque jeu dure entre 20 et 45mn. En début de session les participants choisiront les jeux auxquels ils souhaitent participer.&lt;/p&gt;
+
+&lt;p&gt;Cet atelier s&amp;rsquo;adresse aux managers/PO/clients/dev débutants qui souhaite comprendre à quel point les développeurs et leur manière de coder est une des pierres angulaires de l&amp;rsquo;agilité. Et surtout comment prendre conscience que du bon code c&amp;rsquo;est du temps, de la réflexion et du travail d&amp;rsquo;équipe.&lt;/p&gt;
+
+&lt;h3 id=&#34;parenting-2-1-calmer-son-bébé-avec-du-machine-learning-et-un-raspberry-pi&#34;&gt;Parenting 2.1 : calmer son bébé avec du machine learning et un Raspberry Pi&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/@GiuliabianchI&#34;&gt;Giulia Bianchi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le Machine Learning prend de plus en plus de place dans la vie de tous les jours : Google Photos vous permet de chercher des objets dans vos images tandis que Siri joue le rôle d&amp;rsquo;assistant personnel et répond à vos questions. Tout cela sans compter que l&amp;rsquo;intelligence artificielle n&amp;rsquo;arrête plus de faire le buzz.&lt;/p&gt;
+
+&lt;p&gt;Dans cette session, on vous montrera comment réaliser une application de Machine Learning qui permet de reconnaître avec un Raspberry Pi les pleurs d&amp;rsquo;un bébé et de lancer une berceuse pour essayer de le calmer avant d&amp;rsquo;intervenir personnellement. On traitera les aspects techniques liés à la classification de signaux audio et du déploiement d&amp;rsquo;un modèle de Machine Learning sur Raspberry Pi.&lt;/p&gt;
+
+&lt;h3 id=&#34;code-like-a-child&#34;&gt;Code like a child&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/ceciliaBossard&#34;&gt;Cécilia Bossard&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/jpalies&#34;&gt;Jean Paliès&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La programmation visuelle, vous connaissez ?&lt;/p&gt;
+
+&lt;p&gt;Scratch, Blockly, MBlock font partie des langages que nous utilisons avec les enfants pour leur apprendre à programmer.&lt;/p&gt;
+
+&lt;p&gt;Si on l&amp;rsquo;utilise avec les enfants, on peut l&amp;rsquo;utiliser avec les grands aussi !&lt;/p&gt;
+
+&lt;p&gt;IOT, appels REST, tests fonctionnels&amp;hellip; jusqu&amp;rsquo;où peut-on aller avec ces langages ? Comment sont-ils construits ?&lt;/p&gt;
+
+&lt;p&gt;Après une présentation de quelques outils, nous vous proposons de regarder sous le capot de Blockly et de créer vos propres blocs. Et pourquoi pas créer votre propre DSL pour faire coder à votre place les tests fonctionnels ?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://us7.campaign-archive2.com/?u=e4309e9c9c151e88d960d5c1e&amp;amp;id=54f4efb816&#34;&gt;Lien vers la lettre originale&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Concours</title>
@@ -1099,23 +1198,6 @@ que les autres. Le dépouillement a été délicat, et nous arrivons à deux ex 
 &lt;p&gt;Pour vous faire patienter, on a mis en ligne les archives des années précédentes sur ce nouveau site Web, que l&amp;rsquo;on espère pouvoir le finir d&amp;rsquo;ici le début de la conférence, n&amp;rsquo;hésitez pas à proposer des &lt;a href=&#34;https://github.com/breizhcamp/www&#34;&gt;Pull Request&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Le prochain post annoncera le gagnant du concours &lt;strong&gt;BreizhCa&amp;hellip; La conférence à l&amp;rsquo;&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Retour sur l&#39;édition 2016</title>
-      <link>http://www.breizhcamp.org/blog/2016/04/07/2016-04-07-retour/</link>
-      <pubDate>Thu, 07 Apr 2016 23:50:00 +0200</pubDate>
-      
-      <guid>http://www.breizhcamp.org/blog/2016/04/07/2016-04-07-retour/</guid>
-      <description>&lt;p&gt;Avant de vous faire un retour suite la petite enquête à laquelle, je n&amp;rsquo;en doute pas, vous avez accordé quelques minutes, voici les commentaires de quelques participants à cette édition 2017 :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.wescale.fr/2016/03/30/cracking-breizhcamp-enigma/&#34;&gt;Cracking BreizhCamp Enigma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.xebia.fr/2016/04/05/breizhcamp-2016-compte-rendu-de-la-journee-du-mercredi&#34;&gt;Compte-rendu de la journée du mercredi&lt;/a&gt; par Xebia&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.xebia.fr/2016/04/06/breizhcamp-2016-compte-rendu-de-la-journee-du-jeudi&#34;&gt;Compte-rendu de la journée du jeudi&lt;/a&gt; par Xebia&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.zenika.com/2016/04/06/retour-sur-le-breizhcamp-2016/&amp;quot;&amp;gt;Retour sur le Breizhcamp 2016&#34;&gt;Retour sur le Breizhcamp 2016&lt;/a&gt; par Zenika&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
