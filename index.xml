@@ -7,8 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>Copyright (c) 2017, BreizhCamp team</copyright>
-    <lastBuildDate>Wed, 12 Apr 2017 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 02 May 2017 08:00:00 +0200</lastBuildDate>
     <atom:link href="http://www.breizhcamp.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Retrouvez (pas tout) le BreizhCamp 2017 en replay</title>
+      <link>http://www.breizhcamp.org/blog/2017/05/02/2017-05-02-video/</link>
+      <pubDate>Tue, 02 May 2017 08:00:00 +0200</pubDate>
+      
+      <guid>http://www.breizhcamp.org/blog/2017/05/02/2017-05-02-video/</guid>
+      <description>
+
+&lt;p&gt;Nous sommes très fier de pouvoir annoncer la disponibilité sur &lt;a href=&#34;https://www.youtube.com/playlist?list=PLv7xGPH0RMUQoCtdnj4T-Hou9IbbQ0nm7&#34;&gt;notre chaine Youtube&lt;/a&gt; des vidéos de l&amp;rsquo;édition 2017.
+Le tout, à peine une semaine après la cloture de l&amp;rsquo;événement, et encore elles étaient prètes avant mais nous avons attendu d&amp;rsquo;avoir accès à la fibre
+pour l&amp;rsquo;upload.&lt;/p&gt;
+
+&lt;h2 id=&#34;ambition-et-réalité&#34;&gt;Ambition et réalité&lt;/h2&gt;
+
+&lt;p&gt;Depuis plusieurs années nous tentons d&amp;rsquo;assurer la captation des sessions du BreizhCamp. Nous ne passons pas par un prestataire, d&amp;rsquo;une part parce
+que ça coûte un bras, et d&amp;rsquo;autre part parce que l&amp;rsquo;équipement de l&amp;rsquo;Université Rennes 1 cablé en VGA est un point de blocage pour pas mal de
+solutions existentes.&lt;/p&gt;
+
+&lt;p&gt;Pour 2017, après le flop de l&amp;rsquo;an dernier (&lt;a href=&#34;https://www.youtube.com/playlist?list=PLv7xGPH0RMURrPkyw02XYu2_yTZXw2ia3&#34;&gt;4 vidéos publiées&lt;/a&gt;, avec un son tout pourri) nous avons retroussé nos manches dès septembre pour monter une
+solution complète, packagée, solide et plug&amp;rsquo;n play, &amp;hellip; et compatible avec un système de projection hors d&amp;rsquo;age - que nous avons testée tout au long de l&amp;rsquo;année lors des meetups.&lt;/p&gt;
+
+&lt;h2 id=&#34;matos&#34;&gt;Matos&lt;/h2&gt;
+
+&lt;p&gt;La liste du matériel c&amp;rsquo;est rapidement allongée avec notre envie de bien faire &amp;hellip;
+Aux cartes d&amp;rsquo;acquisition HDMI s&amp;rsquo;est ajouté une table de mixage, un micro sans fil numérique serre-tête, un compresseur audio, un écran de contrôle intégré au boitier,
+des prises sur socle pour éviter la casse &amp;hellip; Au final nous avons du rajouter un diable pour rendre le tout transportable sans fatiguer nos vertèbres.
+Mais le résultat est juste top, pour un budget final très raisonable. Il reste bien sur quelques points à améliorer, mais en tout cas nous sommes
+très fiers de la réussite de ce projet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.breizhcamp.org/img/blog/2017-05-02/camalooth.jpg&#34; alt=&#34;Camalooth&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En contre partie, seul l&amp;rsquo;amphi A a été équipé pour la captation, histoire de bien faire au moins un amphi plutôt que de mal faire l&amp;rsquo;ensemble comme l&amp;rsquo;an dernier.&lt;/p&gt;
+
+&lt;h2 id=&#34;montage&#34;&gt;Montage&lt;/h2&gt;
+
+&lt;p&gt;Le montage est réalisé en live avec &lt;a href=&#34;https://obsproject.com/&#34;&gt;OBS&lt;/a&gt;, l&amp;rsquo;expérience montrant une baisse de motivation et de temps libre &lt;em&gt;après&lt;/em&gt; le breizhcamp pour attaquer le montage
+de dizaines de vidéos. Nous avons juste ajoutée une petite vidéo d&amp;rsquo;intro, avec la ligne de commande qui va bien et que nous vous donnons ici parce
+qu&amp;rsquo;elle le vaut bien et aussi pour nous en souvenir l&amp;rsquo;an prochain :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ffmpeg -i &amp;quot;$INPUT&amp;quot; -map 0 -c copy -f mpegts -bsf h264_mp4toannexb -absf aac_adtstoasc -y conf.ts
+ffmpeg -i &amp;quot;concat:intro.ts|conf.ts&amp;quot; -c copy -y &amp;quot;${NAME}_intro.mp4&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+
+&lt;p&gt;Youtube c&amp;rsquo;est pratique, mais y&amp;rsquo;a pas de CLI. Bon ce n&amp;rsquo;est peut être pas un outil à destination des développeurs, mais tout de même,
+ça nous aurait bien arrangé. Mais ça n&amp;rsquo;a pas arrêté Alex, qui a décidé de &amp;ldquo;bricoler&amp;rdquo; une application web d&amp;rsquo;upload assurant l&amp;rsquo;authentification
+OAuth sur Youtube et l&amp;rsquo;upload en masse. D&amp;rsquo;où l&amp;rsquo;intérêt d&amp;rsquo;avoir la fibre, moins d&amp;rsquo;une minute par vidéo &amp;hellip; ça laisse rêveur pas mal d&amp;rsquo;entre nous 😕&lt;/p&gt;
+
+&lt;p&gt;Le projet est open source et disponible dans le répertoire video-uploader du repo &lt;a href=&#34;https://github.com/breizhcamp/tools&#34;&gt;https://github.com/breizhcamp/tools&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;enjoy&#34;&gt;Enjoy!&lt;/h2&gt;
+
+&lt;p&gt;Et voilà, le résultat de ces efforts, ce sont 25 vidéos disponibles en ligne, avec une chouette qualité. Certains d&amp;rsquo;entre nous poussent
+à généraliser aux quatres amphis, ceux qui ont eu les mains dans le cambouis sont plus réservés &amp;hellip; en tout cas, pour 2018 et les prohcains
+meetups Rennais, vous savez déjà ce qui vous attend !&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lettre d’Information #8</title>
@@ -1291,20 +1350,6 @@ que les autres. Le dépouillement a été délicat, et nous arrivons à deux ex 
 &lt;p&gt;Ces derniers nous ayant bien fait marrer, nous avons décidé d&amp;rsquo;offrir à Alain, Sébastien, Cédric et Gwennaëlle leur place pour 2017, afin de pouvoir participer à un nouveau challenge que nous ne manquerons pas de mettre en place !&lt;/p&gt;
 
 &lt;p&gt;Merci à tous de votre participation !&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Essai de captation vidéo</title>
-      <link>http://www.breizhcamp.org/blog/2016/10/06/2016-10-06-videos/</link>
-      <pubDate>Thu, 06 Oct 2016 13:00:46 +0200</pubDate>
-      
-      <guid>http://www.breizhcamp.org/blog/2016/10/06/2016-10-06-videos/</guid>
-      <description>&lt;p&gt;Comme vous avez pu le constater, on est pas très fort en montage vidéo, donc pour la prochaine édition, on va essayer de mettre en place un système de capture en direct. Comme ça, plus de montage à postériori et dès la fin d&amp;rsquo;une conférence, on peut envoyer la vidéo sur YouTube.&lt;/p&gt;
-
-&lt;p&gt;Hier au JUG, nous avons essayé ce nouveau système et le résultat est plutôt convaiquant pour un premier essai. Pour vous faire une idée, voici la &lt;a href=&#34;https://www.youtube.com/watch?v=TmFP9R4AD-c&#34;&gt;video de la captation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Vous pouvez suivre le développement de notre malette &lt;a href=&#34;https://github.com/breizhcamp/camaaloth&#34;&gt;Camaaloth sur GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
