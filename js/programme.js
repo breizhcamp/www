@@ -54,7 +54,9 @@
                     '<i class="fa fa-square fa-stack-2x"></i>' +
                     '<i style="color:' + event.color + ';" class="fa fa-stack-1x fa-inverse ' + format.icon + '"></i> ' +
                     '</span> ' + event.title +
-                    (event.room ? ' <em>(' + event.room + ')</em>' : '');
+                    (event.room ? ' <em>(' + event.room + ')</em>' : '') +
+                    (event.slides ? ' <i class="fa fa-fw fa-file-powerpoint-o"></i>' : '') +
+                    (event.video ? ' <i class="fa fa-fw fa-film"></i>' : '');
             }
 
             function refreshCalendar(calendar) {
@@ -154,7 +156,7 @@
                     events: function(start, end, timezone, callback) {
                         var filters = activeFilters();
                         callback($filter('filter')(_.filter(_.map(talks, function(talk) {
-                            return {
+                            return Object.assign({
                                 title: talk.name,
                                 format: talk.format,
                                 category: talk.event_type,
@@ -164,7 +166,7 @@
                                 end: talk.event_end,
                                 color: categoryColors[talk.event_type],
                                 room: rooms[talk.venue]
-                            };
+                            }, _.pick(talk, ['video', 'slides']));
                         }), function(talk) {
                             return _.all(filters, function(filter, name) {
                                 return filter[talk[name]];
@@ -187,6 +189,8 @@
                     '<i class="fa fa-stack-1x fa-inverse" ng-class="::detailsCtrl.formats[detailsCtrl.talk.format].icon"></i>' +
                     '</span>' +
                     '<span ng-bind="::detailsCtrl.talk.title"></span>' +
+                    '<a ng-href="{{::detailsCtrl.talk.video}}" ng-if="::detailsCtrl.talk.video" title="Voir la vidéo" target="_blank"><i class="fa fa-fw fa-film"></i></a> ' +
+                    '<a ng-href="{{::detailsCtrl.talk.slides}}" ng-if="::detailsCtrl.talk.slides" title="Voir les slides" target="_blank"><i class="fa fa-fw fa-file-powerpoint-o"></i></a> ' +
                     '</h3>' +
                     '</div>' +
                     '<div class="modal-body">' +
