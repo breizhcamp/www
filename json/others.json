@@ -1,53 +1,94 @@
 [
-    {
-        "description": "Keynote",
-        "event_start": "2017-04-20T09:00:00",
-        "event_end": "2017-04-20T10:00:00",
-        "event_key": "tobedefined",
-        "event_type": "Keynote",
-        "format": "Keynote",
-        "name": "Keynote",
-        "venue": "Amphi A"
-	},
-    {
-        "description": "Closing Keynote",
-        "event_start": "2017-04-20T18:00:00",
-        "event_end": "2017-04-20T18:30:00",
-        "event_key": "tobedefined",
-        "event_type": "Keynote",
-        "format": "Keynote",
-        "name": "Keynote",
-        "venue": "Amphi A"
-    },
-    {
-        "description": "Meet'n Greet",
-        "event_start": "2017-04-20T18:30:00",
-        "event_end": "2017-04-20T20:30:00",
-        "event_key": "tobedefined",
-        "event_type": "Autre",
-        "format": "Party",
-        "name": "Meet'n Greet",
-        "venue": "Hall"
-    },    
-    {
-        "description": "Keynote",
-        "event_start": "2017-04-21T09:00:00",
-        "event_end": "2017-04-21T10:00:00",
-        "event_key": "tobedefined",
-        "event_type": "Keynote",
-        "format": "Keynote",
-        "name": "Keynote",
-        "venue": "Amphi A"
-    },
-        {
-        "description": "Closing Keynote",
-        "event_start": "2017-04-21T17:30:00",
-        "event_end": "2017-04-21T18:00:00",
-        "event_key": "tobedefined",
-        "event_type": "Keynote",
-        "format": "Keynote",
-        "name": "Keynote",
-        "venue": "Amphi A"
-    }
-
+  {
+    "description": "Keynote d'ouverture",
+    "event_start": "2017-04-20T09:00:00",
+    "event_end": "2017-04-20T09:08:00",
+    "event_key": "tobedefined",
+    "event_type": "Keynote",
+    "format": "Keynote",
+    "name": "Keynote d'ouverture",
+    "venue": "Amphi A",
+    "video": "https://www.youtube.com/watch?v=b3XoD6lhq9Y&list=PLv7xGPH0RMUQoCtdnj4T-Hou9IbbQ0nm7&index=8",
+    "speakers": "Walter While et Jesse Pingman"
+  },
+  {
+    "description": "Recruteur/Développeur, pour le meilleur et pour le pair",
+    "event_start": "2017-04-20T09:09:00",
+    "event_end": "2017-04-20T09:39:00",
+    "event_key": "tobedefined",
+    "event_type": "Keynote",
+    "format": "Keynote",
+    "name": "Recruteur/Développeur, pour le meilleur et pour le pair",
+    "venue": "Amphi A",
+    "speakers": "Shirley Almosni Chiche, Nathalie Ikedjian",
+    "video": "https://www.youtube.com/watch?v=sHLG9LXQsAI&list=PLv7xGPH0RMUQoCtdnj4T-Hou9IbbQ0nm7&index=9"
+  },
+  {
+    "description": "Qu’est ce que tu fais dans la vie ?",
+    "event_start": "2017-04-20T09:40:00",
+    "event_end": "2017-04-20T10:00:00",
+    "event_key": "tobedefined",
+    "event_type": "Keynote",
+    "format": "Keynote",
+    "name": "Qu’est ce que tu fais dans la vie ?",
+    "venue": "Amphi A",
+    "speakers": "Cérès Carton",
+    "video": "https://www.youtube.com/watch?v=mRRobyxdvaE&list=PLv7xGPH0RMUQoCtdnj4T-Hou9IbbQ0nm7&index=10"
+  },
+  {
+    "description": "Qui veut gagner une carrière de développeur ?",
+    "event_start": "2017-04-20T18:00:00",
+    "event_end": "2017-04-20T18:30:00",
+    "event_key": "tobedefined",
+    "event_type": "Keynote",
+    "format": "Keynote",
+    "name": "Qui veut gagner une carrière de développeur ?",
+    "venue": "Amphi A",
+    "speakers": "Jean-François Garreau, CommitStrip",
+    "video": "https://www.youtube.com/watch?v=vGO-h9qH0rw&list=PLv7xGPH0RMUQoCtdnj4T-Hou9IbbQ0nm7&index=20"
+  },
+  {
+    "description": "Meet'n Greet",
+    "event_start": "2017-04-20T18:30:00",
+    "event_end": "2017-04-20T20:30:00",
+    "event_key": "tobedefined",
+    "event_type": "Autre",
+    "format": "Party",
+    "name": "Meet'n Greet",
+    "venue": "Hall"
+  },
+  {
+    "description": "Keynote d'ouverture",
+    "event_start": "2017-04-21T09:00:00",
+    "event_end": "2017-04-21T09:20:00",
+    "event_key": "tobedefined",
+    "event_type": "Keynote",
+    "format": "Keynote",
+    "name": "Keynote d'ouverture",
+    "venue": "Amphi A",
+    "speakers": "Team BreizhCamp",
+    "video": "https://www.youtube.com/watch?v=Lu4VvwgbYaQ&list=PLv7xGPH0RMUQoCtdnj4T-Hou9IbbQ0nm7&index=21"
+  },
+  {
+    "description": "Comment les logiciels pourrissent ma vie",
+    "event_start": "2017-04-21T09:21:00",
+    "event_end": "2017-04-21T10:00:00",
+    "event_key": "tobedefined",
+    "event_type": "Keynote",
+    "format": "Keynote",
+    "name": "Comment les logiciels pourrissent ma vie",
+    "venue": "Amphi A",
+    "speakers": "Antonin Le Mée",
+    "video": "https://www.youtube.com/watch?v=eJb3xYNcTzw&list=PLv7xGPH0RMUQoCtdnj4T-Hou9IbbQ0nm7&index=22"
+  },
+  {
+    "description": "Closing Keynote",
+    "event_start": "2017-04-21T17:30:00",
+    "event_end": "2017-04-21T18:00:00",
+    "event_key": "tobedefined",
+    "event_type": "Keynote",
+    "format": "Keynote",
+    "name": "Keynote",
+    "venue": "Amphi A"
+  }
 ]

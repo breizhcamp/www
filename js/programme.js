@@ -189,8 +189,8 @@
                     '<i class="fa fa-stack-1x fa-inverse" ng-class="::detailsCtrl.formats[detailsCtrl.talk.format].icon"></i>' +
                     '</span>' +
                     '<span ng-bind="::detailsCtrl.talk.title"></span>' +
-                    '<a ng-href="{{::detailsCtrl.talk.video}}" ng-if="::detailsCtrl.talk.video" title="Voir la vidéo" target="_blank"><i class="fa fa-fw fa-film"></i></a> ' +
-                    '<a ng-href="{{::detailsCtrl.talk.slides}}" ng-if="::detailsCtrl.talk.slides" title="Voir les slides" target="_blank"><i class="fa fa-fw fa-file-powerpoint-o"></i></a> ' +
+                    ' <a ng-href="{{::detailsCtrl.talk.video}}" ng-if="::detailsCtrl.talk.video" title="Voir la vidéo" target="_blank"><i class="fa fa-fw fa-film"></i></a> ' +
+                    ' <a ng-href="{{::detailsCtrl.talk.slides}}" ng-if="::detailsCtrl.talk.slides" title="Voir les slides" target="_blank"><i class="fa fa-fw fa-file-powerpoint-o"></i></a> ' +
                     '</h3>' +
                     '</div>' +
                     '<div class="modal-body">' +
